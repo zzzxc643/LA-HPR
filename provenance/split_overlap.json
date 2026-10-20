@@ -1,0 +1,30 @@
+{
+  "singleline": {
+    "test/train": {
+      "sample_id": 0,
+      "vulnerable_sha256": 0,
+      "commit_id": 0,
+      "project": 17
+    },
+    "test/valid": {
+      "sample_id": 0,
+      "vulnerable_sha256": 0,
+      "commit_id": 0,
+      "project": 13
+    },
+    "train/valid": {
+      "sample_id": 0,
+      "vulnerable_sha256": 0,
+      "commit_id": 0,
+      "project": 20
+    }
+  },
+  "multiregion": {
+    "train/valid": {
+      "sample_id": 0,
+      "vulnerable_sha256": 0,
+      "commit_id": 3,
+      "project": 109
+    }
+  }
+}

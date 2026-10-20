@@ -1,0 +1,32 @@
+{
+  "protocol": "local_singleline_v1",
+  "source_hashes": {
+    "train": {
+      "pairs": "6c681bc780b5e09b5ea4e145544efa4b2ee81aebabbcb519d0b9029fc02b0313",
+      "ledger": "329c0188ea93b92d5e5e1621928bf8816ae12161ae69a1d10f7d4a920586ed42"
+    },
+    "valid": {
+      "pairs": "9c6f7c600d232ab697c836a6af50770ce0e7ab51e2dc2f9614f57701f2361331",
+      "ledger": "c912c020a57a5db3b5afbc1a30c3269127f68c15c13072c4e88c253c141b5917"
+    },
+    "test": {
+      "pairs": "3221a75ef686c319388f09edb0bd9140019a9ae0998de0837d6babdfcde1d5ea",
+      "ledger": "a4aacfc93feebeef5bd1a773fec19e713385465f9470552a556026fabc45872f"
+    }
+  },
+  "script_sha256": {
+    "prepare_local_singleline.py": "3056705fd8f4c61496ea57f3ad409d1eab21144ccae852302cfb92a84a526b94",
+    "singleline_repair.py": "9e2c0f425f5cf9628168dbcfa2b3c9a704808eb930318de5fe340a2e6ebf201d"
+  },
+  "files": {
+    "config.json": "6a6907c2470cca5d071b4c26617ed52f1daa89afcd42c823bba303400991a365",
+    "inputs_test.jsonl": "eb370ad0df6289daac27dbb270bbc08007e7545b577daff6f86ca166098e3777",
+    "inputs_train.jsonl": "d3cc3b0ca218cba048a01e95e115204354560f386b7b5ddf84ae2951b98333b7",
+    "inputs_valid.jsonl": "2efc98a56fe71aa0f77a855d4f698ee0f28883337019c184c59c8fdb34e49025",
+    "references_test.jsonl": "a1688ac6ba9b617866267f4c64eb79986d0ee1b469d32f341d2bfe0ef2052ee8",
+    "references_train.jsonl": "7d983c3d50b7eecbb7729393c074876be6ef49a199ad984ba671104a1834d028",
+    "references_valid.jsonl": "bd4b1b41eb30f16353ad01500755892f0a3f7f733ffe7a542677fd8cf941876e",
+    "summary.json": "ede9ba6be139994078fe0b46cedc1491225aee4d8ef209d54e7892356719d392",
+    "train.jsonl": "55ee38ca151ac7638a09e4cc8b70e60c19476ce719ece3f76dc952f3303a1383"
+  }
+}

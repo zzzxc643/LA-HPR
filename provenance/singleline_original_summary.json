@@ -1,0 +1,38 @@
+{
+  "train": {
+    "n": 451,
+    "reference_roundtrips": 451,
+    "actions": {
+      "REPLACE_LINE": 383,
+      "REPLACE_API": 31,
+      "REPLACE_CONSTANT": 17,
+      "REPLACE_OPERATOR": 20
+    },
+    "local_chars_max": 1962,
+    "full_chars_max": 77825
+  },
+  "valid": {
+    "n": 69,
+    "reference_roundtrips": 69,
+    "actions": {
+      "REPLACE_CONSTANT": 7,
+      "REPLACE_LINE": 54,
+      "REPLACE_API": 6,
+      "REPLACE_OPERATOR": 2
+    },
+    "local_chars_max": 1500,
+    "full_chars_max": 37652
+  },
+  "test": {
+    "n": 57,
+    "reference_roundtrips": 57,
+    "actions": {
+      "REPLACE_OPERATOR": 3,
+      "REPLACE_LINE": 48,
+      "REPLACE_API": 4,
+      "REPLACE_CONSTANT": 2
+    },
+    "local_chars_max": 1746,
+    "full_chars_max": 34903
+  }
+}

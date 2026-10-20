@@ -1,0 +1,31 @@
+{
+  "model": "Salesforce/codet5p-220m",
+  "revision": "2b92f36e2782341a50551759fdba0dd15e821f99",
+  "input_field": "input_local",
+  "max_input_tokens": 1024,
+  "max_target_tokens": 128,
+  "seed": 42,
+  "epochs": 20,
+  "batch_size": 4,
+  "learning_rate": 5e-05,
+  "weight_decay": 0.01,
+  "selection": "minimum Valid target loss; never Formal Test",
+  "generation": {
+    "num_beams": 3,
+    "num_return_sequences": 3,
+    "do_sample": false,
+    "max_new_tokens": 128
+  },
+  "syntax_policy": "strict C or C++ parse; keep every sample in denominator",
+  "output_policy": "free JSON generation followed by deterministic validation; no constrained decoding",
+  "data_sha256": {
+    "train.jsonl": "55ee38ca151ac7638a09e4cc8b70e60c19476ce719ece3f76dc952f3303a1383",
+    "inputs_train.jsonl": "d3cc3b0ca218cba048a01e95e115204354560f386b7b5ddf84ae2951b98333b7",
+    "inputs_valid.jsonl": "2efc98a56fe71aa0f77a855d4f698ee0f28883337019c184c59c8fdb34e49025",
+    "references_valid.jsonl": "bd4b1b41eb30f16353ad01500755892f0a3f7f733ffe7a542677fd8cf941876e"
+  },
+  "script_sha256": "409941f65e70fc6d01298c731880ccdf4b8bb9a2803522b3430ad867d4568a53",
+  "torch": "2.8.0+cu128",
+  "transformers": "4.51.3",
+  "api_calls": 0
+}

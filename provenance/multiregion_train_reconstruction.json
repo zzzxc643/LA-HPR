@@ -1,0 +1,13 @@
+{
+  "rows": 3287,
+  "files": {
+    "inputs_train.jsonl": {
+      "sha256": "141477041529e4ce72c0246b0857b0c5d20ae99f3d429511594c3fc16bb5c11d",
+      "newline": "LF"
+    },
+    "references_train.jsonl": {
+      "sha256": "022a32da174bb9c783f9ea61a87492af8624473555282c471d21b8e5b4b26ac7",
+      "newline": "LF"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "validation": "Exact frozen file SHA-256 matched after rebuilding from official PrimeVul v0.1",
+  "python": "3.11",
+  "network_calls": 0,
+  "model_calls": 0,
+  "api_calls": 0,
+  "results": {
+    "singleline/test": {
+      "rows": 57,
+      "verified_files": 2
+    },
+    "singleline/train": {
+      "rows": 451,
+      "verified_files": 3
+    },
+    "singleline/valid": {
+      "rows": 69,
+      "verified_files": 2
+    },
+    "multiregion/train": {
+      "rows": 3287,
+      "verified_files": 2
+    },
+    "multiregion/valid": {
+      "rows": 439,
+      "verified_files": 2
+    }
+  }
+}

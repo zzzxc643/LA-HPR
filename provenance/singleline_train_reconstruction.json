@@ -1,0 +1,17 @@
+{
+  "rows": 451,
+  "files": {
+    "inputs_train.jsonl": {
+      "sha256": "d3cc3b0ca218cba048a01e95e115204354560f386b7b5ddf84ae2951b98333b7",
+      "newline": "CRLF"
+    },
+    "references_train.jsonl": {
+      "sha256": "7d983c3d50b7eecbb7729393c074876be6ef49a199ad984ba671104a1834d028",
+      "newline": "CRLF"
+    },
+    "train.jsonl": {
+      "sha256": "55ee38ca151ac7638a09e4cc8b70e60c19476ce719ece3f76dc952f3303a1383",
+      "newline": "CRLF"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "total_cases": 57,
+  "environment_attempted": 19,
+  "verifiable": 18,
+  "projects": [
+    "autotrace",
+    "gpac",
+    "jasper",
+    "libvncserver",
+    "mruby",
+    "njs",
+    "openssl",
+    "pcre2",
+    "uftpd",
+    "vim"
+  ],
+  "methods": {
+    "whole_function": {
+      "label": "CodeT5+整函数",
+      "recommended": 5,
+      "passed": 5,
+      "compiler_rejected": 0,
+      "no_recommendation": 13,
+      "conditional_check_rate": 1.0,
+      "system_coverage": 0.2777777777777778
+    },
+    "full_action": {
+      "label": "CodeT5+完整上下文动作",
+      "recommended": 4,
+      "passed": 4,
+      "compiler_rejected": 0,
+      "no_recommendation": 14,
+      "conditional_check_rate": 1.0,
+      "system_coverage": 0.2222222222222222
+    },
+    "local_matched": {
+      "label": "CodeT5+匹配局部动作",
+      "recommended": 6,
+      "passed": 6,
+      "compiler_rejected": 0,
+      "no_recommendation": 12,
+      "conditional_check_rate": 1.0,
+      "system_coverage": 0.3333333333333333
+    },
+    "local_standalone": {
+      "label": "CodeT5+局部独立组",
+      "recommended": 6,
+      "passed": 6,
+      "compiler_rejected": 0,
+      "no_recommendation": 12,
+      "conditional_check_rate": 1.0,
+      "system_coverage": 0.3333333333333333
+    },
+    "seed_standalone": {
+      "label": "Seed-Coder独立组",
+      "recommended": 6,
+      "passed": 5,
+      "compiler_rejected": 1,
+      "no_recommendation": 12,
+      "conditional_check_rate": 0.8333333333333334,
+      "system_coverage": 0.2777777777777778
+    },
+    "combined": {
+      "label": "多源组合",
+      "recommended": 8,
+      "passed": 8,
+      "compiler_rejected": 0,
+      "no_recommendation": 10,
+      "conditional_check_rate": 1.0,
+      "system_coverage": 0.4444444444444444
+    }
+  }
+}

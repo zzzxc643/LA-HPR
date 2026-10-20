@@ -1,0 +1,1775 @@
+{
+  "389-ds-base": [
+    "https://github.com/389ds/389-ds-base"
+  ],
+  "3proxy": [
+    "https://github.com/z3APA3A/3proxy"
+  ],
+  "AFFLIBv3": [
+    "https://github.com/sshock/AFFLIBv3"
+  ],
+  "Android": [
+    "None"
+  ],
+  "ArduinoJson": [
+    "https://github.com/bblanchon/ArduinoJson"
+  ],
+  "Bento4": [
+    "https://github.com/axiomatic-systems/Bento4"
+  ],
+  "CImg": [
+    "https://github.com/dtschump/CImg"
+  ],
+  "ChakraCore": [
+    "https://github.com/Microsoft/ChakraCore"
+  ],
+  "Chrome": [
+    "https://github.com/chromium/chromium"
+  ],
+  "DBD-mysql": [
+    "https://github.com/perl5-dbi/DBD-mysql"
+  ],
+  "Espruino": [
+    "https://github.com/espruino/Espruino"
+  ],
+  "FFmpeg": [
+    "https://github.com/FFmpeg/FFmpeg"
+  ],
+  "FreeRDP": [
+    "https://github.com/FreeRDP/FreeRDP"
+  ],
+  "FreeRTOS-Kernel": [
+    "https://github.com/FreeRTOS/FreeRTOS-Kernel"
+  ],
+  "GIMP": [
+    "https://git.gnome.org/browse/GIMP"
+  ],
+  "GameNetworkingSockets": [
+    "https://github.com/ValveSoftware/GameNetworkingSockets"
+  ],
+  "ImageMagick": [
+    "https://github.com/ImageMagick/ImageMagick"
+  ],
+  "ImageMagick6": [
+    "https://github.com/ImageMagick/ImageMagick6"
+  ],
+  "JPEGsnoop": [
+    "https://github.com/ImpulseAdventure/JPEGsnoop"
+  ],
+  "LibRaw": [
+    "https://github.com/LibRaw/LibRaw"
+  ],
+  "LibRaw-demosaic-pack-GPL2": [
+    "https://github.com/LibRaw/LibRaw-demosaic-pack-GPL2"
+  ],
+  "Little-CMS": [
+    "https://github.com/mm2/Little-CMS"
+  ],
+  "LuaJIT": [
+    "https://github.com/LuaJIT/LuaJIT"
+  ],
+  "MAC-Telnet": [
+    "https://github.com/haakonnessjoen/MAC-Telnet"
+  ],
+  "MilkyTracker": [
+    "https://github.com/milkytracker/MilkyTracker"
+  ],
+  "ModSecurity": [
+    "https://github.com/SpiderLabs/ModSecurity"
+  ],
+  "NetHack": [
+    "https://github.com/NetHack/NetHack"
+  ],
+  "NetworkManager": [
+    "https://gitlab.freedesktop.org/NetworkManager/NetworkManager"
+  ],
+  "Onigmo": [
+    "https://github.com/k-takata/Onigmo"
+  ],
+  "OpenDoas": [
+    "https://github.com/Duncaen/OpenDoas"
+  ],
+  "OpenSC": [
+    "https://github.com/OpenSC/OpenSC"
+  ],
+  "Openswan": [
+    "https://github.com/xelerance/Openswan"
+  ],
+  "PDFGen": [
+    "https://github.com/AndreRenaud/PDFGen"
+  ],
+  "PackageKit": [
+    "https://github.com/hughsie/PackageKit"
+  ],
+  "Pillow": [
+    "https://github.com/python-pillow/Pillow"
+  ],
+  "Platinum": [
+    "https://github.com/plutinosoft/Platinum"
+  ],
+  "Sigil": [
+    "https://github.com/Sigil-Ebook/Sigil"
+  ],
+  "UltraVNC": [
+    "https://github.com/ultravnc/UltraVNC"
+  ],
+  "VeraCrypt": [
+    "https://github.com/veracrypt/VeraCrypt"
+  ],
+  "WAVM": [
+    "https://github.com/WAVM/WAVM"
+  ],
+  "WavPack": [
+    "https://github.com/dbry/WavPack"
+  ],
+  "ZRTPCPP": [
+    "https://github.com/wernerd/ZRTPCPP"
+  ],
+  "abcm2ps": [
+    "https://github.com/leesavide/abcm2ps"
+  ],
+  "abrt": [
+    "https://github.com/abrt/abrt"
+  ],
+  "abuild": [
+    "https://github.com/sroracle/abuild"
+  ],
+  "accountsservice": [
+    "https://cgit.freedesktop.org/accountsservice/commit/?id=f9abd359f71a5bce421b9ae23432f539a067847a"
+  ],
+  "acpica": [
+    "https://github.com/acpica/acpica"
+  ],
+  "acrn-hypervisor": [
+    "https://github.com/projectacrn/acrn-hypervisor"
+  ],
+  "advancecomp": [
+    "https://github.com/amadvance/advancecomp"
+  ],
+  "aircrack-ng": [
+    "https://github.com/aircrack-ng/aircrack-ng"
+  ],
+  "altlinux": [
+    "http://git.altlinux.org/people/ldv/packages/?p=pam"
+  ],
+  "amanda": [
+    "https://github.com/zmanda/amanda"
+  ],
+  "android-gif-drawable": [
+    "https://github.com/koral--/android-gif-drawable"
+  ],
+  "ardour": [
+    "https://github.com/Ardour/ardour"
+  ],
+  "ark": [
+    "https://github.com/KDE/ark"
+  ],
+  "aspell": [
+    "https://github.com/GNUAspell/aspell"
+  ],
+  "ast": [
+    "https://github.com/att/ast"
+  ],
+  "asylo": [
+    "https://github.com/google/asylo"
+  ],
+  "atheme": [
+    "https://github.com/atheme/atheme"
+  ],
+  "atomicparsley": [
+    "https://github.com/wez/atomicparsley"
+  ],
+  "audiofile": [
+    "https://github.com/antlarr/audiofile"
+  ],
+  "autotrace": [
+    "https://github.com/autotrace/autotrace"
+  ],
+  "avahi": [
+    "http://git.0pointer.de/?p=avahi"
+  ],
+  "axtls-8266": [
+    "https://github.com/igrr/axtls-8266"
+  ],
+  "bash": [
+    "https://github.com/bminor/bash"
+  ],
+  "bdwgc": [
+    "https://github.com/ivmai/bdwgc"
+  ],
+  "bfgminer": [
+    "https://github.com/luke-jr/bfgminer"
+  ],
+  "bind9": [
+    "https://github.com/isc-projects/bind9"
+  ],
+  "bitlbee": [
+    "https://github.com/bitlbee/bitlbee"
+  ],
+  "bluez": [
+    "https://github.com/bluez/bluez"
+  ],
+  "booth": [
+    "https://github.com/ClusterLabs/booth"
+  ],
+  "bootstrap-dht": [
+    "https://github.com/bittorrent/bootstrap-dht"
+  ],
+  "bpf": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf"
+  ],
+  "bro": [
+    "https://github.com/bro/bro"
+  ],
+  "bsdiff4": [
+    "https://github.com/ilanschnell/bsdiff4"
+  ],
+  "bubblewrap": [
+    "https://github.com/containers/bubblewrap"
+  ],
+  "busybox": [
+    "http://git.busybox.net/busybox"
+  ],
+  "bwa": [
+    "https://github.com/lh3/bwa"
+  ],
+  "bwm-ng": [
+    "https://github.com/vgropp/bwm-ng"
+  ],
+  "bzip2": [
+    "https://gitlab.com/federicomenaquintero/bzip2"
+  ],
+  "c-ares": [
+    "https://github.com/c-ares/c-ares"
+  ],
+  "c-blosc2": [
+    "https://github.com/Blosc/c-blosc2"
+  ],
+  "cJSON": [
+    "https://github.com/DaveGamble/cJSON"
+  ],
+  "capnproto": [
+    "https://github.com/capnproto/capnproto"
+  ],
+  "capstone": [
+    "https://github.com/aquynh/capstone"
+  ],
+  "cbang": [
+    "https://github.com/CauldronDevelopmentLLC/cbang"
+  ],
+  "ceph": [
+    "https://github.com/ceph/ceph"
+  ],
+  "chafa": [
+    "https://github.com/hpjansson/chafa"
+  ],
+  "charybdis": [
+    "https://github.com/charybdis-ircd/charybdis"
+  ],
+  "cifs-utils": [
+    "https://github.com/piastry/cifs-utils"
+  ],
+  "cinnamon-screensaver": [
+    "https://github.com/mtwebster/cinnamon-screensaver"
+  ],
+  "clamav-devel": [
+    "https://github.com/vrtadmin/clamav-devel"
+  ],
+  "claws": [
+    "http://git.claws-mail.org/?p=claws"
+  ],
+  "clutter": [
+    "https://git.gnome.org/browse/clutter"
+  ],
+  "collectd": [
+    "https://github.com/collectd/collectd"
+  ],
+  "connman": [
+    "https://git.kernel.org/pub/scm/network/connman/connman"
+  ],
+  "contiki-ng": [
+    "https://github.com/contiki-ng/contiki-ng"
+  ],
+  "core": [
+    "https://github.com/LibreOffice/core"
+  ],
+  "corosync": [
+    "https://github.com/corosync/corosync"
+  ],
+  "cpio": [
+    "http://git.savannah.gnu.org/cgit/cpio"
+  ],
+  "cpp-peglib": [
+    "https://github.com/yhirose/cpp-peglib"
+  ],
+  "cpython": [
+    "https://github.com/python/cpython"
+  ],
+  "cracklib": [
+    "https://github.com/cracklib/cracklib"
+  ],
+  "cryptopp": [
+    "https://github.com/weidai11/cryptopp"
+  ],
+  "cryptsetup": [
+    "https://gitlab.com/cryptsetup/cryptsetup"
+  ],
+  "csync2": [
+    "https://github.com/LINBIT/csync2"
+  ],
+  "cups": [
+    "https://github.com/apple/cups"
+  ],
+  "curl": [
+    "https://github.com/curl/curl"
+  ],
+  "cxxtools": [
+    "https://github.com/maekitalo/cxxtools"
+  ],
+  "cyrus-imapd": [
+    "https://github.com/cyrusimap/cyrus-imapd"
+  ],
+  "das_watchdog": [
+    "https://github.com/kmatheussen/das_watchdog"
+  ],
+  "dbus": [
+    "http://gitweb.freedesktop.org/?p=dbus/dbus"
+  ],
+  "dcmtk": [
+    "https://github.com/DCMTK/dcmtk"
+  ],
+  "deark": [
+    "https://github.com/jsummers/deark"
+  ],
+  "detect-character-encoding": [
+    "https://github.com/sonicdoe/detect-character-encoding"
+  ],
+  "domoticz": [
+    "https://github.com/domoticz/domoticz"
+  ],
+  "doom-vanille": [
+    "https://github.com/AXDOOMER/doom-vanille"
+  ],
+  "dosfstools": [
+    "https://github.com/dosfstools/dosfstools"
+  ],
+  "dpdk": [
+    "https://github.com/DPDK/dpdk"
+  ],
+  "drm": [
+    "https://cgit.freedesktop.org/drm/drm-misc/commit/?id=9f1f1a2dab38d4ce87a13565cf4dc1b73bef3a5f"
+  ],
+  "e2fsprogs": [
+    "http://git.kernel.org/cgit/fs/ext2/e2fsprogs"
+  ],
+  "edk2": [
+    "https://github.com/tianocore/edk2"
+  ],
+  "ekiga": [
+    "http://git.gnome.org/browse/ekiga"
+  ],
+  "electron": [
+    "https://github.com/electron/electron"
+  ],
+  "elog": [
+    "https://bitbucket.org/ritt/elog"
+  ],
+  "empathy": [
+    "http://git.gnome.org/browse/empathy"
+  ],
+  "engine": [
+    "https://github.com/gost-engine/engine"
+  ],
+  "enlightment": [
+    "https://git.enlightenment.org/legacy/imlib2"
+  ],
+  "envoy": [
+    "https://github.com/istio/envoy"
+  ],
+  "ettercap": [
+    "https://github.com/Ettercap/ettercap"
+  ],
+  "evince": [
+    "https://github.com/GNOME/evince"
+  ],
+  "evolution": [
+    "https://git.gnome.org/browse/evolution"
+  ],
+  "evolution-data-server": [
+    "https://git.gnome.org/browse/evolution-data-server"
+  ],
+  "exempi": [
+    "https://cgit.freedesktop.org/exempi/commit/?id=aabedb5e749dd59112a3fe1e8e08f2d934f56666"
+  ],
+  "exfat": [
+    "https://github.com/relan/exfat"
+  ],
+  "exif": [
+    "https://github.com/libexif/exif"
+  ],
+  "exim": [
+    "https://github.com/Exim/exim"
+  ],
+  "exiv2": [
+    "https://github.com/Exiv2/exiv2"
+  ],
+  "ext-http": [
+    "https://github.com/m6w6/ext-http"
+  ],
+  "faad2": [
+    "https://github.com/knik0/faad2"
+  ],
+  "fbthrift": [
+    "https://github.com/facebook/fbthrift"
+  ],
+  "feh": [
+    "https://github.com/derf/feh"
+  ],
+  "file": [
+    "https://github.com/file/file"
+  ],
+  "file-roller": [
+    "https://git.gnome.org/browse/file-roller"
+  ],
+  "firejail": [
+    "https://github.com/netblue30/firejail"
+  ],
+  "fizz": [
+    "https://github.com/facebookincubator/fizz"
+  ],
+  "flac": [
+    "https://github.com/xiph/flac"
+  ],
+  "flatpak": [
+    "https://github.com/flatpak/flatpak"
+  ],
+  "fluent-bit": [
+    "https://github.com/fluent/fluent-bit"
+  ],
+  "fmt": [
+    "https://github.com/fmtlib/fmt"
+  ],
+  "folly": [
+    "https://github.com/facebook/folly"
+  ],
+  "fontforge": [
+    "https://github.com/fontforge/fontforge"
+  ],
+  "freeipa": [
+    "https://git.fedorahosted.org/cgit/freeipa"
+  ],
+  "freeradius-server": [
+    "https://github.com/alandekok/freeradius-server"
+  ],
+  "fribidi": [
+    "https://github.com/fribidi/fribidi"
+  ],
+  "gcab": [
+    "https://git.gnome.org/browse/gcab"
+  ],
+  "gd-libgd": [
+    "https://bitbucket.org/libgd/gd-libgd"
+  ],
+  "gdal": [
+    "https://github.com/OSGeo/gdal"
+  ],
+  "gdk-pixbuf": [
+    "http://git.gnome.org/browse/gdk-pixbuf"
+  ],
+  "gdm": [
+    "http://git.gnome.org/browse/gdm"
+  ],
+  "gegl": [
+    "http://git.gnome.org/browse/gegl"
+  ],
+  "ghostpdl": [
+    "https://github.com/ArtifexSoftware/ghostpdl"
+  ],
+  "ghostscript": [
+    "http://git.ghostscript.com/?p=mupdf"
+  ],
+  "gifsicle": [
+    "https://github.com/kohler/gifsicle"
+  ],
+  "gilcc": [
+    "https://github.com/trgil/gilcc"
+  ],
+  "gimp": [
+    "https://github.com/GNOME/gimp"
+  ],
+  "git": [
+    "https://github.com/git/git"
+  ],
+  "glib": [
+    "https://gitlab.gnome.org/GNOME/glib"
+  ],
+  "gnome-session": [
+    "https://github.com/GNOME/gnome-session"
+  ],
+  "gnulib": [
+    "https://github.com/coreutils/gnulib"
+  ],
+  "gnumeric": [
+    "https://git.gnome.org/browse/gnumeric"
+  ],
+  "gnupg": [
+    "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg"
+  ],
+  "gnuplot": [
+    "https://github.com/gnuplot/gnuplot"
+  ],
+  "gnutls": [
+    "http://git.savannah.gnu.org/cgit/gnutls"
+  ],
+  "gpac": [
+    "https://github.com/gpac/gpac"
+  ],
+  "gpsd": [
+    "http://git.savannah.gnu.org/cgit/gpsd"
+  ],
+  "graphviz": [
+    "https://gitlab.com/graphviz/graphviz"
+  ],
+  "grep": [
+    "http://git.savannah.gnu.org/cgit/grep"
+  ],
+  "grub": [
+    "http://git.savannah.gnu.org/cgit/grub"
+  ],
+  "gsasl": [
+    "https://gitlab.com/gsasl/gsasl"
+  ],
+  "gssproxy": [
+    "https://github.com/gssapi/gssproxy"
+  ],
+  "gst-plugins-bad": [
+    "https://github.com/GStreamer/gst-plugins-bad"
+  ],
+  "gst-plugins-base": [
+    "https://github.com/GStreamer/gst-plugins-base"
+  ],
+  "gst-plugins-good": [
+    "https://github.com/GStreamer/gst-plugins-good"
+  ],
+  "gst-plugins-ugly": [
+    "https://github.com/GStreamer/gst-plugins-ugly"
+  ],
+  "gstreamer": [
+    "https://github.com/GStreamer/gstreamer"
+  ],
+  "gzip": [
+    "http://git.savannah.gnu.org/cgit/gzip"
+  ],
+  "haproxy": [
+    "https://github.com/haproxy/haproxy"
+  ],
+  "harfbuzz": [
+    "https://github.com/behdad/harfbuzz"
+  ],
+  "heimdal": [
+    "https://github.com/heimdal/heimdal"
+  ],
+  "hermes": [
+    "https://github.com/facebook/hermes"
+  ],
+  "hexchat": [
+    "https://github.com/hexchat/hexchat"
+  ],
+  "hhvm": [
+    "https://github.com/facebook/hhvm"
+  ],
+  "hivex": [
+    "https://github.com/libguestfs/hivex"
+  ],
+  "htcondor": [
+    "https://github.com/htcondor/htcondor"
+  ],
+  "html-parser": [
+    "http://github.com/gisle/html-parser"
+  ],
+  "htmldoc": [
+    "https://github.com/michaelrsweet/htmldoc"
+  ],
+  "htslib": [
+    "https://github.com/samtools/htslib"
+  ],
+  "httpd": [
+    "https://github.com/apache/httpd"
+  ],
+  "icoutils": [
+    "http://git.savannah.gnu.org/cgit/icoutils"
+  ],
+  "icu": [
+    "https://github.com/unicode-org/icu"
+  ],
+  "illumos-gate": [
+    "https://github.com/illumos/illumos-gate"
+  ],
+  "imageworsener": [
+    "https://github.com/jsummers/imageworsener"
+  ],
+  "infradead": [
+    "http://git.infradead.org/?p=mtd-2.6"
+  ],
+  "inspircd": [
+    "https://github.com/inspircd/inspircd"
+  ],
+  "ioq3": [
+    "https://github.com/ioquake/ioq3"
+  ],
+  "iortcw": [
+    "https://github.com/iortcw/iortcw"
+  ],
+  "iperf": [
+    "https://github.com/esnet/iperf"
+  ],
+  "ipmitool": [
+    "https://github.com/ipmitool/ipmitool"
+  ],
+  "iproute2": [
+    "https://git.kernel.org/pub/scm/network/iproute2/iproute2"
+  ],
+  "irssi": [
+    "https://github.com/irssi/irssi"
+  ],
+  "isolated-vm": [
+    "https://github.com/laverdet/isolated-vm"
+  ],
+  "jansson": [
+    "https://github.com/akheron/jansson"
+  ],
+  "jasper": [
+    "https://github.com/mdadams/jasper"
+  ],
+  "jbig2dec": [
+    "https://github.com/ArtifexSoftware/jbig2dec"
+  ],
+  "jerryscript": [
+    "https://github.com/zherczeg/jerryscript"
+  ],
+  "jq": [
+    "https://github.com/stedolan/jq"
+  ],
+  "jsish": [
+    "https://github.com/pcmacdon/jsish"
+  ],
+  "kamailio": [
+    "https://github.com/kamailio/kamailio"
+  ],
+  "kde": [
+    "https://cgit.kde.org/konversation"
+  ],
+  "kdeconnect-kde": [
+    "https://github.com/KDE/kdeconnect-kde"
+  ],
+  "keepalived": [
+    "https://github.com/acassen/keepalived"
+  ],
+  "keepkey-firmware": [
+    "https://github.com/keepkey/keepkey-firmware"
+  ],
+  "kitty": [
+    "https://github.com/kovidgoyal/kitty"
+  ],
+  "knc": [
+    "https://github.com/elric1/knc"
+  ],
+  "kopano-core": [
+    "https://github.com/Kopano-dev/kopano-core"
+  ],
+  "krb5": [
+    "https://github.com/krb5/krb5"
+  ],
+  "kvm": [
+    "http://git.kernel.org/?p=linux/kernel/git/avi/kvm"
+  ],
+  "ldns": [
+    "https://git.nlnetlabs.nl/ldns"
+  ],
+  "lepton": [
+    "https://github.com/dropbox/lepton"
+  ],
+  "leptonica": [
+    "https://github.com/DanBloomberg/leptonica"
+  ],
+  "lftp": [
+    "https://github.com/lavv17/lftp"
+  ],
+  "lhasa": [
+    "https://github.com/fragglet/lhasa"
+  ],
+  "libXfixes": [
+    "https://cgit.freedesktop.org/xorg/lib/libXfixes/commit/?id=61c1039ee23a2d1de712843bed3480654d7ef42e"
+  ],
+  "libXpm": [
+    "https://cgit.freedesktop.org/xorg/lib/libXpm/commit/?id=d1167418f0fd02a27f617ec5afd6db053afbe185"
+  ],
+  "libXv": [
+    "https://cgit.freedesktop.org/xorg/lib/libXv/commit/?id=d9da580b46a28ab497de2e94fdc7b9ff953dab17"
+  ],
+  "libXvMC": [
+    "https://cgit.freedesktop.org/xorg/lib/libXvMC/commit/?id=2cd95e7da8367cccdcdd5c9b160012d1dec5cbdb"
+  ],
+  "libarchive": [
+    "https://github.com/libarchive/libarchive"
+  ],
+  "libass": [
+    "https://github.com/libass/libass"
+  ],
+  "libav": [
+    "https://github.com/libav/libav"
+  ],
+  "libavif": [
+    "https://github.com/AOMediaCodec/libavif"
+  ],
+  "libbsd": [
+    "https://gitlab.freedesktop.org/libbsd/libbsd"
+  ],
+  "libbson": [
+    "https://github.com/mongodb/libbson"
+  ],
+  "libcaca": [
+    "https://github.com/cacalabs/libcaca"
+  ],
+  "libcdio": [
+    "https://git.savannah.gnu.org/cgit/libcdio"
+  ],
+  "libcroco": [
+    "https://git.gnome.org/browse/libcroco"
+  ],
+  "libdwarf": [
+    "https://github.com/tomhughes/libdwarf"
+  ],
+  "libdwarf-code": [
+    "https://github.com/davea42/libdwarf-code"
+  ],
+  "libebml": [
+    "https://github.com/Matroska-Org/libebml"
+  ],
+  "libetpan": [
+    "https://github.com/dinhviethoa/libetpan"
+  ],
+  "libevent": [
+    "https://github.com/libevent/libevent"
+  ],
+  "libevt": [
+    "https://github.com/libyal/libevt"
+  ],
+  "libexif": [
+    "https://github.com/libexif/libexif"
+  ],
+  "libexpat": [
+    "https://github.com/libexpat/libexpat"
+  ],
+  "libextractor": [
+    "https://git.gnunet.org/libextractor"
+  ],
+  "libffi": [
+    "https://github.com/libffi/libffi"
+  ],
+  "libfuse": [
+    "https://github.com/libfuse/libfuse"
+  ],
+  "libgadu": [
+    "https://github.com/wojtekka/libgadu"
+  ],
+  "libgcrypt": [
+    "https://github.com/gpg/libgcrypt"
+  ],
+  "libgd": [
+    "https://github.com/libgd/libgd"
+  ],
+  "libgdata": [
+    "http://git.gnome.org/browse/libgdata"
+  ],
+  "libgit2": [
+    "https://github.com/libgit2/libgit2"
+  ],
+  "libgphoto2": [
+    "https://github.com/gphoto/libgphoto2"
+  ],
+  "libgsf": [
+    "https://github.com/GNOME/libgsf"
+  ],
+  "libguestfs": [
+    "https://github.com/libguestfs/libguestfs"
+  ],
+  "libgxps": [
+    "https://github.com/GNOME/libgxps"
+  ],
+  "libheif": [
+    "https://github.com/strukturag/libheif"
+  ],
+  "libidn": [
+    "http://git.savannah.gnu.org/cgit/libidn"
+  ],
+  "libidn2": [
+    "https://github.com/libidn/libidn2"
+  ],
+  "libiec61850": [
+    "https://github.com/mz-automation/libiec61850"
+  ],
+  "libimobiledevice": [
+    "https://github.com/libimobiledevice/libimobiledevice"
+  ],
+  "libinfinity": [
+    "https://github.com/gobby/libinfinity"
+  ],
+  "libjpeg": [
+    "https://github.com/thorfdbg/libjpeg"
+  ],
+  "libjpeg-turbo": [
+    "https://github.com/libjpeg-turbo/libjpeg-turbo"
+  ],
+  "liblouis": [
+    "https://github.com/liblouis/liblouis"
+  ],
+  "libmatroska": [
+    "https://github.com/Matroska-Org/libmatroska"
+  ],
+  "libmicrohttpd": [
+    "https://git.gnunet.org/libmicrohttpd"
+  ],
+  "libmodbus": [
+    "https://github.com/stephane/libmodbus"
+  ],
+  "libmspack": [
+    "https://github.com/kyz/libmspack"
+  ],
+  "libmysofa": [
+    "https://github.com/hoene/libmysofa"
+  ],
+  "libnbd": [
+    "https://github.com/libguestfs/libnbd"
+  ],
+  "libndp": [
+    "https://github.com/jpirko/libndp"
+  ],
+  "libofx": [
+    "https://github.com/libofx/libofx"
+  ],
+  "libpcap": [
+    "https://github.com/the-tcpdump-group/libpcap"
+  ],
+  "libplist": [
+    "https://github.com/libimobiledevice/libplist"
+  ],
+  "libpng": [
+    "https://github.com/glennrp/libpng"
+  ],
+  "librelp": [
+    "https://github.com/rsyslog/librelp"
+  ],
+  "librepo": [
+    "https://github.com/rpm-software-management/librepo"
+  ],
+  "libreswan": [
+    "https://github.com/libreswan/libreswan"
+  ],
+  "librsvg": [
+    "https://github.com/GNOME/librsvg"
+  ],
+  "libsass": [
+    "https://github.com/sass/libsass"
+  ],
+  "libsixel": [
+    "https://github.com/saitoha/libsixel"
+  ],
+  "libslirp": [
+    "https://gitlab.freedesktop.org/slirp/libslirp"
+  ],
+  "libsndfile": [
+    "https://github.com/erikd/libsndfile"
+  ],
+  "libsolv": [
+    "https://github.com/openSUSE/libsolv"
+  ],
+  "libsoup": [
+    "https://git.gnome.org/browse/libsoup"
+  ],
+  "libspiro": [
+    "https://github.com/fontforge/libspiro"
+  ],
+  "libssh": [
+    "http://git.libssh.org/projects/libssh"
+  ],
+  "libssh-mirror": [
+    "https://gitlab.com/libssh/libssh-mirror"
+  ],
+  "libssh2": [
+    "https://github.com/libssh2/libssh2"
+  ],
+  "libtasn1": [
+    "http://git.savannah.gnu.org/cgit/libtasn1"
+  ],
+  "libtiff": [
+    "https://github.com/vadz/libtiff"
+  ],
+  "libtorrent": [
+    "https://github.com/arvidn/libtorrent"
+  ],
+  "libtpms": [
+    "https://github.com/stefanberger/libtpms"
+  ],
+  "libu2f-host": [
+    "https://github.com/Yubico/libu2f-host"
+  ],
+  "libuv": [
+    "https://github.com/libuv/libuv"
+  ],
+  "libvips": [
+    "https://github.com/libvips/libvips"
+  ],
+  "libvirt": [
+    "https://github.com/libvirt/libvirt"
+  ],
+  "libvncserver": [
+    "https://github.com/LibVNC/libvncserver"
+  ],
+  "libvpx": [
+    "https://github.com/webmproject/libvpx"
+  ],
+  "libwebm": [
+    "https://github.com/webmproject/libwebm"
+  ],
+  "libx11": [
+    "https://gitlab.freedesktop.org/xorg/lib/libx11"
+  ],
+  "libxfont": [
+    "https://cgit.freedesktop.org/xorg/lib/libXfont/commit/?id=d11ee5886e9d9ec610051a206b135a4cdc1e09a0"
+  ],
+  "libxkbcommon": [
+    "https://github.com/xkbcommon/libxkbcommon"
+  ],
+  "libxml2": [
+    "https://github.com/GNOME/libxml2"
+  ],
+  "libxslt": [
+    "http://git.gnome.org/browse/libxslt"
+  ],
+  "libxsmm": [
+    "https://github.com/hfp/libxsmm"
+  ],
+  "libyaml": [
+    "https://github.com/yaml/libyaml"
+  ],
+  "libyang": [
+    "https://github.com/CESNET/libyang"
+  ],
+  "libzip": [
+    "https://github.com/nih-at/libzip"
+  ],
+  "lighttpd1.4": [
+    "https://github.com/lighttpd/lighttpd1.4"
+  ],
+  "linux": [
+    "https://github.com/torvalds/linux"
+  ],
+  "linux-2.6": [
+    "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6"
+  ],
+  "linux-fbdev": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev"
+  ],
+  "linux-fs": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs"
+  ],
+  "linux-pam": [
+    "http://git.fedorahosted.org/git/?p=linux-pam"
+  ],
+  "linux-stable": [
+    "https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable"
+  ],
+  "lldpd": [
+    "https://github.com/vincentbernat/lldpd"
+  ],
+  "lrzip": [
+    "https://github.com/ckolivas/lrzip"
+  ],
+  "lua": [
+    "https://github.com/lua/lua"
+  ],
+  "lxc": [
+    "https://github.com/lxc/lxc"
+  ],
+  "lxde": [
+    "https://git.lxde.org/gitweb/?p=lxde/pcmanfm"
+  ],
+  "lynx-snapshots": [
+    "https://github.com/ThomasDickey/lynx-snapshots"
+  ],
+  "maddy": [
+    "https://github.com/foxcpp/maddy"
+  ],
+  "mapserver": [
+    "https://github.com/mapserver/mapserver"
+  ],
+  "mariadb-connector-c": [
+    "https://github.com/mariadb-corporation/mariadb-connector-c"
+  ],
+  "matio": [
+    "https://github.com/tbeu/matio"
+  ],
+  "mbed-coap": [
+    "https://github.com/mjurczak/mbed-coap"
+  ],
+  "mbedtls": [
+    "https://github.com/ARMmbed/mbedtls"
+  ],
+  "md4c": [
+    "https://github.com/mity/md4c"
+  ],
+  "media-tree": [
+    "https://github.com/stoth68000/media-tree"
+  ],
+  "media_tree": [
+    "http://git.linuxtv.org/cgit.cgi/media_tree"
+  ],
+  "memcached": [
+    "https://github.com/memcached/memcached"
+  ],
+  "mesos": [
+    "https://github.com/apache/mesos"
+  ],
+  "mindrot": [
+    "https://anongit.mindrot.org/openssh"
+  ],
+  "minetest": [
+    "https://github.com/minetest/minetest"
+  ],
+  "minisphere": [
+    "https://github.com/fatcerberus/minisphere"
+  ],
+  "miniupnp": [
+    "https://github.com/miniupnp/miniupnp"
+  ],
+  "mintty": [
+    "https://github.com/mintty/mintty"
+  ],
+  "mod_auth_mellon": [
+    "https://github.com/Uninett/mod_auth_mellon"
+  ],
+  "mod_auth_openidc": [
+    "https://github.com/zmartzone/mod_auth_openidc"
+  ],
+  "mod_wsgi": [
+    "https://github.com/GrahamDumpleton/mod_wsgi"
+  ],
+  "mongo": [
+    "https://github.com/mongodb/mongo"
+  ],
+  "mongo-c-driver-legacy": [
+    "https://github.com/10gen-archive/mongo-c-driver-legacy"
+  ],
+  "mongoose": [
+    "https://github.com/cesanta/mongoose"
+  ],
+  "monit": [
+    "https://bitbucket.org/tildeslash/monit"
+  ],
+  "monkey": [
+    "https://github.com/monkey/monkey"
+  ],
+  "mono": [
+    "https://github.com/mono/mono"
+  ],
+  "mosh": [
+    "https://github.com/keithw/mosh"
+  ],
+  "mosquitto": [
+    "https://github.com/eclipse/mosquitto"
+  ],
+  "mpv": [
+    "https://github.com/mpv-player/mpv"
+  ],
+  "mruby": [
+    "https://github.com/mruby/mruby"
+  ],
+  "mujs": [
+    "https://github.com/ccxvii/mujs"
+  ],
+  "mumble": [
+    "https://github.com/mumble-voip/mumble"
+  ],
+  "muon": [
+    "https://github.com/brave/muon"
+  ],
+  "mupdf": [
+    "https://github.com/ArtifexSoftware/mupdf"
+  ],
+  "musl": [
+    "https://git.musl-libc.org/cgit/musl/commit/?id=45ca5d3fcb6f874bf5ba55d0e9651cef68515395"
+  ],
+  "mutt": [
+    "https://github.com/muttmua/mutt"
+  ],
+  "mysql-server": [
+    "https://github.com/mysql/mysql-server"
+  ],
+  "mysql-wsrep": [
+    "https://github.com/codership/mysql-wsrep"
+  ],
+  "nDPI": [
+    "https://github.com/ntop/nDPI"
+  ],
+  "nagioscore": [
+    "https://github.com/NagiosEnterprises/nagioscore"
+  ],
+  "nanopb": [
+    "https://github.com/nanopb/nanopb"
+  ],
+  "nasm": [
+    "https://github.com/netwide-assembler/nasm"
+  ],
+  "naviserver": [
+    "https://bitbucket.org/naviserver/naviserver"
+  ],
+  "nbd": [
+    "https://github.com/yoe/nbd"
+  ],
+  "ncurses": [
+    "https://github.com/mirror/ncurses"
+  ],
+  "nefarious2": [
+    "https://github.com/evilnet/nefarious2"
+  ],
+  "neomutt": [
+    "https://github.com/neomutt/neomutt"
+  ],
+  "neovim": [
+    "https://github.com/neovim/neovim"
+  ],
+  "net": [
+    "https://git.kernel.org/cgit/linux/kernel/git/davem/net"
+  ],
+  "net-next": [
+    "http://git.kernel.org/?p=linux/kernel/git/davem/net-next"
+  ],
+  "net-snmp": [
+    "https://github.com/net-snmp/net-snmp"
+  ],
+  "netdata": [
+    "https://github.com/netdata/netdata"
+  ],
+  "netfilter": [
+    "https://git.netfilter.org/conntrack-tools"
+  ],
+  "nettle": [
+    "https://git.lysator.liu.se/nettle/nettle"
+  ],
+  "nfdump": [
+    "https://github.com/phaag/nfdump"
+  ],
+  "nghttp2": [
+    "https://github.com/nghttp2/nghttp2"
+  ],
+  "ngiflib": [
+    "https://github.com/miniupnp/ngiflib"
+  ],
+  "nginx": [
+    "https://github.com/nginx/nginx"
+  ],
+  "njs": [
+    "https://github.com/nginx/njs"
+  ],
+  "nmap": [
+    "https://github.com/nmap/nmap"
+  ],
+  "node": [
+    "https://github.com/joyent/node"
+  ],
+  "ntopng": [
+    "https://github.com/ntop/ntopng"
+  ],
+  "ntp": [
+    "https://github.com/ntp-project/ntp"
+  ],
+  "olm": [
+    "https://gitlab.matrix.org/matrix-org/olm"
+  ],
+  "oniguruma": [
+    "https://github.com/kkos/oniguruma"
+  ],
+  "oocborrt": [
+    "https://github.com/objsys/oocborrt"
+  ],
+  "open5gs": [
+    "https://github.com/open5gs/open5gs"
+  ],
+  "openafs": [
+    "http://git.openafs.org/?p=openafs"
+  ],
+  "openbsd": [
+    "https://github.com/libressl-portable/openbsd"
+  ],
+  "opencv": [
+    "https://github.com/opencv/opencv"
+  ],
+  "openexr": [
+    "https://github.com/AcademySoftwareFoundation/openexr"
+  ],
+  "openfortivpn": [
+    "https://github.com/adrienverge/openfortivpn"
+  ],
+  "openjpeg": [
+    "https://github.com/uclouvain/openjpeg"
+  ],
+  "openldap": [
+    "https://github.com/openldap/openldap"
+  ],
+  "openmpt": [
+    "https://github.com/OpenMPT/openmpt"
+  ],
+  "opensips": [
+    "http://github.com/OpenSIPS/opensips"
+  ],
+  "openssh-portable": [
+    "https://github.com/openssh/openssh-portable"
+  ],
+  "openssl": [
+    "https://github.com/openssl/openssl"
+  ],
+  "openthread": [
+    "https://github.com/openthread/openthread"
+  ],
+  "openvpn": [
+    "https://github.com/OpenVPN/openvpn"
+  ],
+  "optee_os": [
+    "https://github.com/OP-TEE/optee_os"
+  ],
+  "ovs": [
+    "https://github.com/openvswitch/ovs"
+  ],
+  "ox": [
+    "https://github.com/ohler55/ox"
+  ],
+  "p11-kit": [
+    "https://github.com/p11-glue/p11-kit"
+  ],
+  "pacemaker": [
+    "https://github.com/ClusterLabs/pacemaker"
+  ],
+  "pam-u2f": [
+    "https://github.com/Yubico/pam-u2f"
+  ],
+  "pam_p11": [
+    "https://github.com/OpenSC/pam_p11"
+  ],
+  "pam_radius": [
+    "https://github.com/FreeRADIUS/pam_radius"
+  ],
+  "pam_tacplus": [
+    "https://github.com/kravietz/pam_tacplus"
+  ],
+  "pango": [
+    "http://github.com/bratsche/pango"
+  ],
+  "passenger": [
+    "https://github.com/phusion/passenger"
+  ],
+  "patch": [
+    "http://git.savannah.gnu.org/cgit/patch"
+  ],
+  "pcre2": [
+    "https://github.com/PCRE2Project/pcre2"
+  ],
+  "pdf2json": [
+    "https://github.com/flexpaper/pdf2json"
+  ],
+  "pdfresurrect": [
+    "https://github.com/enferex/pdfresurrect"
+  ],
+  "pdns": [
+    "https://github.com/PowerDNS/pdns"
+  ],
+  "pengutronix": [
+    "https://git.pengutronix.de/cgit/barebox/commit/fs/nfs.c?h=next&id=574ce994016107ad8ab0f845a785f28d7eaa5208"
+  ],
+  "percona-xtradb-cluster": [
+    "https://github.com/percona/percona-xtradb-cluster"
+  ],
+  "perl5": [
+    "https://github.com/perl/perl5"
+  ],
+  "pgbouncer": [
+    "https://github.com/pgbouncer/pgbouncer"
+  ],
+  "phosphor-host-ipmid": [
+    "https://github.com/openbmc/phosphor-host-ipmid"
+  ],
+  "php": [
+    "https://git.php.net/?p=php-src"
+  ],
+  "php-src": [
+    "https://github.com/php/php-src"
+  ],
+  "pigeonhole": [
+    "https://github.com/dovecot/pigeonhole"
+  ],
+  "pigz": [
+    "https://github.com/madler/pigz"
+  ],
+  "pixman": [
+    "https://cgit.freedesktop.org/pixman/commit/?id=857e40f3d2bc2cfb714913e0cd7e6184cf69aca3"
+  ],
+  "pjproject": [
+    "https://github.com/pjsip/pjproject"
+  ],
+  "png2webp": [
+    "https://github.com/landfillbaby/png2webp"
+  ],
+  "pngquant": [
+    "https://github.com/pornel/pngquant"
+  ],
+  "poco": [
+    "https://github.com/pocoproject/poco"
+  ],
+  "polarssl": [
+    "https://github.com/polarssl/polarssl"
+  ],
+  "polkit": [
+    "https://gitlab.freedesktop.org/polkit/polkit"
+  ],
+  "poppler": [
+    "https://github.com/freedesktop/poppler"
+  ],
+  "postgres": [
+    "https://github.com/postgres/postgres"
+  ],
+  "postgresql": [
+    "https://git.postgresql.org/gitweb/?p=postgresql"
+  ],
+  "postsrsd": [
+    "https://github.com/roehling/postsrsd"
+  ],
+  "ppp": [
+    "https://github.com/paulusmack/ppp"
+  ],
+  "proftpd": [
+    "https://github.com/proftpd/proftpd"
+  ],
+  "proxygen": [
+    "https://github.com/facebook/proxygen"
+  ],
+  "ps-lite": [
+    "https://github.com/dmlc/ps-lite"
+  ],
+  "psutil": [
+    "https://github.com/giampaolo/psutil"
+  ],
+  "pupnp-code": [
+    "https://github.com/mjg59/pupnp-code"
+  ],
+  "pure-ftpd": [
+    "https://github.com/jedisct1/pure-ftpd"
+  ],
+  "pycrypto": [
+    "https://github.com/dlitz/pycrypto"
+  ],
+  "pykerberos": [
+    "https://github.com/02strich/pykerberos"
+  ],
+  "qBittorrent": [
+    "https://github.com/qbittorrent/qBittorrent"
+  ],
+  "qemu": [
+    "https://github.com/bonzini/qemu"
+  ],
+  "qpdf": [
+    "https://github.com/qpdf/qpdf"
+  ],
+  "qtbase": [
+    "https://github.com/qt/qtbase"
+  ],
+  "quagga": [
+    "https://github.com/Quagga/quagga"
+  ],
+  "quassel": [
+    "https://github.com/quassel/quassel"
+  ],
+  "rabbitmq-c": [
+    "https://github.com/alanxz/rabbitmq-c"
+  ],
+  "radare2": [
+    "https://github.com/radare/radare2"
+  ],
+  "radvd": [
+    "https://github.com/reubenhwk/radvd"
+  ],
+  "rawspeed": [
+    "https://github.com/darktable-org/rawspeed"
+  ],
+  "rawstudio": [
+    "https://github.com/rawstudio/rawstudio"
+  ],
+  "re2c": [
+    "https://github.com/skvadrik/re2c"
+  ],
+  "redis": [
+    "https://github.com/antirez/redis"
+  ],
+  "resiprocate": [
+    "https://github.com/resiprocate/resiprocate"
+  ],
+  "retdec": [
+    "https://github.com/avast/retdec"
+  ],
+  "rizin": [
+    "https://github.com/rizinorg/rizin"
+  ],
+  "roundcubemail": [
+    "https://github.com/roundcube/roundcubemail"
+  ],
+  "rpm": [
+    "https://github.com/rpm-software-management/rpm"
+  ],
+  "rsync": [
+    "https://github.com/WayneD/rsync"
+  ],
+  "rsyslog": [
+    "https://github.com/rsyslog/rsyslog"
+  ],
+  "rtl_433": [
+    "https://github.com/merbanan/rtl_433"
+  ],
+  "ruby": [
+    "https://github.com/ruby/ruby"
+  ],
+  "runc": [
+    "https://github.com/opencontainers/runc"
+  ],
+  "samba": [
+    "https://github.com/samba-team/samba"
+  ],
+  "samurai": [
+    "https://github.com/michaelforney/samurai"
+  ],
+  "savannah": [
+    "https://git.savannah.gnu.org/gitweb/?p=gnutls"
+  ],
+  "screen": [
+    "http://git.savannah.gnu.org/cgit/screen"
+  ],
+  "sddm": [
+    "https://github.com/sddm/sddm"
+  ],
+  "serenity": [
+    "https://github.com/SerenityOS/serenity"
+  ],
+  "server": [
+    "https://github.com/MariaDB/server"
+  ],
+  "sfntly": [
+    "https://github.com/googlei18n/sfntly"
+  ],
+  "sgminer": [
+    "https://github.com/sgminer-dev/sgminer"
+  ],
+  "shadow": [
+    "https://github.com/shadow-maint/shadow"
+  ],
+  "shellinabox": [
+    "https://github.com/shellinabox/shellinabox"
+  ],
+  "shibboleth": [
+    "https://git.shibboleth.net/view/?p=cpp-opensaml"
+  ],
+  "skiboot": [
+    "https://github.com/open-power/skiboot"
+  ],
+  "sleuthkit": [
+    "https://github.com/sleuthkit/sleuthkit"
+  ],
+  "slurm": [
+    "https://github.com/SchedMD/slurm"
+  ],
+  "snapd": [
+    "https://github.com/snapcore/snapd"
+  ],
+  "sound": [
+    "https://git.kernel.org/cgit/linux/kernel/git/tiwai/sound"
+  ],
+  "soundtouch": [
+    "https://gitlab.com/soundtouch/soundtouch"
+  ],
+  "sparc": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc"
+  ],
+  "spice": [
+    "https://gitlab.freedesktop.org/spice/spice"
+  ],
+  "spice-common": [
+    "https://gitlab.freedesktop.org/spice/spice-common"
+  ],
+  "spice-vd_agent": [
+    "https://github.com/freedesktop/spice-vd_agent"
+  ],
+  "spnego-http-auth-nginx-module": [
+    "https://github.com/stnoonan/spnego-http-auth-nginx-module"
+  ],
+  "sqlcipher": [
+    "https://github.com/sqlcipher/sqlcipher"
+  ],
+  "sqlite": [
+    "https://github.com/sqlite/sqlite"
+  ],
+  "squid": [
+    "https://github.com/squid-cache/squid"
+  ],
+  "squidclamav": [
+    "https://github.com/darold/squidclamav"
+  ],
+  "src": [
+    "https://github.com/openbsd/src"
+  ],
+  "ssdp-responder": [
+    "https://github.com/troglobit/ssdp-responder"
+  ],
+  "sssd": [
+    "http://git.fedorahosted.org/git/?p=sssd"
+  ],
+  "staging": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging"
+  ],
+  "stb": [
+    "https://github.com/nothings/stb"
+  ],
+  "sthttpd": [
+    "https://github.com/blueness/sthttpd"
+  ],
+  "strongswan": [
+    "https://git.strongswan.org/?p=strongswan"
+  ],
+  "sudo": [
+    "https://github.com/sudo-project/sudo"
+  ],
+  "suhosin": [
+    "https://github.com/stefanesser/suhosin"
+  ],
+  "suricata": [
+    "https://github.com/OISF/suricata"
+  ],
+  "sysstat": [
+    "https://github.com/sysstat/sysstat"
+  ],
+  "systemd": [
+    "https://github.com/systemd/systemd"
+  ],
+  "taglib": [
+    "https://github.com/taglib/taglib"
+  ],
+  "tar": [
+    "http://git.savannah.gnu.org/cgit/tar"
+  ],
+  "tartarus": [
+    "https://git.tartarus.org/?p=simon/putty"
+  ],
+  "tcmu-runner": [
+    "https://github.com/open-iscsi/tcmu-runner"
+  ],
+  "tcpdump": [
+    "https://github.com/the-tcpdump-group/tcpdump"
+  ],
+  "tcpreplay": [
+    "https://github.com/appneta/tcpreplay"
+  ],
+  "teeworlds": [
+    "https://github.com/teeworlds/teeworlds"
+  ],
+  "tensorflow": [
+    "https://github.com/tensorflow/tensorflow"
+  ],
+  "thrift": [
+    "https://github.com/apache/thrift"
+  ],
+  "thunar": [
+    "https://github.com/xfce-mirror/thunar"
+  ],
+  "tidy-html5": [
+    "https://github.com/htacg/tidy-html5"
+  ],
+  "tigervnc": [
+    "https://github.com/CendioOssman/tigervnc"
+  ],
+  "tinc": [
+    "https://github.com/gsliepen/tinc"
+  ],
+  "tip": [
+    "http://git.kernel.org/cgit/linux/kernel/git/tip/tip"
+  ],
+  "tmux": [
+    "https://github.com/tmux/tmux"
+  ],
+  "tnef": [
+    "https://github.com/verdammelt/tnef"
+  ],
+  "tntnet": [
+    "https://github.com/maekitalo/tntnet"
+  ],
+  "tor": [
+    "https://github.com/torproject/tor"
+  ],
+  "torque": [
+    "https://github.com/adaptivecomputing/torque"
+  ],
+  "tpm2-tools": [
+    "https://github.com/tpm2-software/tpm2-tools"
+  ],
+  "trojita": [
+    "https://github.com/jktjkt/trojita"
+  ],
+  "tty": [
+    "https://git.kernel.org/cgit/linux/kernel/git/gregkh/tty"
+  ],
+  "u-boot": [
+    "https://github.com/u-boot/u-boot"
+  ],
+  "uWebSockets": [
+    "https://github.com/uWebSockets/uWebSockets"
+  ],
+  "udev": [
+    "http://git.kernel.org/?p=linux/hotplug/udev"
+  ],
+  "udisks": [
+    "https://github.com/pothos/udisks"
+  ],
+  "uftpd": [
+    "https://github.com/troglobit/uftpd"
+  ],
+  "unbound": [
+    "https://github.com/NLnetLabs/unbound"
+  ],
+  "uncurl": [
+    "https://github.com/chrisd1100/uncurl"
+  ],
+  "unicorn": [
+    "https://github.com/unicorn-engine/unicorn"
+  ],
+  "univention-corporate-server": [
+    "https://github.com/univention/univention-corporate-server"
+  ],
+  "unrealircd": [
+    "https://github.com/unrealircd/unrealircd"
+  ],
+  "unzip": [
+    "https://github.com/madler/unzip"
+  ],
+  "uriparser": [
+    "https://github.com/uriparser/uriparser"
+  ],
+  "util-linux": [
+    "https://github.com/karelzak/util-linux"
+  ],
+  "uzbl": [
+    "http://github.com/Dieterbe/uzbl"
+  ],
+  "v4l2loopback": [
+    "https://github.com/umlaeute/v4l2loopback"
+  ],
+  "varnish-cache": [
+    "https://github.com/varnishcache/varnish-cache"
+  ],
+  "varnish-modules": [
+    "https://github.com/varnish/varnish-modules"
+  ],
+  "veyon": [
+    "https://github.com/veyon/veyon"
+  ],
+  "vim": [
+    "https://github.com/vim/vim"
+  ],
+  "vino": [
+    "http://git.gnome.org/browse/vino"
+  ],
+  "virglrenderer": [
+    "https://gitlab.freedesktop.org/virgl/virglrenderer"
+  ],
+  "vlc": [
+    "https://github.com/videolan/vlc"
+  ],
+  "w3m": [
+    "https://github.com/tats/w3m"
+  ],
+  "wangle": [
+    "https://github.com/facebook/wangle"
+  ],
+  "webserver": [
+    "https://github.com/cherokee/webserver"
+  ],
+  "weechat": [
+    "https://github.com/weechat/weechat"
+  ],
+  "wesnoth": [
+    "https://github.com/wesnoth/wesnoth"
+  ],
+  "wget": [
+    "http://git.savannah.gnu.org/cgit/wget"
+  ],
+  "wildmidi": [
+    "https://github.com/Mindwerks/wildmidi"
+  ],
+  "winscp": [
+    "https://github.com/winscp/winscp"
+  ],
+  "wireless": [
+    "http://git.kernel.org/cgit/linux/kernel/git/linville/wireless"
+  ],
+  "wireshark": [
+    "https://github.com/wireshark/wireshark"
+  ],
+  "wkhtmltopdf": [
+    "https://github.com/wkhtmltopdf/wkhtmltopdf"
+  ],
+  "wolfssl": [
+    "https://github.com/wolfSSL/wolfssl"
+  ],
+  "wpitchoune": [
+    "http://git.wpitchoune.net/gitweb/?p=psensor"
+  ],
+  "x11vnc": [
+    "https://github.com/LibVNC/x11vnc"
+  ],
+  "xbmc": [
+    "https://github.com/fuzzard/xbmc"
+  ],
+  "xcursor": [
+    "https://cgit.freedesktop.org/xorg/lib/libXcursor/commit/?id=4794b5dd34688158fb51a2943032569d3780c4b8"
+  ],
+  "xdelta-devel": [
+    "https://github.com/jmacd/xdelta-devel"
+  ],
+  "xrootd": [
+    "https://github.com/xrootd/xrootd"
+  ],
+  "xserver": [
+    "http://gitweb.freedesktop.org/?p=xorg/xserver"
+  ],
+  "xterm-snapshots": [
+    "https://github.com/ThomasDickey/xterm-snapshots"
+  ],
+  "yajl-ruby": [
+    "https://github.com/brianmario/yajl-ruby"
+  ],
+  "yara": [
+    "https://github.com/VirusTotal/yara"
+  ],
+  "yodl": [
+    "https://github.com/fbb-git/yodl"
+  ],
+  "ytnef": [
+    "https://github.com/Yeraze/ytnef"
+  ],
+  "yubico-pam": [
+    "https://github.com/Yubico/yubico-pam"
+  ],
+  "zlib": [
+    "https://github.com/madler/zlib"
+  ],
+  "znc": [
+    "https://github.com/znc/znc"
+  ],
+  "zziplib": [
+    "https://github.com/gdraheim/zziplib"
+  ]
+}

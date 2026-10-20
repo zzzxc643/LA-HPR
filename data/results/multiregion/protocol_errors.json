@@ -1,0 +1,58 @@
+[
+  {
+    "sample_id": "a9b135760aea6d1790d447d351c56b78889dac22_35682651229579316438243857894654774696",
+    "historical_status": "parse_error",
+    "reason": "selected UNCERTAIN while no PASS was available",
+    "count_in_primary_denominator": true,
+    "recommended": false
+  },
+  {
+    "sample_id": "26eb323554ffccd173e8a79a8c05c15b685ae4d1_107479218930678167966720430970938796987",
+    "historical_status": "parse_error",
+    "reason": "selected UNCERTAIN while no PASS was available",
+    "count_in_primary_denominator": true,
+    "recommended": false
+  },
+  {
+    "sample_id": "c098f21fdaadca57ff649eee1674f6cc321a2ec4_248045678372933333759359683734227460022",
+    "historical_status": "parse_error",
+    "reason": "selected UNCERTAIN while no PASS was available",
+    "count_in_primary_denominator": true,
+    "recommended": false
+  },
+  {
+    "sample_id": "40393700642ad38437982e8a3afc34ff33ccf28e_205619432801155878918798172599085525849",
+    "historical_status": "parse_error",
+    "reason": "selected UNCERTAIN while no PASS was available",
+    "count_in_primary_denominator": true,
+    "recommended": false
+  },
+  {
+    "sample_id": "382da2b8b09cbf928668a2445efb778f76bd9c8a_5120789648516904544874225583525524317",
+    "historical_status": "parse_error",
+    "reason": "selected UNCERTAIN while no PASS was available",
+    "count_in_primary_denominator": true,
+    "recommended": false
+  },
+  {
+    "sample_id": "c68402fa7e279d42886d5951d1ea8ac2facc1ea5_145222806457384873160648923667467705022",
+    "historical_status": "parse_error",
+    "reason": "selected UNCERTAIN while no PASS was available",
+    "count_in_primary_denominator": true,
+    "recommended": false
+  },
+  {
+    "sample_id": "ae3801a0e5cce276c270973214385c86048d5f7b_35714513779354789945018962178800782034",
+    "historical_status": "parse_error",
+    "reason": "selected UNCERTAIN while no PASS was available",
+    "count_in_primary_denominator": true,
+    "recommended": false
+  },
+  {
+    "sample_id": "c243f4539233053466c1309bde606815351bee81_36003741864693602356425713981018202212",
+    "historical_status": "parse_error",
+    "reason": "selected UNCERTAIN while no PASS was available",
+    "count_in_primary_denominator": true,
+    "recommended": false
+  }
+]

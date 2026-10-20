@@ -1,0 +1,39 @@
+{
+  "n": 439,
+  "recommended": 96,
+  "primary_qwen_sfr": 0.21867881548974943,
+  "strata": {
+    "multiple_blocks": {
+      "n": 205,
+      "outcomes": {
+        "FAIL": 104,
+        "NO_SYNTAX": 60,
+        "PASS": 33,
+        "UNCERTAIN": 6,
+        "PROTOCOL_ERROR": 2
+      },
+      "primary_qwen_sfr": 0.16097560975609757
+    },
+    "single_block": {
+      "n": 165,
+      "outcomes": {
+        "FAIL": 67,
+        "UNCERTAIN": 12,
+        "PASS": 43,
+        "NO_SYNTAX": 37,
+        "PROTOCOL_ERROR": 6
+      },
+      "primary_qwen_sfr": 0.2606060606060606
+    },
+    "singleline": {
+      "n": 69,
+      "outcomes": {
+        "PASS": 20,
+        "NO_SYNTAX": 20,
+        "FAIL": 18,
+        "UNCERTAIN": 11
+      },
+      "primary_qwen_sfr": 0.2898550724637681
+    }
+  }
+}

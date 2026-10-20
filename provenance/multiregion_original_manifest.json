@@ -1,0 +1,25 @@
+{
+  "protocol": "local_multiblock_v1",
+  "source_hashes": {
+    "train": {
+      "pairs": "6c681bc780b5e09b5ea4e145544efa4b2ee81aebabbcb519d0b9029fc02b0313",
+      "ledger": "329c0188ea93b92d5e5e1621928bf8816ae12161ae69a1d10f7d4a920586ed42"
+    },
+    "valid": {
+      "pairs": "9c6f7c600d232ab697c836a6af50770ce0e7ab51e2dc2f9614f57701f2361331",
+      "ledger": "c912c020a57a5db3b5afbc1a30c3269127f68c15c13072c4e88c253c141b5917"
+    }
+  },
+  "files": {
+    "config.json": "ff94f926cfd9512dab86898a7e3f7c8c404c0d41deaf217cf285df74f819d1d2",
+    "inputs_train.jsonl": "141477041529e4ce72c0246b0857b0c5d20ae99f3d429511594c3fc16bb5c11d",
+    "inputs_valid.jsonl": "35c2fe9a7140d89a192974b48c4783342b678683fee37d16f79296b798b824cd",
+    "references_train.jsonl": "022a32da174bb9c783f9ea61a87492af8624473555282c471d21b8e5b4b26ac7",
+    "references_valid.jsonl": "077df375b435db0e2a8a477bfe4737e77f164d46ce81bdb2f3a1ca5828885765",
+    "summary.json": "5cbe7733d18344d375cc7486e05006dc92205b3007e4723ab99077e28ad85b79"
+  },
+  "scripts_sha256": {
+    "prepare_local_multiblock.py": "f88e00fdf994703af26555e1e40c68ecb34e2c3001415cb55f07f1a1a6e76f1d",
+    "block_repair.py": "60230ad564b7cfc86677d835b29cdfdd0e8fb983f1ecb582d962d59dd329b555"
+  }
+}

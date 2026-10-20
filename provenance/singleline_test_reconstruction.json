@@ -1,0 +1,13 @@
+{
+  "rows": 57,
+  "files": {
+    "inputs_test.jsonl": {
+      "sha256": "eb370ad0df6289daac27dbb270bbc08007e7545b577daff6f86ca166098e3777",
+      "newline": "CRLF"
+    },
+    "references_test.jsonl": {
+      "sha256": "a1688ac6ba9b617866267f4c64eb79986d0ee1b469d32f341d2bfe0ef2052ee8",
+      "newline": "CRLF"
+    }
+  }
+}

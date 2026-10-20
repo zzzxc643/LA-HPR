@@ -1,0 +1,29 @@
+{
+  "train": {
+    "n": 3287,
+    "roundtrips": 3287,
+    "kinds": {
+      "singleline": 451,
+      "single_block": 1260,
+      "multiple_blocks": 1576
+    },
+    "max_regions": 617,
+    "max_input_chars": 120678
+  },
+  "valid": {
+    "n": 439,
+    "roundtrips": 439,
+    "kinds": {
+      "singleline": 69,
+      "single_block": 165,
+      "multiple_blocks": 205
+    },
+    "max_regions": 23,
+    "max_input_chars": 6363
+  },
+  "train_valid_overlap": {
+    "ids": 0,
+    "vulnerable": 0,
+    "commits": 3
+  }
+}

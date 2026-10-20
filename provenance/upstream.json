@@ -1,0 +1,10 @@
+{
+  "name": "PrimeVul-v0.1",
+  "repository": "https://github.com/DLVulDet/PrimeVul",
+  "documentation_revision": "6f54687c84947b1d17486495440b37030d147289",
+  "download_url": "https://drive.google.com/drive/folders/1cznxGme5o6A_9tT8T47JUh3MPEpRYiKK",
+  "upstream_repository_license": "MIT",
+  "license_sha256": "49c31acfd9078e8d4548c8cf3a712ed24db3fa03a04544ee63e82a221145c9a7",
+  "original_source_functions_included": false,
+  "all_selected_functions_matched_by_commit_and_sha256": true
+}
