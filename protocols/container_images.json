@@ -1,31 +1,7 @@
 {
-  "source_commit": "26da06514a8541c1aa05edee68040f950f2e7886",
+  "project": "LA-HPR",
+  "registry": "ghcr.io/zzzxc643/la-hpr",
+  "status": "publication_pending",
   "platform": "linux/amd64",
-  "images": [
-    {
-      "target": "verify",
-      "image": "ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:verify-20261101",
-      "digest": "sha256:63e21c4afaa49cbdd0b1f3ae51feaf21969e1b8d6e29673738f1cd0e879cc582",
-      "immutable_image": "ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair@sha256:63e21c4afaa49cbdd0b1f3ae51feaf21969e1b8d6e29673738f1cd0e879cc582",
-      "source_tag": "ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:verify-sha-26da06514a8541c1aa05edee68040f950f2e7886",
-      "anonymous_access": true
-    },
-    {
-      "target": "compiler",
-      "image": "ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:compiler-20261101",
-      "digest": "sha256:6f3c56d743cf9566570d054fe23a99050c5e52a12f7eb0b2f6b1f7471554b75a",
-      "immutable_image": "ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair@sha256:6f3c56d743cf9566570d054fe23a99050c5e52a12f7eb0b2f6b1f7471554b75a",
-      "source_tag": "ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:compiler-sha-26da06514a8541c1aa05edee68040f950f2e7886",
-      "anonymous_access": true
-    },
-    {
-      "target": "gpu",
-      "image": "ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:gpu-20261101",
-      "digest": "sha256:d51ba15da548ace15e4a7085f8662c824fcb1df46322ddefd28314831536e972",
-      "immutable_image": "ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair@sha256:d51ba15da548ace15e4a7085f8662c824fcb1df46322ddefd28314831536e972",
-      "source_tag": "ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:gpu-sha-26da06514a8541c1aa05edee68040f950f2e7886",
-      "anonymous_access": true
-    }
-  ],
-  "validation": "GitHub Actions build-time artifact verification, compiler smoke check, CUDA package import; no GPU execution test"
+  "historical_manifest": "archive/container_images_20261101_pre_rename.json"
 }

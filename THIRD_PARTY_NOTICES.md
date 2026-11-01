@@ -1,4 +1,4 @@
-# Third-party notices
+# LA-HPR third-party notices
 
 ## PrimeVul
 
@@ -22,4 +22,4 @@ PrimeVul contains functions from many software projects. The PrimeVul repository
 
 ## Models and tools
 
-Model identifiers in configuration files refer to Salesforce/CodeT5+, ByteDance-Seed/Seed-Coder and the recorded Qwen API model. No model weights are redistributed. Each model's own license and provider terms apply to downloading weights or using services. Tree-sitter, PyTorch, Transformers and Clang are referenced as experiment dependencies, not redistributed implementations.
+Model identifiers in configuration files refer to Salesforce/CodeT5+, ByteDance-Seed/Seed-Coder and the recorded Qwen API model. No model weights are redistributed. Each model's own license and provider terms apply to downloading weights or using services. Docker images include third-party tools such as Python, Tree-sitter, PyTorch, Transformers, Clang and operating-system packages under their respective licenses; LA-HPR's MIT license does not replace those licenses. The Dockerfile and requirements list identify the included software. NVIDIA CUDA libraries retain their applicable NVIDIA terms. The compiler image is a toolchain environment and does not bundle the complete upstream project source trees.

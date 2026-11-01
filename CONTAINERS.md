@@ -1,6 +1,6 @@
-# 实验镜像与环境
+# LA-HPR 镜像与环境
 
-镜像仓库：`ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair`。镜像平台为 `linux/amd64`，均可匿名拉取。Dockerfile 和构建日志公开；版本标签如下。
+GitHub 项目名为 `LA-HPR`，Docker 仓库路径使用小写 `la-hpr`。镜像仓库：`ghcr.io/zzzxc643/la-hpr`。镜像平台为 `linux/amd64`，均可匿名拉取。Dockerfile 和构建日志公开；版本标签如下。
 
 | 标签 | 用途 | 内容 |
 |---|---|---|
@@ -9,9 +9,9 @@
 | `gpu-20261101` | 训练与候选生成软件栈 | Python 3.12、PyTorch 2.8.0+cu128、Transformers 4.51.3、冻结的直接依赖 |
 
 ```bash
-docker run --rm ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:verify-20261101
-docker run --rm ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:compiler-20261101 clang --version
-docker run --rm --gpus all ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:gpu-20261101 \
+docker run --rm ghcr.io/zzzxc643/la-hpr:verify-20261101
+docker run --rm ghcr.io/zzzxc643/la-hpr:compiler-20261101 clang --version
+docker run --rm --gpus all ghcr.io/zzzxc643/la-hpr:gpu-20261101 \
   python -c 'import torch; print(torch.__version__, torch.cuda.is_available())'
 ```
 
@@ -23,11 +23,11 @@ docker run --rm --gpus all ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repai
 
 ```bash
 docker run --rm -v "$PWD/PrimeVul_v0.1:/source:ro" -v "$PWD/rebuilt:/outputs" \
-  ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:verify-20261101 \
+  ghcr.io/zzzxc643/la-hpr:verify-20261101 \
   python scripts/reconstruct_data.py --primevul-dir /source --out /outputs/primevul
 
 docker run --rm -v "$PWD/megavul.json:/source/megavul.json:ro" -v "$PWD/rebuilt:/outputs" \
-  ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:verify-20261101 \
+  ghcr.io/zzzxc643/la-hpr:verify-20261101 \
   python scripts/reconstruct_megavul.py --megavul-json /source/megavul.json --out /outputs/megavul141
 ```
 

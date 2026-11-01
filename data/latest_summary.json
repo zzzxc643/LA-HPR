@@ -1,0 +1,88 @@
+{
+  "project": "LA-HPR",
+  "updated": "2026-11-01",
+  "latest_completed_experiment": "2026-10-28",
+  "protocol": "Six raw candidates, at most five submitted; full cohort denominators",
+  "method_records": {
+    "LA-HPR": "mixed33",
+    "Seed6": "seed6",
+    "CodeT5+ full-function beam6": "fulltext6"
+  },
+  "latest_comparison": {
+    "valid69": {
+      "n": 69,
+      "methods": {
+        "LA-HPR": {
+          "n": 69,
+          "static": 32
+        },
+        "Seed6": {
+          "n": 69,
+          "static": 33
+        },
+        "CodeT5+ full-function beam6": {
+          "n": 69,
+          "static": 18
+        }
+      }
+    },
+    "prime57": {
+      "n": 57,
+      "methods": {
+        "LA-HPR": {
+          "n": 57,
+          "static": 32,
+          "engineering": 29
+        },
+        "Seed6": {
+          "n": 57,
+          "static": 28,
+          "engineering": 24
+        },
+        "CodeT5+ full-function beam6": {
+          "n": 57,
+          "static": 20,
+          "engineering": 19
+        }
+      }
+    },
+    "mega141": {
+      "n": 141,
+      "methods": {
+        "LA-HPR": {
+          "n": 141,
+          "static": 101,
+          "engineering": 94
+        },
+        "Seed6": {
+          "n": 141,
+          "static": 98,
+          "engineering": 90
+        },
+        "CodeT5+ full-function beam6": {
+          "n": 141,
+          "static": 52,
+          "engineering": 48
+        }
+      }
+    }
+  },
+  "engineering_controls": {
+    "prime57": {
+      "passed": 57,
+      "total": 57
+    },
+    "mega141": {
+      "passed": 141,
+      "total": 141
+    }
+  },
+  "historical_results": {
+    "initial_summary": "summary.json",
+    "six_group_prime57": "updates/prime57_clang20",
+    "six_group_mega141": "updates/megavul141"
+  },
+  "interpretation": "Static PASS selection and engineering acceptance; neither establishes vulnerability removal",
+  "training_caveat": "Mixed33 local model Train451; full-function model Train416; no new training",
+  "weights_public": false
+}

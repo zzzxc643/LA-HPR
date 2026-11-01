@@ -1,35 +1,79 @@
-# 复现范围与脚本
+# LA-HPR 复现说明
 
-2026-11-01 增补：后续实验见 [EXPERIMENTS.md](EXPERIMENTS.md)，依赖及三类容器见 [CONTAINERS.md](CONTAINERS.md)。`verify_artifact.py` 现在同时复核原始发布与追加结果；下文保留原发布范围说明。已核实当前远程 Tree-sitter 为 0.25.2、C grammar 为 0.24.1、C++ grammar 为 0.23.4；当前观测不等于所有历史运行的完整环境锁定。
+当前公开版本涵盖 Prime57、Mega141、六候选对照、全函数 beam6 补充基线及开发阶段多区间结果。最新指标见 [EXPERIMENTS.md](EXPERIMENTS.md)。
 
-## 本次发布已验证
+## 1. 核验公开结果
 
-1. `scripts/verify_artifact.py`：校验文件 SHA-256，复算 6 组单行推荐数与语法覆盖、候选漏斗、McNemar 精确双侧检验、多区间完整分母和编译器汇总。Python 标准库，无 GPU/API。
-2. `scripts/reconstruct_data.py`：从官方 PrimeVul v0.1 配对文件恢复五个划分。全部 11 个数据文件的字节哈希与本地冻结输入/参考/训练目标一致；不访问任何私有目录或远程接口。
+```bash
+git clone https://github.com/zzzxc643/LA-HPR.git
+cd LA-HPR
+python scripts/verify_artifact.py
+```
 
-`provenance/*_reconstruction.json` 是精确字节校验依据，含历史 LF/CRLF 换行约定。`*_original_manifest.json` 是原实验清单，里面引用的部分配置/中间文件不在重建输出中，不能把它当成本公开仓库完整性清单。本仓库完整性清单为 `provenance/artifact_sha256.json`。
+Python 3.10+，标准库即可。核验文件 SHA-256、划分与样本身份、三态 PASS 选择、最新逐样本补丁/工程绑定，并复算原六组、六候选对照、全函数基线、候选漏斗、多区间完整分母和早期编译子集。`scripts/verify_updates.py` 可单独复核追加结果。
 
-## 保留的原实验组件
+仓库默认分支由 GitHub Actions 执行核验，三个 Docker 目标构建时也执行相同检查。镜像版本与摘要见 [CONTAINERS.md](CONTAINERS.md) 和 [protocols/container_images.json](protocols/container_images.json)。GPU 镜像完成依赖导入与版本核对，尚未验证实际 CUDA 设备运行。
 
-| 脚本 | 功能 |
+## 2. 重建数据
+
+从 [PrimeVul 官方说明](https://github.com/DLVulDet/PrimeVul) 获取 v0.1 三个 paired 文件：
+
+```bash
+python scripts/reconstruct_data.py --primevul-dir /path/to/PrimeVul_v0.1 --out rebuilt-primevul
+```
+
+恢复单行 Train/Valid/Test 451/69/57 和多区间 Train/Valid 3287/439 的全部 11 个输入、参考及训练文件，并验证与冻结版本逐字节一致。
+
+MegaVul 按 [来源记录](provenance/megavul_source.json) 获取指定版本的原始 JSON 镜像：
+
+```bash
+python -m pip install -r requirements/data.txt
+python scripts/reconstruct_megavul.py --megavul-json /path/to/megavul.json --out rebuilt-megavul141
+```
+
+脚本流式处理 2.67 GB JSON，先核对完整文件 SHA-256，再匹配 141 个源记录、提交身份、原/参考函数、提示哈希和参考渲染。输入恢复历史 CRLF；参考代码与标签保留，私有工程证据路径排除。两份公开输出哈希单独核验。两个脚本的输出目录均须尚不存在。
+
+这些重建已经通过实际数据验证。`provenance/*_reconstruction.json` 给出输出字节依据；原实验清单中的配置和中间文件不一定属于重建输出。仓库文件的完整性依据是 `provenance/artifact_sha256.json`。
+
+## 3. 准备模型与运行脚本
+
+训练权重按维护者选择暂不公开。训练或新一轮推理需准备相应模型缓存及自行训练得到的检查点。基础模型为 `Salesforce/codet5p-220m` 和 `ByteDance-Seed/Seed-Coder-8B-Instruct`；固定 revision、检查点文件哈希和解码配置见 [模型设置](protocols/singleline_model_settings.json) 与 [各轮 freeze](experiments)。
+
+| 入口 | 用途 |
 |---|---|
-| `singleline_repair.py` | 单行邻域输入、参考词元动作归类、严格 JSON 与边界渲染 |
-| `block_repair.py` | 原坐标多区间输入与确定性渲染 |
-| `local_candidate_judge.py` | 三态评审提示、响应合法性校验及缓存函数 |
-| `block_review.py` | 多区间评审协议与响应校验 |
-| `prepare_singleline_pools.py` | 精确去重、语法筛选、来源轮转；CLI 面向原始 Valid 流程 |
-| `normalize_singleline_candidates.py` | 对生成输出做格式规范化并保留原输出身份 |
-| `train_singleline.py` | 原 CodeT5+ 的 audit/train/valid 流程，Train 451 / Valid 69 |
+| `scripts/train_singleline.py` | 原 CodeT5+ audit/train/valid 流程 |
+| `scripts/singleline_repair.py` | 局部输入、动作归类、JSON 校验与确定性渲染 |
+| `scripts/full_context_baselines.py` | 原整函数及完整/局部上下文基线 |
+| `scripts/generate_singleline_seed.py` | 原 Seed 候选生成入口 |
+| `scripts/prepare_singleline_pools.py` | 精确去重、语法筛选和来源轮转 |
+| `scripts/local_candidate_judge.py` | 三态响应与 PASS-only 选择校验 |
+| `experiments/equal_budget/` | 最新 Seed6 / Mixed33 runtime、依赖脚本与各评价池 freeze |
+| `experiments/fulltext6/` | 全函数 beam6 runtime、依赖脚本与各评价池 freeze |
+| `experiments/megavul141/` | Mega141 原五组生成、六组评审及工程检查组件 |
+| `experiments/prime57_clang20/compiler/` | Prime57 全覆盖工程检查器 |
 
-这些组件用于展示实施协议；本包不是一键复跑全部实验的训练框架。训练需要另行准备冻结版本的模型缓存和兼容的 GPU 软件栈；原脚本使用 `local_files_only=True`。公开候选索引去除了代码正文，不能直接传入要求 `patched_code` 的组池函数。没有提供 API 密钥，也没有默认调用 API 的入口。
+原脚本使用 `local_files_only=True`，freeze 会核对输入、脚本与检查点哈希。准备新运行时，应按配置恢复目录结构、模型和重建输入，映射本地路径，并形成自己的新 freeze；不能将路径或模型调整后的配置称为历史冻结文件。公开候选索引只含状态和哈希，不能直接传给需要补丁正文的组池函数。
 
-本次发布不重新训练、生成候选或调用评审模型。已记录的核心环境：PyTorch `2.8.0+cu128`、Transformers `4.51.3`；详细参数与模型 revision 以 `protocols/` 为准。Tree-sitter 解析政策由 `train_singleline.py` 实现，包版本未在冻结模型配置中完整记录，不臆造精确依赖锁文件。
+局部模型 Train451；整函数和匹配表示基线 Train416、损失验证子集64。模型选择依据 Valid，不能用 Test 参考重新选模型、调提示或改候选规则。Mega141 保持扩充评价池身份，没有参与本轮新增训练。
 
-## 冻结结果与当前材料的区别
+## 4. 配置可选评审服务
 
-- `protocols/` 的 script/data 哈希指向当时冻结版本；部分脚本或格式规范化在不同阶段发生过变化。它们不是本仓库每份脚本都与所有历史哈希相同的声明。
-- 远程评审服务可更新模型实现，服务端模型名不等于可下载的不可变权重版本。重新调用可能得到不同响应；本包逐样本结果是冻结响应的结构化记录。
-- 单源与组合的候选数上限不同，评审面对的候选上下文也不同。交集反映系统输出互补，不是对候选内在正确性的金标评估。
-- 编译器检查仅发布去路径的退出状态和日志哈希；源树、构建缓存及完整日志未包含。严格重建历史编译环境仍需按原项目依赖恢复，不能仅凭结果哈希重现编译命令。
+默认核验和重建不会调用 API。重新评审需自己配置兼容服务地址、可用模型和 `QWEN_API_KEY`。私人服务地址已从公开配置移除。历史接口模型名为 `qwen3.8-max-0902`；服务端名称不代表不可变权重，新调用不保证得到历史响应。
 
-新增文件或修改文件后，维护者应先审查差异，再运行 `python scripts/verify_artifact.py --write-manifest` 重建完整性清单；一般使用者只运行不带参数的校验。
+选中候选必须为 PASS；三项判断均真才 PASS，任一为假则 FAIL，其余 UNCERTAIN。重试与终止错误口径按当轮协议执行，全函数 beam6 的终止格式错误补充协议见 [PROTOCOL_AMENDMENT_TERMINAL_ERRORS.json](data/updates/fulltext6/PROTOCOL_AMENDMENT_TERMINAL_ERRORS.json)。
+
+## 5. 工程检查与环境
+
+当前结果的原/参考控制覆盖 Prime57 57/57、Mega141 141/141，使用 Clang20.1.2。工程参数与上下文身份见 `data/updates/{prime57_clang20,megavul141}/engineering_contexts.json`，检查器见 `experiments/*/compiler/`。
+
+工程镜像提供工具链基础环境。严格重跑仍需恢复各上游提交、真实生成配置、头文件、外部依赖和源文件布局；这些完整源树与构建缓存不包含在镜像内。不能仅根据结果哈希恢复原工程或模型补丁。`protocols/compiler_validation.md` 是早期共同子集协议，当前覆盖与改进后的激活口径见 [EXPERIMENTS.md](EXPERIMENTS.md)。
+
+直接依赖版本已从 2026-11-01 远程环境核实，见 [requirements/runtime.txt](requirements/runtime.txt) 与 [观测记录](protocols/runtime_observed_20261101.json)。核心为 PyTorch2.8.0+cu128、Transformers4.51.3、Tree-sitter0.25.2、C grammar0.24.1、C++ grammar0.23.4。该记录不是所有历史传递依赖和系统包的逐字节锁文件。
+
+## 公开范围与维护
+
+公开内容支持数值复核、原数据重建、实现协议审查及环境准备。微调权重、生成补丁正文、原始 API 缓存、完整工程源树暂不公开，因此本版本不提供历史全部模型输出的一键复跑。
+
+`data/results/`、`data/compiler/` 与各轮 freeze 保留历史身份；最新结果从 `data/updates/` 读取。历史脚本哈希可能对应不同阶段的版本，不是本仓库所有公共组件都与每次历史哈希一致的声明。
+
+维护者审查有意修改后运行 `python scripts/verify_artifact.py --write-manifest` 更新完整性清单；普通使用者只运行不带该参数的核验命令。

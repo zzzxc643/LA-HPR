@@ -1,5 +1,5 @@
 FROM python:3.12-slim-bookworm AS verify
-LABEL org.opencontainers.image.source="https://github.com/zzzxc643/c-cpp-singleline-vulnerability-repair"
+LABEL org.opencontainers.image.source="https://github.com/zzzxc643/LA-HPR"
 WORKDIR /artifact
 COPY . .
 RUN pip install --no-cache-dir -r requirements/data.txt
@@ -7,7 +7,7 @@ RUN python scripts/verify_artifact.py
 CMD ["python", "scripts/verify_artifact.py"]
 
 FROM ubuntu:24.04 AS compiler
-LABEL org.opencontainers.image.source="https://github.com/zzzxc643/c-cpp-singleline-vulnerability-repair"
+LABEL org.opencontainers.image.source="https://github.com/zzzxc643/LA-HPR"
 ARG DEBIAN_FRONTEND=noninteractive
 ARG CLANG_VERSION=1:20.1.2-0ubuntu1~24.04.3
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -27,7 +27,7 @@ RUN python3 scripts/verify_artifact.py && clang --version | head -1 \
 CMD ["bash"]
 
 FROM python:3.12-slim-bookworm AS gpu
-LABEL org.opencontainers.image.source="https://github.com/zzzxc643/c-cpp-singleline-vulnerability-repair"
+LABEL org.opencontainers.image.source="https://github.com/zzzxc643/LA-HPR"
 RUN apt-get update && apt-get install -y --no-install-recommends git libgomp1 \
     && rm -rf /var/lib/apt/lists/*
 COPY requirements/runtime.txt /tmp/runtime.txt
