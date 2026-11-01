@@ -1,0 +1,54 @@
+{
+  "group": "mixed33",
+  "n": 69,
+  "complete": true,
+  "successful_samples": 32,
+  "reviewed_samples": 53,
+  "no_syntax_valid_candidate": 16,
+  "status_counts": {
+    "valid": 53,
+    "no_syntax_valid_candidate": 16
+  },
+  "unresolved_errors": 0,
+  "all_fail_samples": 16,
+  "uncertain_without_pass_samples": 5,
+  "syntax_validity": 0.7681159420289855,
+  "llm_sfr": 0.463768115942029,
+  "static_pass_lower_bound": 0.463768115942029,
+  "candidate_verdicts": {
+    "PASS": 44,
+    "FAIL": 140,
+    "UNCERTAIN": 15
+  },
+  "selected_sources": {
+    "codet5": 11,
+    "seed": 21
+  },
+  "selected_arms": {
+    "codet5_local": 11,
+    "seed3": 21
+  },
+  "render_errors": {
+    "unchanged_edit": 52,
+    "Invalid control character at: line 3 column 21 (char 52)": 15,
+    "Invalid control character at: line 1 column 169 (char 168)": 3,
+    "Expecting ',' delimiter: line 1 column 119 (char 118)": 1,
+    "Expecting ',' delimiter: line 1 column 122 (char 121)": 2,
+    "Expecting ',' delimiter: line 1 column 142 (char 141)": 1,
+    "Invalid \\escape: line 1 column 46 (char 45)": 3,
+    "Unterminated string starting at: line 1 column 43 (char 42)": 2,
+    "Unterminated string starting at: line 1 column 42 (char 41)": 1
+  },
+  "input_budget_exceeded": 0,
+  "unique_requests": 53,
+  "planned_requests": 53,
+  "api_attempts": 54,
+  "usage": {
+    "prompt_tokens": 102289,
+    "completion_tokens": 15114,
+    "total_tokens": 117403
+  },
+  "model": "qwen3.8-max-0902",
+  "reference_opened": false,
+  "metric": "Qwen static review pass rate; not execution-proven repair correctness"
+}

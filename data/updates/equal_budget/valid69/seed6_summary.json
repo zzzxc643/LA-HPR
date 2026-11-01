@@ -1,0 +1,47 @@
+{
+  "group": "seed6",
+  "n": 69,
+  "complete": true,
+  "successful_samples": 33,
+  "reviewed_samples": 51,
+  "no_syntax_valid_candidate": 18,
+  "status_counts": {
+    "valid": 51,
+    "no_syntax_valid_candidate": 18
+  },
+  "unresolved_errors": 0,
+  "all_fail_samples": 16,
+  "uncertain_without_pass_samples": 2,
+  "syntax_validity": 0.7391304347826086,
+  "llm_sfr": 0.4782608695652174,
+  "static_pass_lower_bound": 0.4782608695652174,
+  "candidate_verdicts": {
+    "FAIL": 103,
+    "PASS": 47,
+    "UNCERTAIN": 4
+  },
+  "selected_sources": {
+    "seed": 33
+  },
+  "selected_arms": {
+    "seed6": 33
+  },
+  "render_errors": {
+    "unchanged_edit": 8,
+    "Invalid control character at: line 3 column 21 (char 52)": 22,
+    "Invalid control character at: line 1 column 44 (char 43)": 1,
+    "Expecting value: line 1 column 1 (char 0)": 1
+  },
+  "input_budget_exceeded": 0,
+  "unique_requests": 51,
+  "planned_requests": 51,
+  "api_attempts": 51,
+  "usage": {
+    "prompt_tokens": 93750,
+    "completion_tokens": 12476,
+    "total_tokens": 106226
+  },
+  "model": "qwen3.8-max-0902",
+  "reference_opened": false,
+  "metric": "Qwen static review pass rate; not execution-proven repair correctness"
+}

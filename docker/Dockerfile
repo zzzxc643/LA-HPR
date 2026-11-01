@@ -2,6 +2,7 @@ FROM python:3.12-slim-bookworm AS verify
 LABEL org.opencontainers.image.source="https://github.com/zzzxc643/c-cpp-singleline-vulnerability-repair"
 WORKDIR /artifact
 COPY . .
+RUN pip install --no-cache-dir -r requirements/data.txt
 RUN python scripts/verify_artifact.py
 CMD ["python", "scripts/verify_artifact.py"]
 
@@ -30,8 +31,9 @@ LABEL org.opencontainers.image.source="https://github.com/zzzxc643/c-cpp-singlel
 RUN apt-get update && apt-get install -y --no-install-recommends git libgomp1 \
     && rm -rf /var/lib/apt/lists/*
 COPY requirements/runtime.txt /tmp/runtime.txt
+COPY requirements/data.txt /tmp/data.txt
 RUN pip install --no-cache-dir torch==2.8.0+cu128 --index-url https://download.pytorch.org/whl/cu128 \
-    && pip install --no-cache-dir -r /tmp/runtime.txt \
+    && pip install --no-cache-dir -r /tmp/runtime.txt -r /tmp/data.txt \
     && pip check
 WORKDIR /artifact
 COPY . .

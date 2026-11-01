@@ -102,6 +102,8 @@ def main():
         assert rejected == aggregate["compiler_rejected"]
         assert accepted + rejected == aggregate["recommended"]
         report["compiler"][method] = {"n": 18, "recommended": accepted + rejected, "accepted": accepted}
+    from verify_updates import verify
+    report["updates_20261101"] = verify()
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 

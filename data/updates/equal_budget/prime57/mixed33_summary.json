@@ -1,0 +1,49 @@
+{
+  "group": "mixed33",
+  "n": 57,
+  "complete": true,
+  "successful_samples": 32,
+  "reviewed_samples": 46,
+  "no_syntax_valid_candidate": 11,
+  "status_counts": {
+    "valid": 46,
+    "no_syntax_valid_candidate": 11
+  },
+  "unresolved_errors": 0,
+  "all_fail_samples": 11,
+  "uncertain_without_pass_samples": 3,
+  "syntax_validity": 0.8070175438596491,
+  "llm_sfr": 0.5614035087719298,
+  "static_pass_lower_bound": 0.5614035087719298,
+  "candidate_verdicts": {
+    "PASS": 49,
+    "FAIL": 114,
+    "UNCERTAIN": 13
+  },
+  "selected_sources": {
+    "codet5": 15,
+    "seed": 17
+  },
+  "selected_arms": {
+    "codet5_local": 15,
+    "seed3": 17
+  },
+  "render_errors": {
+    "Invalid control character at: line 3 column 21 (char 52)": 11,
+    "Unterminated string starting at: line 1 column 43 (char 42)": 5,
+    "unchanged_edit": 28,
+    "Expecting ',' delimiter: line 1 column 72 (char 71)": 1
+  },
+  "input_budget_exceeded": 0,
+  "unique_requests": 46,
+  "planned_requests": 46,
+  "api_attempts": 48,
+  "usage": {
+    "prompt_tokens": 91205,
+    "completion_tokens": 13693,
+    "total_tokens": 104898
+  },
+  "model": "qwen3.8-max-0902",
+  "reference_opened": false,
+  "metric": "Qwen static review pass rate; not execution-proven repair correctness"
+}

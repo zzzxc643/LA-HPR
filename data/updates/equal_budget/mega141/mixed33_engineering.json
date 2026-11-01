@@ -1,0 +1,909 @@
+[
+  {
+    "sample_id": "review155_002",
+    "source_sample_id": "megavul_217659",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "0145685bda6878d7a5991808fadd89b4f97af1335ac78c77acb97b64c46a5aac",
+    "selected_cand_id": 2
+  },
+  {
+    "sample_id": "review155_003",
+    "source_sample_id": "megavul_236526",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "6cd17020bd98b75187f65151d6e3f047f39bafa739298cf1258f066ae300a858",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_004",
+    "source_sample_id": "megavul_279769",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "68392db4949d56728bf255d8af3fc9c38343dd52ab24c62f7a3f3eb2ef893c8d",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_005",
+    "source_sample_id": "megavul_279866",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "7bf0e2b7f0b558ed67bd49fb7d889dfda93062437d7776b7f640bac04fd9e6d1",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_006",
+    "source_sample_id": "megavul_279869",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "f775a4462b38d3c3352867eb4d87523d75a3664551a0be7ffe6638bf9abdcf6a",
+    "selected_cand_id": 2
+  },
+  {
+    "sample_id": "review155_007",
+    "source_sample_id": "megavul_279870",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "9ef3b5eda6dc9d7830f928775118d28b953ed61cf05d8ae0b9f269c296ffed6b",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "review155_010",
+    "source_sample_id": "megavul_53754",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_011",
+    "source_sample_id": "megavul_106252",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_018",
+    "source_sample_id": "megavul_107658",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_019",
+    "source_sample_id": "megavul_110556",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_023",
+    "source_sample_id": "megavul_114603",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "8d858728aa3ecf9e48771bafa614f1662d81ba33d818195a3af33792757874c5",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "review155_026",
+    "source_sample_id": "megavul_114606",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_027",
+    "source_sample_id": "megavul_114607",
+    "status": "compiler_rejected",
+    "patch_sha256": "a98ab851ed496e27d3ef715e85b05d4b393e95306cdab753c84067f99797ce9c",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_029",
+    "source_sample_id": "megavul_119514",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "dfcadfffa22410d62fa98c17c1119a7ce3ff4487b4855bfaa212ab87d9da8558",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "review155_031",
+    "source_sample_id": "megavul_119594",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "1d86c398b732d47b1a3a264692c8e92ceb6e1b2358920ec27190e5420416b3b4",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_032",
+    "source_sample_id": "megavul_119625",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "94ce29f4f78ab42a07e41e10ca97696aa8ac450a9899f769eb5078793e1ec072",
+    "selected_cand_id": 3
+  },
+  {
+    "sample_id": "review155_033",
+    "source_sample_id": "megavul_121788",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_034",
+    "source_sample_id": "megavul_123637",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "bfc946fa3573a415f1d3d44856f6fddbd3da98c286b87e26def0456c138ba71f",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_035",
+    "source_sample_id": "megavul_125509",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_036",
+    "source_sample_id": "megavul_125511",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_037",
+    "source_sample_id": "megavul_128478",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "85f4655cb25b785e4309a790e50ed7eb7d3d0710d01be2d0855f85a6d557856f",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_038",
+    "source_sample_id": "megavul_130727",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_039",
+    "source_sample_id": "megavul_130728",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_040",
+    "source_sample_id": "megavul_134885",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_041",
+    "source_sample_id": "megavul_134886",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_042",
+    "source_sample_id": "megavul_134887",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_044",
+    "source_sample_id": "megavul_1501",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "4ccf886dd1a5bec37f768c0f79a2d8573bc17414473a630362c784058a677de3",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_045",
+    "source_sample_id": "megavul_153113",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "0a13d3f479a9c496a848fdecaf13139838c5ff7d3fad9d2027a238cb86bd1163",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_050",
+    "source_sample_id": "megavul_176538",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "2fceb78c05ffcaf62e285886a483ca5cab1ee177cced28007dc98ae3c0d19eca",
+    "selected_cand_id": 6
+  },
+  {
+    "sample_id": "review155_051",
+    "source_sample_id": "megavul_176539",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "a7fe321767a3e7aee07b3a784e54cb50467934df777d3f6d3f1b36ce2ab31870",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_052",
+    "source_sample_id": "megavul_17685",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "2e0d6c335a2fb0306b1a3603f987057ab772a21e7ad0db18a492974fd076517f",
+    "selected_cand_id": 6
+  },
+  {
+    "sample_id": "review155_053",
+    "source_sample_id": "megavul_180069",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "aab29f895d96fe74eadd49a84e9f2d8fd6c5df55ef9d99def71651b155171a12",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_056",
+    "source_sample_id": "megavul_182116",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "f93f6ace27f23895322230247aecfcce24f959db4f29986bb0bb923d77960c4c",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "review155_057",
+    "source_sample_id": "megavul_182117",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "ddbe3b2fbed17b94db7220d51ffca5943afd2c2e6888b0640cffa980e64c68dd",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "review155_062",
+    "source_sample_id": "megavul_200026",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_063",
+    "source_sample_id": "megavul_200252",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "89308cb2444d77a12714ae3d0fb5b76687ad8e71653926dcb4020a263f06a547",
+    "selected_cand_id": 3
+  },
+  {
+    "sample_id": "review155_065",
+    "source_sample_id": "megavul_204828",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_066",
+    "source_sample_id": "megavul_211084",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "a6f1e5a18b2fd301d1ee28dd542a411fdcdeb310a82bc6059d16b66230fa89f7",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_067",
+    "source_sample_id": "megavul_213732",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_068",
+    "source_sample_id": "megavul_218634",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "6def98ac8f284a578083ce305efc2a9b95fce2578517aba8d90235d4569ce102",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_069",
+    "source_sample_id": "megavul_219534",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "38cbadd7320aa2ab4b3ab576934ab940be44204bdbcd849f4cdaec8e0e0adfb6",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_070",
+    "source_sample_id": "megavul_220640",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_071",
+    "source_sample_id": "megavul_222347",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_079",
+    "source_sample_id": "megavul_23802",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "fea9ba5d1ede5d0c395c8439cdb5cab0cd980e35b318cab9525789810afb6b06",
+    "selected_cand_id": 3
+  },
+  {
+    "sample_id": "review155_080",
+    "source_sample_id": "megavul_249309",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_081",
+    "source_sample_id": "megavul_249410",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "acd73c547cb27c244a770c59efe1872bf8ce3bae0b28738aa46ca4c214aa91ec",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_082",
+    "source_sample_id": "megavul_249411",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "44cb9b473511db40024cab4a47681b0972982bd4fd1aeeeec8b8c3e591bdbaf5",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_083",
+    "source_sample_id": "megavul_249412",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "b938ef47f0e7c4dd2198b7d6984435ec35117a61d557d03504767b76902241ee",
+    "selected_cand_id": 3
+  },
+  {
+    "sample_id": "review155_084",
+    "source_sample_id": "megavul_249475",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "05bf5522113afd429745cb143e32f01ef558cc20ad033b09140075008fea2465",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "review155_085",
+    "source_sample_id": "megavul_250567",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "6a7739716990cac2a6d9836090a6fb042d0f48585707043ba05751f44720b0e1",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_086",
+    "source_sample_id": "megavul_261667",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "01eae4a5eef11dba9d68790a1da704040fece17a6c4d31f422ec616247242727",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_087",
+    "source_sample_id": "megavul_261681",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "da4a69c6b21a49aa1c2b2e13cc7a1c8aca6f781881d2db4e73d139db46945ed0",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_089",
+    "source_sample_id": "megavul_268159",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "c9e39cd5f90d2fc4a70bd8e2dc6f9b78982cd2081b5b0bafac81e673be42b268",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_090",
+    "source_sample_id": "megavul_27436",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "388c989adf410491682d772231cf7c8a58a65086f02e822f76b3d2f71cd31289",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "review155_091",
+    "source_sample_id": "megavul_274727",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "241fa8bf7f7c338534d2e07a018ce1f764a60b930788fb0e37be2cdc7e74877b",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "review155_092",
+    "source_sample_id": "megavul_277338",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_094",
+    "source_sample_id": "megavul_290805",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_096",
+    "source_sample_id": "megavul_292455",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "bf04612c9d0e7604f1e21978f3e4d4375e0df1442613ea46567e57910d1c37c4",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_097",
+    "source_sample_id": "megavul_294585",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "7f247d03115f82899430e048ae05bcbea972d08dd95a4d687a57d474520977c1",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_099",
+    "source_sample_id": "megavul_324191",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_100",
+    "source_sample_id": "megavul_334849",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_101",
+    "source_sample_id": "megavul_334851",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_102",
+    "source_sample_id": "megavul_339683",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_103",
+    "source_sample_id": "megavul_339720",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_105",
+    "source_sample_id": "megavul_42646",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_106",
+    "source_sample_id": "megavul_45602",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "8b875a3013c882010e0eda4766bb937e5948193d002bbeb4596f2d77eafab64f",
+    "selected_cand_id": 3
+  },
+  {
+    "sample_id": "review155_110",
+    "source_sample_id": "megavul_55171",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "c317814801aa552af84bb0ff476718997e92825eab205adf1ecc1dac3d033bb0",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_111",
+    "source_sample_id": "megavul_55179",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "fff507a0cc58eaa90312a08d9f688652c4dc8282a5762bdffd9cfb5915742bf2",
+    "selected_cand_id": 2
+  },
+  {
+    "sample_id": "review155_112",
+    "source_sample_id": "megavul_55180",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "9c91c1829e81d04eec4fb61a340747fab0f77d158e9bed37b739debb97230352",
+    "selected_cand_id": 3
+  },
+  {
+    "sample_id": "review155_113",
+    "source_sample_id": "megavul_55196",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "a3f676fea83d04ddde99b6be023ebe941dcf3003867bf00c50968b2262635906",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_114",
+    "source_sample_id": "megavul_55200",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "878a43e221b2dd79906237d8375892dc8c28dd17843d0a6d16ae9d3467cafc87",
+    "selected_cand_id": 6
+  },
+  {
+    "sample_id": "review155_115",
+    "source_sample_id": "megavul_55209",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "ab30567612281839ec02be47f4d213d2c1a07e600037b461fa3adfa5701b195b",
+    "selected_cand_id": 3
+  },
+  {
+    "sample_id": "review155_116",
+    "source_sample_id": "megavul_55213",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "5f7c56658c6927acf7824bd73aa6a0abb38604be471d34525a41c67eae7408b8",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_117",
+    "source_sample_id": "megavul_55217",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "0b06ccc97fdff9db848112808dc80350faacc497b5930b64160889e1741ecfb1",
+    "selected_cand_id": 6
+  },
+  {
+    "sample_id": "review155_118",
+    "source_sample_id": "megavul_55227",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "a82f4cd2603938f7e1dfbf194b0d035cc9c243f9391643e626881f91fd48fd9d",
+    "selected_cand_id": 6
+  },
+  {
+    "sample_id": "review155_119",
+    "source_sample_id": "megavul_55235",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "f54c4737dab1b2995a2048b3e1e045aef12c0e0adcc7ff43e4db31d59c9d8d7e",
+    "selected_cand_id": 6
+  },
+  {
+    "sample_id": "review155_120",
+    "source_sample_id": "megavul_56381",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "05831f9a547287ebf4a3a2422f2fed869d33beedf8f0f9d4123ed59449f66b26",
+    "selected_cand_id": 2
+  },
+  {
+    "sample_id": "review155_121",
+    "source_sample_id": "megavul_64309",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "57d2417d80f264ffba0db6bfb2e298873f98b2af62f9ced0c216207d7ccb713f",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_122",
+    "source_sample_id": "megavul_64392",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "c74cf3142daa76f8da8b1545ea4f772361ff92d0cd6e278009c6b0cb448008fb",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_124",
+    "source_sample_id": "megavul_69283",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "b6d41b0ae56040c25a11676b6eea9116add5554b9c68b8edbd57201a4a1f4fc8",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "review155_125",
+    "source_sample_id": "megavul_69284",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "8a0ffed7eef38d644edd6105fee2695dda3ba9adbba260544b654497b1e7d1f9",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_126",
+    "source_sample_id": "megavul_69285",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "28283ff60e66077fe9b880eb07c5c5c60debef2e1db5a1ab952bd3f749684921",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_127",
+    "source_sample_id": "megavul_82205",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "881c5c9fc97764ea667063fbf1eae9251ac35c2e0f17b0d4d5a1007b427d001a",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "review155_128",
+    "source_sample_id": "megavul_82373",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "02f504f6dea07e4181165f160a9e1921dfa507ed7e0d608ad7b67a73b21e0233",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_129",
+    "source_sample_id": "megavul_84248",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_130",
+    "source_sample_id": "megavul_89905",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "b4915f99cba34c3b1901d97eceb2bcf3075520bb42a6dce8399dbd79934270fb",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_131",
+    "source_sample_id": "megavul_89937",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "0c5772292700ef82a238825622729f301758a61f7b2a27aefb4bedd3d1005dd1",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_132",
+    "source_sample_id": "megavul_89960",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "3b6e45aea59b9d52b8cc120e1f7e083b8b3ab4757f0ab23988297be2eb1ded98",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_133",
+    "source_sample_id": "megavul_90020",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "ed0f16925a7a584fe4c3a16685c74c0593cacadf2238bf247f050c523af61982",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_134",
+    "source_sample_id": "megavul_90035",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "994bda336003d703b656e4cb06fc9412f2763e33078a64961a3940129718df5a",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_135",
+    "source_sample_id": "megavul_90043",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "ac958f00df65241cef35d40eef81ffbe61c2fdaba93759d1a989a7db0e5e3f83",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_136",
+    "source_sample_id": "megavul_90047",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "1e07baa6492a06e1025b7938a49a0bfa5334eca5ddc53f2ef86cccd8d28e4c1d",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_137",
+    "source_sample_id": "megavul_90083",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "c6bed17ef10ae8e900af79ae3441fbaa543f389a7ddfc7f52d5b4df3fd277b71",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_138",
+    "source_sample_id": "megavul_90101",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "b5dd10385d5b9d5e1dd2fbc1b4392f50417bb1f2b85d7a41324efd90eeb8a5af",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "review155_139",
+    "source_sample_id": "megavul_90670",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "review155_140",
+    "source_sample_id": "megavul_90673",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "97cd1b0ada257c9e8bb36ffb618c52fa8a895da6d0a46d24594e02d990952cee",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_141",
+    "source_sample_id": "megavul_97344",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "d6b5feab7dccbd32cd717dc37603014370da70561a9ba00dfd55e79d8fb0ee43",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "review155_142",
+    "source_sample_id": "megavul_97357",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "megavul_add_116636",
+    "source_sample_id": "megavul_116636",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "megavul_add_209179",
+    "source_sample_id": "megavul_209179",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "82144b5e226a869515c396a5a874d2bfca13a64d170a93caf804cd2c68dec1ae",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "megavul_add_209187",
+    "source_sample_id": "megavul_209187",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "f9c28c2d623a8476c6067de0b550d415d6775965745a1eed3177de19ab31d9d4",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "megavul_add_209188",
+    "source_sample_id": "megavul_209188",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "megavul_add_8110",
+    "source_sample_id": "megavul_8110",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "megavul_add_8124",
+    "source_sample_id": "megavul_8124",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "6f6b0695eecfbdbdbd00343c39907a6b97670dbcfa9aff0abe8628d127306af6",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_8125",
+    "source_sample_id": "megavul_8125",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "afb48de36cb963870128634d38e6bac296907ce8c0805894e2d121c59809f91a",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "megavul_add_8126",
+    "source_sample_id": "megavul_8126",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "acc6dff57da739b17e921e6415a88bc09d64b8802e0c722c708959bb96deb02e",
+    "selected_cand_id": 2
+  },
+  {
+    "sample_id": "megavul_add_8145",
+    "source_sample_id": "megavul_8145",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "0a53ac09b262a80d08157f3c70b57c09f5b0c8d64ad1b4b4c70c74a57500c50b",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_102858",
+    "source_sample_id": "megavul_102858",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "301ca9e810de0b54ca4336e931ba8a2f68439e69275c9044140836a83b416fbe",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "megavul_add_102861",
+    "source_sample_id": "megavul_102861",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "cbb291b8b65017534dafdcda0b848fc1b22d9807d32a1430118cc02434431969",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "megavul_add_102871",
+    "source_sample_id": "megavul_102871",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "ab35e3045a5405ddd69bc74612a466a85d655c18d33f971a628ee3871930b35e",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_109083",
+    "source_sample_id": "megavul_109083",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "d4ca3a52d1f779367ac7615a7948bed3952c8f1f44ed152ce69b14fc0dea5f53",
+    "selected_cand_id": 6
+  },
+  {
+    "sample_id": "megavul_add_11700",
+    "source_sample_id": "megavul_11700",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "7185150c0a25d09c5fa2eb5a687c2d45869b0c95698b18bdabaa8295c81fd1d7",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "megavul_add_130446",
+    "source_sample_id": "megavul_130446",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "8ee698a9a81e7735786c048c547a3cdd5c266391438c3346526621c181966876",
+    "selected_cand_id": 3
+  },
+  {
+    "sample_id": "megavul_add_14314",
+    "source_sample_id": "megavul_14314",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "d2175c04d5d1222ac0958bb69efbde8d811720bfe824cf0c492f9b9f298016d4",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_152205",
+    "source_sample_id": "megavul_152205",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "megavul_add_179300",
+    "source_sample_id": "megavul_179300",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "megavul_add_18036",
+    "source_sample_id": "megavul_18036",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "10c968cf8fe64054fb6493ffcb262a78b6aeff8b3e9ce85f9bab6c3c48e037f5",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_220660",
+    "source_sample_id": "megavul_220660",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "aafe69692228e72588a9329bd41ebae0c0073e89ad847b743280d99bf2184196",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_234608",
+    "source_sample_id": "megavul_234608",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "a1f4ae36a2e4ef1d7bf17f2d7e58629748da24070d16081fe2ae8838458cd7fd",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "megavul_add_237523",
+    "source_sample_id": "megavul_237523",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "megavul_add_237542",
+    "source_sample_id": "megavul_237542",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "2534b7886c88623e99275c49c99cbf08659debf3c7516bfca622537cce55f424",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_237545",
+    "source_sample_id": "megavul_237545",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "8fc2cfb376e283bcc62f4d3d0bb5308114d7835481dd75a8ec823391c9411b55",
+    "selected_cand_id": 6
+  },
+  {
+    "sample_id": "megavul_add_261448",
+    "source_sample_id": "megavul_261448",
+    "status": "compiler_rejected",
+    "patch_sha256": "d28f2c9967fbb15760caf55dc189b3646c612274248a7d1c78196ee9d81c2a60",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_261449",
+    "source_sample_id": "megavul_261449",
+    "status": "compiler_rejected",
+    "patch_sha256": "398c9a165cea424e86e44d8c5fe671feceed31578d31e74af54486e2f56856ee",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_261450",
+    "source_sample_id": "megavul_261450",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "224aa8c38e516f590d3c8353d8f71fc8663e66839abff168cca00dfa0e691998",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "megavul_add_261451",
+    "source_sample_id": "megavul_261451",
+    "status": "compiler_rejected",
+    "patch_sha256": "7087924b6520b58c33c1a8ebfbaeb600d7a0267800203bb57f0cba02e54829d7",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_261452",
+    "source_sample_id": "megavul_261452",
+    "status": "compiler_rejected",
+    "patch_sha256": "4f17862bb9757796bcc604501ad37a5785c75380f10360ee8d7b9e130725063d",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_261453",
+    "source_sample_id": "megavul_261453",
+    "status": "compiler_rejected",
+    "patch_sha256": "34b3b34eb55122679a2e321fc41ab9831adb04d9bf5569e89a10b45b23aa6511",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_265435",
+    "source_sample_id": "megavul_265435",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "dc4ab249b029655dab393342535cf7cd8532120b7a7f62be5641df7b2cf81dae",
+    "selected_cand_id": 4
+  },
+  {
+    "sample_id": "megavul_add_270666",
+    "source_sample_id": "megavul_270666",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "e4ea9e94c1ff7a486df0a760a3e58cbae5ab1153ea60a869189fc875154edb5e",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "megavul_add_270667",
+    "source_sample_id": "megavul_270667",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "megavul_add_277399",
+    "source_sample_id": "megavul_277399",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "952798c3072f3f368b822c16cb937644015740bbec64713d52916bfd7d4b11b9",
+    "selected_cand_id": 2
+  },
+  {
+    "sample_id": "megavul_add_277400",
+    "source_sample_id": "megavul_277400",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "ce34953c2e0a07d28d70acddee4e081b4e77236eb1eb2977b6a7f1e83d035ef2",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "megavul_add_301275",
+    "source_sample_id": "megavul_301275",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "f893883fb73d86c3e8667a44ccfb821c043f99515040a2d63fc1b7f92f102bcc",
+    "selected_cand_id": 6
+  },
+  {
+    "sample_id": "megavul_add_313564",
+    "source_sample_id": "megavul_313564",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "megavul_add_322928",
+    "source_sample_id": "megavul_322928",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "megavul_add_339020",
+    "source_sample_id": "megavul_339020",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "1fa5b824be6087df362320dec3eee9621edf4b92ca33b3a69c1c823dc14c76c7",
+    "selected_cand_id": 5
+  },
+  {
+    "sample_id": "megavul_add_339695",
+    "source_sample_id": "megavul_339695",
+    "status": "no_recommendation"
+  },
+  {
+    "sample_id": "megavul_add_65945",
+    "source_sample_id": "megavul_65945",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "3d674420f45603fb4f36128151e589eb346cd73f0972c6675ac7cc1bd55f563e",
+    "selected_cand_id": 1
+  },
+  {
+    "sample_id": "megavul_add_71587",
+    "source_sample_id": "megavul_71587",
+    "status": "compiler_rejected",
+    "patch_sha256": "330396c4a56f09c022b4e82ab4a5a473adb6ad1dd4184e8122a03386c00e478f",
+    "selected_cand_id": 2
+  },
+  {
+    "sample_id": "megavul_add_90148",
+    "source_sample_id": "megavul_90148",
+    "status": "candidate_compile_pass",
+    "patch_sha256": "974ff8350beb78917ffabd1a2274446938f5081697a4258bfc2792e70e660102",
+    "selected_cand_id": 1
+  }
+]

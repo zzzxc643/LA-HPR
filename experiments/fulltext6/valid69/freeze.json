@@ -1,0 +1,58 @@
+{
+  "protocol": "vulrepair_style_fulltext6_20261028_v1",
+  "n": 69,
+  "seed": 42,
+  "inputs": {
+    "path": "inputs_pool.jsonl",
+    "sha256": "2efc98a56fe71aa0f77a855d4f698ee0f28883337019c184c59c8fdb34e49025"
+  },
+  "scripts": {
+    "path": "reports/vulrepair_style_fulltext6_20261028_v1/scripts",
+    "sha256": {
+      "audit_full_context_budget.py": "489b803b8715f99dfb8bf84885abe56199509727675bfe7cc892b9b61d811420",
+      "full_context_baselines.py": "c9c2aea70f9eff4fb47192f55ae2fdeca146309629e39dcb8c1f3777832334fb",
+      "local_candidate_judge.py": "92c979581879090c981c5eac2e4f1eb0bacfcd51c913a9a5d0445895206d149d",
+      "normalize_singleline_candidates.py": "9bcfaa953d4a80494192d9d787c0d7f3bd7f9d5a16d8dd44e12493d92f56837b",
+      "prepare_singleline_pools.py": "43cb237636e6be92eb657f43e1932762baeb6025fd567c3b9c5ad3dce7dbc776",
+      "review_singleline_pools.py": "821921549f9f12cb3547fc6ea030ecdd254d13ea496546060c474bd2ed528b1f",
+      "run_formal_singleline.py": "e3812c28c30ce1065fa4147a0fd209f3db979f8aedc30ccc65f65f3efb7ba111",
+      "singleline_repair.py": "9e2c0f425f5cf9628168dbcfa2b3c9a704808eb930318de5fe340a2e6ebf201d",
+      "summarize_singleline_review.py": "7c888577df9c9390c5765dd04f016025c179e8bf1fd044902c64c25ec4d8c867",
+      "train_singleline.py": "409941f65e70fc6d01298c731880ccdf4b8bb9a2803522b3430ad867d4568a53"
+    }
+  },
+  "runtime_sha256": {
+    "generate.py": "a1ab847b6f4646c2e561f2ea0ed6145c41836a95e8c5f36dbc635486bed3ade0",
+    "legacy_review.py": "73fe5abfede2feb121ed08c6a116a81975fefc9e9099a525fab735c74f44e7cc",
+    "orchestrate.py": "60d1e3112d2783b31ea6c7a55d4256b39ec3370a1621f32aeae1060e2f26272b",
+    "review.py": "8416ebbd085259bbf907b331d1b762b006b0a56407a955809b4831b76ecda375"
+  },
+  "arms": {
+    "original_fulltext": {
+      "model_path": "reports/local_singleline_v1/full_baselines_20261017/original_fulltext/model",
+      "model_kind": "seq2seq",
+      "input_mode": "fulltext",
+      "max_input_tokens": 4096,
+      "max_new_tokens": 4096,
+      "generation": {
+        "num_beams": 6,
+        "num_return_sequences": 6,
+        "do_sample": false
+      },
+      "precision": "float32",
+      "checkpoint_files_sha256": {
+        "config.json": "6225c5561f8840f68df214bfb60ec7db49cad3d917d3d5dbbc6bccb12cbcee8e",
+        "generation_config.json": "a6bb986b85b6ee926c8ba3e6d0e2e9e1afd4577c0ad65e6507325e98e9f594d4",
+        "merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "model.safetensors": "61e174041aa84c9deffbfb1d01e5684f3bc49436b35cb5ecf261b2d6301a5d68",
+        "special_tokens_map.json": "d756de5800e2f3b2643436ed5a8cdc2bc7b7a8598986bd372fd9c374e6303e03",
+        "tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "tokenizer_config.json": "55eeb309abcec5111c962e4e112cf67292316ab7c53cabee2de7bcefb42c3ccf",
+        "vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e"
+      },
+      "pretrained_model": "Salesforce/codet5p-220m",
+      "revision": "2b92f36e2782341a50551759fdba0dd15e821f99"
+    }
+  },
+  "references_available": false
+}

@@ -1,0 +1,45 @@
+{
+  "group": "seed6",
+  "n": 57,
+  "complete": true,
+  "successful_samples": 28,
+  "reviewed_samples": 44,
+  "no_syntax_valid_candidate": 13,
+  "status_counts": {
+    "valid": 44,
+    "no_syntax_valid_candidate": 13
+  },
+  "unresolved_errors": 0,
+  "all_fail_samples": 15,
+  "uncertain_without_pass_samples": 1,
+  "syntax_validity": 0.7719298245614035,
+  "llm_sfr": 0.49122807017543857,
+  "static_pass_lower_bound": 0.49122807017543857,
+  "candidate_verdicts": {
+    "PASS": 45,
+    "FAIL": 98,
+    "UNCERTAIN": 8
+  },
+  "selected_sources": {
+    "seed": 28
+  },
+  "selected_arms": {
+    "seed6": 28
+  },
+  "render_errors": {
+    "Invalid control character at: line 3 column 21 (char 52)": 10,
+    "Invalid control character at: line 3 column 19 (char 48)": 2
+  },
+  "input_budget_exceeded": 0,
+  "unique_requests": 44,
+  "planned_requests": 44,
+  "api_attempts": 44,
+  "usage": {
+    "prompt_tokens": 85389,
+    "completion_tokens": 11553,
+    "total_tokens": 96942
+  },
+  "model": "qwen3.8-max-0902",
+  "reference_opened": false,
+  "metric": "Qwen static review pass rate; not execution-proven repair correctness"
+}

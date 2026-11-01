@@ -1,0 +1,64 @@
+{
+  "total_cases": 57,
+  "controls_finished": 57,
+  "controls_status_counts": {
+    "controls_pass": 57
+  },
+  "methods": {
+    "action_full": {
+      "samples": 14,
+      "candidate_status_counts": {
+        "candidate_compile_pass": 12,
+        "compiler_rejected": 2
+      }
+    },
+    "action_local_matched": {
+      "samples": 19,
+      "candidate_status_counts": {
+        "candidate_compile_pass": 19
+      }
+    },
+    "codet5_local": {
+      "samples": 16,
+      "candidate_status_counts": {
+        "candidate_compile_pass": 15,
+        "compiler_rejected": 1
+      }
+    },
+    "combined": {
+      "samples": 30,
+      "candidate_status_counts": {
+        "candidate_compile_pass": 28,
+        "compiler_rejected": 2
+      }
+    },
+    "mixed33_equal_budget": {
+      "samples": 57,
+      "candidate_status_counts": {
+        "candidate_compile_pass": 29,
+        "compiler_rejected": 3
+      }
+    },
+    "original_fulltext": {
+      "samples": 15,
+      "candidate_status_counts": {
+        "candidate_compile_pass": 15
+      }
+    },
+    "seed": {
+      "samples": 22,
+      "candidate_status_counts": {
+        "candidate_compile_pass": 19,
+        "compiler_rejected": 3
+      }
+    },
+    "seed6_equal_budget": {
+      "samples": 57,
+      "candidate_status_counts": {
+        "candidate_compile_pass": 24,
+        "compiler_rejected": 4
+      }
+    }
+  },
+  "note": "All candidate passes are diagnostics, not system recommendation success."
+}

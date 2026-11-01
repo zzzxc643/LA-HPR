@@ -1,0 +1,2 @@
+# Streaming reconstruction of the 2.67 GB MegaVul JSON array.
+ijson==3.4.0

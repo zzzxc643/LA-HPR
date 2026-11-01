@@ -6,6 +6,16 @@
 
 This repository contains frozen evaluation records, split metadata and CPU-only reconstruction/verification tools for C/C++ single-line vulnerability repair. Source functions are reconstructed from the official PrimeVul v0.1 release using commit IDs and SHA-256 hashes.
 
+## 2026-11-01 更新
+
+已追加 MegaVul 141 对、原 Prime57 的 Clang20 全覆盖、等候选数量对照与全函数 beam6 补充基线。完整结果和口径见 [追加实验记录](EXPERIMENTS.md)。原始发布数据保留，追加数据位于 `data/updates/`。
+
+Docker 镜像提供无卡核验、Clang20 工程基础环境和 PyTorch/CUDA 软件栈，见 [镜像与运行方法](CONTAINERS.md)。训练权重暂不公开。
+
+```bash
+docker run --rm ghcr.io/zzzxc643/c-cpp-singleline-vulnerability-repair:verify-20261101
+```
+
 ## 数据与主要结果
 
 | 数据 | Train | Valid | Test | 用途 |

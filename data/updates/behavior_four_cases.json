@@ -1,0 +1,48 @@
+{
+  "status": "complete",
+  "execution": "local Docker",
+  "runner": {
+    "frozen_sha256": "93e72812c8430c6b411f390a21d70f9740cd9492a5942a76836df8f50c353aa5",
+    "executed_sha256": "e67961fe01da12e7671f9acf63932b863c533c591b67c96142f295fb0c32b674",
+    "gpac_context_fix": "Installed the frozen gpac_config.h as config.h and compiled GPAC with GPAC_HAVE_CONFIG_H; no candidate or test scenario was changed"
+  },
+  "evidence": {
+    "summary_sha256": "678623e6f00b48f5ae21cb13306c3ba7c0c7a0323c6ef17bc3ad1dd42bc85e05",
+    "case_results_sha256": "764cc2ad8295e713a9c8b0cd665c8bbcb558f5b89fec97e7e6c1591d182cdb83"
+  },
+  "samples": 4,
+  "valid_control_samples": 4,
+  "groups": {
+    "seed6": {
+      "passes_targeted_cases": 1,
+      "fails_targeted_cases": 3
+    },
+    "mixed33": {
+      "passes_targeted_cases": 2,
+      "fails_targeted_cases": 2
+    }
+  },
+  "cases": [
+    {
+      "case_id": "gpac_hint",
+      "seed6": "fails_targeted_cases",
+      "mixed33": "passes_targeted_cases"
+    },
+    {
+      "case_id": "ghostpdl_rle",
+      "seed6": "fails_targeted_cases",
+      "mixed33": "fails_targeted_cases"
+    },
+    {
+      "case_id": "php_dynamic",
+      "seed6": "passes_targeted_cases",
+      "mixed33": "passes_targeted_cases"
+    },
+    {
+      "case_id": "uftpd_port",
+      "seed6": "fails_targeted_cases",
+      "mixed33": "fails_targeted_cases"
+    }
+  ],
+  "scope": "Purposive function-level feasibility subset. These four samples are not a behavioral success rate for all 57 Prime57 rows and are not end-to-end CVE or project regression tests."
+}

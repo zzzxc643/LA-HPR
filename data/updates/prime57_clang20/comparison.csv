@@ -1,0 +1,7 @@
+﻿group,n,static_pass,engineering_accepted,engineering_accepted_fraction,strict_single_line_engineering_accepted
+codet5_local,57,16,15,0.2631578947368421,15
+seed,57,22,19,0.3333333333333333,18
+original_fulltext,57,15,15,0.2631578947368421,13
+action_full,57,14,12,0.21052631578947367,12
+action_local_matched,57,19,19,0.3333333333333333,19
+combined,57,30,28,0.49122807017543857,27

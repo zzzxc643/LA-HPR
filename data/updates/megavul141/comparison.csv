@@ -1,0 +1,7 @@
+﻿group,n,generation_render_valid,generation_syntax_valid,static_pass,engineering_accepted,final_exact_text,final_exact_tokens,raw_candidate_any_exact_text,raw_candidate_any_exact_tokens
+codet5_local,141,132,119,41,40,8,9,8,9
+seed,141,140,134,92,85,6,18,7,20
+original_fulltext,141,135,132,18,17,2,2,2,2
+action_full,141,133,125,43,38,4,4,8,8
+action_local_matched,141,141,129,55,55,8,8,10,10
+combined,141,141,139,100,92,10,21,13,25

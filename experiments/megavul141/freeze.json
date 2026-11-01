@@ -1,0 +1,186 @@
+{
+  "protocol": "megavul_frozen_model_repair_20261022_v1",
+  "n": 141,
+  "seed": 42,
+  "frozen_utc": "2026-10-22T10:41:44.729542+00:00",
+  "inputs": {
+    "path": "inputs_pool.jsonl",
+    "sha256": "692236829db5166e5d0f3ec580a2d077fe8a0d16a9c3cc1814ab5989ee11f772"
+  },
+  "scripts": {
+    "path": "scripts",
+    "sha256": {
+      "full_context_baselines.py": "c9c2aea70f9eff4fb47192f55ae2fdeca146309629e39dcb8c1f3777832334fb",
+      "audit_full_context_budget.py": "489b803b8715f99dfb8bf84885abe56199509727675bfe7cc892b9b61d811420",
+      "train_singleline.py": "409941f65e70fc6d01298c731880ccdf4b8bb9a2803522b3430ad867d4568a53",
+      "singleline_repair.py": "9e2c0f425f5cf9628168dbcfa2b3c9a704808eb930318de5fe340a2e6ebf201d",
+      "normalize_singleline_candidates.py": "9bcfaa953d4a80494192d9d787c0d7f3bd7f9d5a16d8dd44e12493d92f56837b",
+      "prepare_singleline_pools.py": "43cb237636e6be92eb657f43e1932762baeb6025fd567c3b9c5ad3dce7dbc776",
+      "run_formal_singleline.py": "e3812c28c30ce1065fa4147a0fd209f3db979f8aedc30ccc65f65f3efb7ba111",
+      "review_singleline_pools.py": "821921549f9f12cb3547fc6ea030ecdd254d13ea496546060c474bd2ed528b1f",
+      "local_candidate_judge.py": "92c979581879090c981c5eac2e4f1eb0bacfcd51c913a9a5d0445895206d149d",
+      "summarize_singleline_review.py": "7c888577df9c9390c5765dd04f016025c179e8bf1fd044902c64c25ec4d8c867"
+    }
+  },
+  "runtime_sha256": {
+    "generate.py": "9be2e83a0e670b2989164fc4725feda122f9010b141a783ce2a3cd971a05ac08",
+    "orchestrate.py": "2907341d1ecd6f059c1b0271ae12a59880d956e7b4ca855f19f09995f383a1a4",
+    "prepare_protocol.py": "8e39de2f19cb2889649d0da0c042c4d186faa70e941cd3e8aa8b83b7fa28d45e",
+    "review.py": "73fe5abfede2feb121ed08c6a116a81975fefc9e9099a525fab735c74f44e7cc"
+  },
+  "arms": {
+    "codet5_local": {
+      "model_path": "reports/local_singleline_v1/codet5_local_20261017/model",
+      "model_kind": "seq2seq",
+      "input_mode": "local",
+      "max_input_tokens": 1024,
+      "max_new_tokens": 128,
+      "generation": {
+        "num_beams": 3,
+        "num_return_sequences": 3,
+        "do_sample": false
+      },
+      "checkpoint_files_sha256": {
+        "config.json": "6225c5561f8840f68df214bfb60ec7db49cad3d917d3d5dbbc6bccb12cbcee8e",
+        "generation_config.json": "a6bb986b85b6ee926c8ba3e6d0e2e9e1afd4577c0ad65e6507325e98e9f594d4",
+        "model.safetensors": "ac89310834ff441ffd3ea6d4d5d0acfde1ecc7660ad48d2b2e85689cdc07915c",
+        "tokenizer_config.json": "55eeb309abcec5111c962e4e112cf67292316ab7c53cabee2de7bcefb42c3ccf",
+        "special_tokens_map.json": "d756de5800e2f3b2643436ed5a8cdc2bc7b7a8598986bd372fd9c374e6303e03",
+        "vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2"
+      },
+      "pretrained_model": "Salesforce/codet5p-220m",
+      "revision": "2b92f36e2782341a50551759fdba0dd15e821f99"
+    },
+    "seed": {
+      "model_path": ".cache/huggingface/hub/models--ByteDance-Seed--Seed-Coder-8B-Instruct/snapshots/1c5af72afa21c22c9272a0b60a3a404195e88fcd",
+      "model_kind": "causal",
+      "input_mode": "local",
+      "max_input_tokens": 4096,
+      "max_new_tokens": 256,
+      "generation": {
+        "num_beams": 3,
+        "num_return_sequences": 3,
+        "do_sample": false
+      },
+      "checkpoint_files_sha256": {
+        "config.json": "9a6c5786fc0b0216200e50b6c09a49fab433391fd96969dac38dc0b81c20dc62",
+        "generation_config.json": "db66fc557ca882bc2b58cfccf298c18862d7f8208eca3e9813cbba7d9424367c",
+        "model-00001-of-00004.safetensors": "af5134c872b72a12b637887937ea68f923bc176611dc18b26c5acf352541dbf6",
+        "model-00002-of-00004.safetensors": "e018869a85191dbf78bb513400ef3b2ebce27106d2e3ca126c340c1822e356f0",
+        "model-00003-of-00004.safetensors": "3fda397eea66078499d63a9b0b9909e04898a35621b65c14061692db1fd1e28f",
+        "model-00004-of-00004.safetensors": "110ec982f64de471c09e08da7ce68fb7afd06b64f252d3ba161d01ebf71687c4",
+        "model.safetensors.index.json": "8b4937aa0edd26233125db5f227ddfb58b4279f93a72129380d96175dba28cb5",
+        "special_tokens_map.json": "5f4cead5fd1f998d32773af36510f881e618622290cb34247d078583f894606f",
+        "tokenizer.json": "db6520146c388c495a98bbea62ff6d00c0a8935bed33622e33bb33ec71aaafed",
+        "tokenizer_config.json": "70619d417f245f73378250ae88e4bf96c9b12140e93e49175da330b5f3e05e44"
+      },
+      "pretrained_model": "ByteDance-Seed/Seed-Coder-8B-Instruct",
+      "revision": "1c5af72afa21c22c9272a0b60a3a404195e88fcd"
+    },
+    "original_fulltext": {
+      "model_path": "reports/local_singleline_v1/full_baselines_20261017/original_fulltext/model",
+      "model_kind": "seq2seq",
+      "input_mode": "fulltext",
+      "max_input_tokens": 4096,
+      "max_new_tokens": 4096,
+      "generation": {
+        "num_beams": 3,
+        "num_return_sequences": 3,
+        "do_sample": false
+      },
+      "checkpoint_files_sha256": {
+        "config.json": "6225c5561f8840f68df214bfb60ec7db49cad3d917d3d5dbbc6bccb12cbcee8e",
+        "generation_config.json": "a6bb986b85b6ee926c8ba3e6d0e2e9e1afd4577c0ad65e6507325e98e9f594d4",
+        "model.safetensors": "61e174041aa84c9deffbfb1d01e5684f3bc49436b35cb5ecf261b2d6301a5d68",
+        "tokenizer_config.json": "55eeb309abcec5111c962e4e112cf67292316ab7c53cabee2de7bcefb42c3ccf",
+        "special_tokens_map.json": "d756de5800e2f3b2643436ed5a8cdc2bc7b7a8598986bd372fd9c374e6303e03",
+        "vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2"
+      },
+      "pretrained_model": "Salesforce/codet5p-220m",
+      "revision": "2b92f36e2782341a50551759fdba0dd15e821f99"
+    },
+    "action_full": {
+      "model_path": "reports/local_singleline_v1/full_baselines_20261017/action_full/model",
+      "model_kind": "seq2seq",
+      "input_mode": "full",
+      "max_input_tokens": 4096,
+      "max_new_tokens": 128,
+      "generation": {
+        "num_beams": 3,
+        "num_return_sequences": 3,
+        "do_sample": false
+      },
+      "checkpoint_files_sha256": {
+        "config.json": "6225c5561f8840f68df214bfb60ec7db49cad3d917d3d5dbbc6bccb12cbcee8e",
+        "generation_config.json": "a6bb986b85b6ee926c8ba3e6d0e2e9e1afd4577c0ad65e6507325e98e9f594d4",
+        "model.safetensors": "8aa35875c496358c45635d30bce958c0d4366f5a54a4f6040d45cf46ca2764c0",
+        "tokenizer_config.json": "55eeb309abcec5111c962e4e112cf67292316ab7c53cabee2de7bcefb42c3ccf",
+        "special_tokens_map.json": "d756de5800e2f3b2643436ed5a8cdc2bc7b7a8598986bd372fd9c374e6303e03",
+        "vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2"
+      },
+      "pretrained_model": "Salesforce/codet5p-220m",
+      "revision": "2b92f36e2782341a50551759fdba0dd15e821f99"
+    },
+    "action_local_matched": {
+      "model_path": "reports/local_singleline_v1/full_baselines_20261017/action_local_matched/model",
+      "model_kind": "seq2seq",
+      "input_mode": "local",
+      "max_input_tokens": 1024,
+      "max_new_tokens": 128,
+      "generation": {
+        "num_beams": 3,
+        "num_return_sequences": 3,
+        "do_sample": false
+      },
+      "checkpoint_files_sha256": {
+        "config.json": "6225c5561f8840f68df214bfb60ec7db49cad3d917d3d5dbbc6bccb12cbcee8e",
+        "generation_config.json": "a6bb986b85b6ee926c8ba3e6d0e2e9e1afd4577c0ad65e6507325e98e9f594d4",
+        "model.safetensors": "f2afd923263b1f194886531b6f7ea906c581c14a585b6bf536af14208e6ac91a",
+        "tokenizer_config.json": "55eeb309abcec5111c962e4e112cf67292316ab7c53cabee2de7bcefb42c3ccf",
+        "special_tokens_map.json": "d756de5800e2f3b2643436ed5a8cdc2bc7b7a8598986bd372fd9c374e6303e03",
+        "vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2"
+      },
+      "pretrained_model": "Salesforce/codet5p-220m",
+      "revision": "2b92f36e2782341a50551759fdba0dd15e821f99"
+    }
+  },
+  "settings": {
+    "judge": {
+      "model": "qwen3.8-max-0902",
+      "pools_sha256": "9764a1f2d8fdfa21dacf8758272015509865202e342e32bbbc1b2e5ca47c14d2",
+      "tokenizer": null,
+      "context_limit": 1000000,
+      "budget_method": "utf8_byte_upper_bound_plus_4096",
+      "enable_thinking": false,
+      "max_output_tokens": 3072,
+      "script_sha256": "821921549f9f12cb3547fc6ea030ecdd254d13ea496546060c474bd2ed528b1f",
+      "judge_module_sha256": "92c979581879090c981c5eac2e4f1eb0bacfcd51c913a9a5d0445895206d149d"
+    }
+  },
+  "relationship_audit_sha256": "5cbaee58a5d6313965f817f9b3f489c5dfa6185db7b837232c930d180fc50d82",
+  "historical_protocol_sha256": {
+    "formal": "551e34bcd4c0432241265e44104de95b2b1a9d92db206594d68fd2e1265fbf9c",
+    "baselines": "710f5d2954d95a38afdbd8e48545120886b5ab1e852751aff53da0bb417a1406"
+  },
+  "model_training_started": false,
+  "reference_files_available_to_generation": false,
+  "requires_remote_seed_snapshot_hashes": false,
+  "all_case_denominator": 141,
+  "evaluation_policy": "Freeze all generated outputs before reference exact-match evaluation; no model-output-based exclusions; compile acceptance and static review are distinct.",
+  "remote_frozen_utc": "2026-10-22T10:43:19.129729+00:00",
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+    "reported_vram_mib": 32760
+  },
+  "execution_authorized": "User authorized new remote and parallel model repair experiments on 2026-10-22",
+  "scheduling": "seed BF16 plus at most one FP32 CodeT5; six API review workers",
+  "reference_files_uploaded": false
+}

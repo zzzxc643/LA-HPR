@@ -1,0 +1,122 @@
+{
+  "protocol": "original57_existing_recommendations_clang20_recheck_v1",
+  "n": 57,
+  "frozen_utc": "2026-10-22T11:19:28.601871+00:00",
+  "inputs_sha256": "eb370ad0df6289daac27dbb270bbc08007e7545b577daff6f86ca166098e3777",
+  "references_sha256": "a1688ac6ba9b617866267f4c64eb79986d0ee1b469d32f341d2bfe0ef2052ee8",
+  "cases_sha256": "11902662635c296baabbe7a8c8dfce170232836f5949197c47b1f654e5450f17",
+  "source_manifest_sha256": "5819cfa3bdd16e4dd053b496e77dd1983251a0b8e7a2bb6e2d5ad9d80483bb94",
+  "selection_sha256": {
+    "codet5_local": "3c85dafcc82f89d71847b037905ed7fe1a3e9be562c5c844a62b60c79ccee3f5",
+    "seed": "3efbbd460d58a480740ee67d9f3d9cf44322a8cbaafbe0b7f655e87939323ba7",
+    "original_fulltext": "53a30aced1cd1cf368ff2bf9d56d280ede34d81f40babd354c7c5a12491e04e8",
+    "action_full": "2c71fa8e3c0586523fabab02c49aa966ca3c9b84a8bc85a04de355ded44670fb",
+    "action_local_matched": "be8d2275b3fec0fef8f9b391c34ad999e1f1acd3cbb89f504f32a1182cde6690",
+    "combined": "f4460317273c4bf2283086e4c4e41bb9cb00a5de5b0d330bf60686bde1882aa1"
+  },
+  "groups": {
+    "codet5_local": {
+      "source_results": "reports/local_singleline_v1/independent_sources_20261017/codet5/results.json",
+      "source_results_sha256": "3c85dafcc82f89d71847b037905ed7fe1a3e9be562c5c844a62b60c79ccee3f5",
+      "source_pools_sha256": "6ccd8a9807feb333844cac823a105eff3ca095fec743a5a10a19f3c9f66ef468",
+      "source_freeze_sha256": "9446664f8c793f66e67760bf9464074f9914b85f1a45d8ee379300f8492f87dc",
+      "n": 57,
+      "static_pass": 16,
+      "status_counts": {
+        "valid": 41,
+        "no_syntax_valid_candidate": 16
+      },
+      "original_static_evaluation_preserved": true
+    },
+    "seed": {
+      "source_results": "reports/local_singleline_v1/independent_sources_20261017/seed/results.json",
+      "source_results_sha256": "3efbbd460d58a480740ee67d9f3d9cf44322a8cbaafbe0b7f655e87939323ba7",
+      "source_pools_sha256": "d0b9ce1aead4cc905b3a7e6b3e659e65387557451b88531b2f3c6010c4e1c0ad",
+      "source_freeze_sha256": "b81356d500fd0c3190bc5a88e17935349015a7112abd77254c89d290bba59805",
+      "n": 57,
+      "static_pass": 22,
+      "status_counts": {
+        "no_syntax_valid_candidate": 14,
+        "valid": 43
+      },
+      "original_static_evaluation_preserved": true
+    },
+    "original_fulltext": {
+      "source_results": "reports/local_singleline_v1/full_baselines_20261017/original_fulltext/test/results.json",
+      "source_results_sha256": "53a30aced1cd1cf368ff2bf9d56d280ede34d81f40babd354c7c5a12491e04e8",
+      "source_pools_sha256": "3fe078d5f9378c9f98b7ca480feb2d0095799bd76057e369670db3744fff09b3",
+      "source_freeze_sha256": "db15e02ed6257ce2855217106dc88549267f5e3af385486f2432796ad8ca0753",
+      "n": 57,
+      "static_pass": 15,
+      "status_counts": {
+        "valid": 43,
+        "no_syntax_valid_candidate": 14
+      },
+      "original_static_evaluation_preserved": true
+    },
+    "action_full": {
+      "source_results": "reports/local_singleline_v1/full_baselines_20261017/action_full/test/results.json",
+      "source_results_sha256": "2c71fa8e3c0586523fabab02c49aa966ca3c9b84a8bc85a04de355ded44670fb",
+      "source_pools_sha256": "7d21dbac87dddb0006617394bdb8ec97e19d4eeaec708db04b2735222f8ffdae",
+      "source_freeze_sha256": "ab65e399a2e466c355e68cca9a4619b0002c06aad29c6670b242618f1d855b62",
+      "n": 57,
+      "static_pass": 14,
+      "status_counts": {
+        "valid": 40,
+        "no_syntax_valid_candidate": 17
+      },
+      "original_static_evaluation_preserved": true
+    },
+    "action_local_matched": {
+      "source_results": "reports/local_singleline_v1/full_baselines_20261017/action_local_matched/test/results.json",
+      "source_results_sha256": "be8d2275b3fec0fef8f9b391c34ad999e1f1acd3cbb89f504f32a1182cde6690",
+      "source_pools_sha256": "0d95a83fef0d9cfd0208ea5fd1a6d6cf23835507f3e6b3f2642b8f6719c09af5",
+      "source_freeze_sha256": "da4c80487807e75bede73264d725ac4a9d6a536be911343ad0347a8569cbcb87",
+      "n": 57,
+      "static_pass": 19,
+      "status_counts": {
+        "valid": 41,
+        "no_syntax_valid_candidate": 16
+      },
+      "original_static_evaluation_preserved": true
+    },
+    "combined": {
+      "source_results": "reports/local_singleline_v1/formal_test_singleline_20261017/results.json",
+      "source_results_sha256": "f4460317273c4bf2283086e4c4e41bb9cb00a5de5b0d330bf60686bde1882aa1",
+      "source_pools_sha256": "b8e1dfb7e3a8f3719ad20fcbff43d7f6fb88bb9a6b06bc1dfd984f2b7a7682ea",
+      "source_freeze_sha256": "551e34bcd4c0432241265e44104de95b2b1a9d92db206594d68fd2e1265fbf9c",
+      "n": 57,
+      "static_pass": 30,
+      "status_counts": {
+        "valid": 46,
+        "no_syntax_valid_candidate": 11
+      },
+      "original_static_evaluation_preserved": true
+    }
+  },
+  "historical_discrepancies": [],
+  "comparison141_sha256": {
+    "FINAL_VALIDATION.json": "38030da73fbe67856ab18548611795aa38bcc1e99f12116e83a459ca8e388040",
+    "SUMMARY.json": "b701e9031957458b0697dc1f4f152e779b49fb13bb431aafec0ecde46ca06d11",
+    "freeze.json": "caba203091d4f6d5ec21cde557458fb07f815a7349809846cf35e5ce55c46e60"
+  },
+  "original_splits": {
+    "train": 451,
+    "valid": 69,
+    "test": 57
+  },
+  "original_splits_changed": false,
+  "old_context_counts": {
+    "first_parent": 54,
+    "fix_snapshot": 3
+  },
+  "models_run": false,
+  "api_calls": 0,
+  "new_static_evaluation": false,
+  "new_compiler_check_scope": "Recheck original57 and their already selected patches in the same Clang20.1.2 container as141; preserve old outputs and report compiler outcomes separately.",
+  "target_container_id": "c478076959af5f09886edee373aa307596ac7174bbe3085ae8b4ebd75a483b4c",
+  "target_container_image": "sha256:8973c91e68a56273197c176a2594cdaf7c3f0533adeb4b81b84209866efc3eac",
+  "target_compiler_version": "20.1.2",
+  "old_compiler_version": "14",
+  "preparation_script_sha256": "a568de34b71dd7d9b35ad9725768f64e1ed3e6b6244ee70f531556d90d4da839"
+}

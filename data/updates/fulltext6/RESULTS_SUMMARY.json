@@ -1,0 +1,84 @@
+{
+  "status": "complete",
+  "baseline": "CodeT5+ full-function adapted baseline inspired by VulRepair; not official VulRepair reproduction",
+  "protocol_sha256": "9ada85f71e7e09acff5b08beb1f2148a30f48e963f62fbe1ba758813ec4dbc5d",
+  "additional_training": false,
+  "credentials_persisted": false,
+  "cohorts": [
+    {
+      "cohort": "valid69",
+      "n": 69,
+      "input_budget_exceeded": 5,
+      "samples_with_syntax_valid": 53,
+      "static_selected": 18,
+      "static_pass_rate": 0.2608695652173913,
+      "selection_errors": 1,
+      "inference_seconds": 1135.3453112393618,
+      "returned_output_tokens": 380103,
+      "judge_usage": {
+        "prompt_tokens": 112913,
+        "completion_tokens": 17476,
+        "total_tokens": 130389
+      },
+      "generation_sha256": "b87d2f3b6020d6174c54d511e3cdfe28a5011fbf3832d2fb9fee8a0066018d08",
+      "review_sha256": "14975d47b38f81de829613c09dfcd739a4d88be604df5296b1cca604aaf1522d"
+    },
+    {
+      "cohort": "prime57",
+      "n": 57,
+      "input_budget_exceeded": 9,
+      "samples_with_syntax_valid": 43,
+      "static_selected": 20,
+      "static_pass_rate": 0.3508771929824561,
+      "selection_errors": 1,
+      "inference_seconds": 653.2549280039966,
+      "returned_output_tokens": 221140,
+      "judge_usage": {
+        "prompt_tokens": 73936,
+        "completion_tokens": 14354,
+        "total_tokens": 88290
+      },
+      "generation_sha256": "30c69fbe1711555e76e398b669efe198735bb644c0fd9658f385626264bda101",
+      "review_sha256": "a935b11ad17bc406e162623c3bdfaec7385cc33b554509d034203e1ba27dcf20",
+      "engineering_accepted": 19,
+      "engineering_pass_rate": 0.3333333333333333,
+      "engineering_status_counts": {
+        "no_recommendation": 36,
+        "candidate_compile_pass": 19,
+        "selection_error": 1,
+        "compiler_rejected": 1
+      },
+      "engineering_summary_sha256": "21ddb440346610f6b51ccd64b57ba790af41d8a5a634926dc64c60277a1786c5",
+      "engineering_audit_sha256": "4b59b8daa2c80e94cd8b254bc9c324ecf67d4c0142220c1bba2f7de5d6ccccd1"
+    },
+    {
+      "cohort": "mega141",
+      "n": 141,
+      "input_budget_exceeded": 6,
+      "samples_with_syntax_valid": 134,
+      "static_selected": 52,
+      "static_pass_rate": 0.36879432624113473,
+      "selection_errors": 0,
+      "inference_seconds": 1538.5400612726808,
+      "returned_output_tokens": 518781,
+      "judge_usage": {
+        "prompt_tokens": 222157,
+        "completion_tokens": 43004,
+        "total_tokens": 265161
+      },
+      "generation_sha256": "3ca82a680d1c0e3b1a8ef5013adbbd357412e56902f871fec8dc41c29e4e5ed0",
+      "review_sha256": "38dcad010d4318086ac43c5b059261a9ee0d0130c8b39f25674e7da4a5f72876",
+      "engineering_accepted": 48,
+      "engineering_pass_rate": 0.3404255319148936,
+      "engineering_status_counts": {
+        "candidate_compile_pass": 48,
+        "no_recommendation": 89,
+        "compiler_rejected": 4
+      },
+      "engineering_summary_sha256": "49be64e431716a73e01e8c182619d3f72c88ad43e3ba6623662577fc6b750c31",
+      "engineering_audit_sha256": "58494ba50bfdabbd54f1b840a8a59a474c3a4e814b705bdbc516358b0528f8b1"
+    }
+  ],
+  "interpretation": "Supplemental comparison on previously observed cohorts; engineering acceptance does not establish vulnerability removal",
+  "comparison_caveat": "Existing Mixed33 local checkpoint trained on451; new matched416 mixed run required to claim equal training data"
+}

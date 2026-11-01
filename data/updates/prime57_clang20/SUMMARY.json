@@ -1,0 +1,1010 @@
+{
+  "state": "complete",
+  "audit_complete": true,
+  "full_environment_coverage": true,
+  "n": 57,
+  "controls_pass": 57,
+  "controls_status_counts": {
+    "controls_pass": 57
+  },
+  "controls_pass_snapshot_counts": {
+    "verified_first_parent": 54,
+    "verified_upstream_fixed_with_original_function_backfilled": 3
+  },
+  "blocked_cases": [],
+  "groups": {
+    "codet5_local": {
+      "n": 57,
+      "static_pass": 16,
+      "engineering_accepted": 15,
+      "engineering_accepted_fraction": 0.2631578947368421,
+      "strict_single_line_engineering_accepted": 15,
+      "selected_environment_unavailable": 0,
+      "selected_compiler_rejected": 1,
+      "selected_function_shape_rejected": 0,
+      "selected_activation_failed": 0,
+      "status_counts": {
+        "candidate_compile_pass": 15,
+        "no_recommendation": 41,
+        "compiler_rejected": 1
+      }
+    },
+    "seed": {
+      "n": 57,
+      "static_pass": 22,
+      "engineering_accepted": 19,
+      "engineering_accepted_fraction": 0.3333333333333333,
+      "strict_single_line_engineering_accepted": 18,
+      "selected_environment_unavailable": 0,
+      "selected_compiler_rejected": 3,
+      "selected_function_shape_rejected": 0,
+      "selected_activation_failed": 0,
+      "status_counts": {
+        "no_recommendation": 35,
+        "candidate_compile_pass": 19,
+        "compiler_rejected": 3
+      }
+    },
+    "original_fulltext": {
+      "n": 57,
+      "static_pass": 15,
+      "engineering_accepted": 15,
+      "engineering_accepted_fraction": 0.2631578947368421,
+      "strict_single_line_engineering_accepted": 13,
+      "selected_environment_unavailable": 0,
+      "selected_compiler_rejected": 0,
+      "selected_function_shape_rejected": 0,
+      "selected_activation_failed": 0,
+      "status_counts": {
+        "no_recommendation": 42,
+        "candidate_compile_pass": 15
+      }
+    },
+    "action_full": {
+      "n": 57,
+      "static_pass": 14,
+      "engineering_accepted": 12,
+      "engineering_accepted_fraction": 0.21052631578947367,
+      "strict_single_line_engineering_accepted": 12,
+      "selected_environment_unavailable": 0,
+      "selected_compiler_rejected": 2,
+      "selected_function_shape_rejected": 0,
+      "selected_activation_failed": 0,
+      "status_counts": {
+        "candidate_compile_pass": 12,
+        "no_recommendation": 43,
+        "compiler_rejected": 2
+      }
+    },
+    "action_local_matched": {
+      "n": 57,
+      "static_pass": 19,
+      "engineering_accepted": 19,
+      "engineering_accepted_fraction": 0.3333333333333333,
+      "strict_single_line_engineering_accepted": 19,
+      "selected_environment_unavailable": 0,
+      "selected_compiler_rejected": 0,
+      "selected_function_shape_rejected": 0,
+      "selected_activation_failed": 0,
+      "status_counts": {
+        "candidate_compile_pass": 19,
+        "no_recommendation": 38
+      }
+    },
+    "combined": {
+      "n": 57,
+      "static_pass": 30,
+      "engineering_accepted": 28,
+      "engineering_accepted_fraction": 0.49122807017543857,
+      "strict_single_line_engineering_accepted": 27,
+      "selected_environment_unavailable": 0,
+      "selected_compiler_rejected": 2,
+      "selected_function_shape_rejected": 0,
+      "selected_activation_failed": 0,
+      "status_counts": {
+        "candidate_compile_pass": 28,
+        "no_recommendation": 27,
+        "compiler_rejected": 2
+      }
+    }
+  },
+  "compiler_version": "20.1.2",
+  "same_container_as141": true,
+  "container_id": "c478076959af5f09886edee373aa307596ac7174bbe3085ae8b4ebd75a483b4c",
+  "image": "sha256:8973c91e68a56273197c176a2594cdaf7c3f0533adeb4b81b84209866efc3eac",
+  "engineering_audit": {
+    "controls_status_counts": {
+      "controls_pass": 57
+    },
+    "selected_unique_candidate_caches": 69,
+    "selected_cache_activation_scopes": {
+      "Function body and all lines with added substantive tokens; pure deletion hunks check a surviving boundary, not direct activation of removed tokens.": 69
+    },
+    "source_restoration_verified_by_checker_audit": true
+  },
+  "model_runs": 0,
+  "api_calls": 0,
+  "clang_location_audit": {
+    "clang_ast_role_definitions": 6,
+    "accepted_clang_ast_candidates": 0,
+    "macro_role_definitions": 2,
+    "definitions": [
+      {
+        "sample_id": "e4cd225557486c420f6a34411f98c575effd43dd_275249025528691740507199336736969659771",
+        "role": "original",
+        "actual_name": "vidioc_querycap",
+        "macro": false
+      },
+      {
+        "sample_id": "e4cd225557486c420f6a34411f98c575effd43dd_275249025528691740507199336736969659771",
+        "role": "reference",
+        "actual_name": "vidioc_querycap",
+        "macro": false
+      },
+      {
+        "sample_id": "9904cb6d2eb40f679d8ff6557c22d53a3e3dc75a_334241185700640959176375322270000746009",
+        "role": "original",
+        "actual_name": "irc_protocol_cb_352",
+        "macro": true
+      },
+      {
+        "sample_id": "9904cb6d2eb40f679d8ff6557c22d53a3e3dc75a_334241185700640959176375322270000746009",
+        "role": "reference",
+        "actual_name": "irc_protocol_cb_352",
+        "macro": true
+      },
+      {
+        "sample_id": "0971c7a4e537ea120a6bb2195960be8d0815e97b_172194519756788339453675041357999010208",
+        "role": "original",
+        "actual_name": "ins_bs",
+        "macro": false
+      },
+      {
+        "sample_id": "0971c7a4e537ea120a6bb2195960be8d0815e97b_172194519756788339453675041357999010208",
+        "role": "reference",
+        "actual_name": "ins_bs",
+        "macro": false
+      }
+    ]
+  },
+  "build_migration_audit": {
+    "migrated_cases": 20,
+    "sample_ids": [
+      "9e39d0ae44595dbd1570805d97c9c874778a6be8_85612271673629964630565572694774133988",
+      "a3727a8bac0a9e77c70820655fd8715523ba3db7_244235637020461368565337014513482216980",
+      "5934d9a0383619c14df91af8fd76261dc3de2f5f_131319443934908040237061712028017051028",
+      "47abea041f897d64dbd5777f0cf7745148f85d75_178631003172617197260225259743936148137",
+      "1680939e9ecf7764fba8689cfb3429c2fe2bb23c_150406368149549050043918111917098327944",
+      "cefa91b2332d7009bc0be5d951d6cbbf349f90f8_66009891447134933026284929915758254537",
+      "328fc47ea0bcc27d9afa69c3ad6e52431cadd76c_46314924383394303871242635983086014836",
+      "a2d859e3fc97e79d907761550dbc03ff1b36479c_215335113411495657240056321729109595636",
+      "e4cd225557486c420f6a34411f98c575effd43dd_275249025528691740507199336736969659771",
+      "35bf0b7b048d715f671eb68974fb6b4af6528c67_170997267947585139967201027163993257008",
+      "c79ba87153ee343401dbe9d1954d7f79e521eb14_264434210200699405161022303469799474263",
+      "a09d2d00af53b43c6f11e6ab3cb58443c2cac8a7_295091935056220827099180820590433673308",
+      "144849ea27230962227e62a943b399e2ab304787_49390769000512777763270194535836546170",
+      "ab0fc21bc7105b54bafd85bd8b82742f9e68898a_67846125552854891508125900978071958871",
+      "08d7b00c0a5a20926363849f611729f53f3ec022_115004012549325804010611397133680502113",
+      "15691e456c7dc9bd6be203b09765b063bf4a380c_189506316609912057332068378278926028013",
+      "68867bf01239d9e1048f98cbad185bf4761bedd3_251567762309539032923316029186493191559",
+      "e4571b8c5e9ffa1e85c0c671995bd4dcc5c75091_109862119097507194285189243526662049352",
+      "6b400e3147dcfd8cc3a393ace1bd118c93762e0c_209191742971544690982165605152005956873",
+      "b3c3291f0b7c1623cb20663f7cf31b7f749768bc_336982129080685152460431545851496461461"
+    ],
+    "kernel_configuration_cases": 10,
+    "rows": [
+      {
+        "sample_id": "9e39d0ae44595dbd1570805d97c9c874778a6be8_85612271673629964630565572694774133988",
+        "project": "server",
+        "fatal_warning_options": [],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "genuine_regenerated_project_configuration",
+        "redundant_format_child_suppressions": []
+      },
+      {
+        "sample_id": "a3727a8bac0a9e77c70820655fd8715523ba3db7_244235637020461368565337014513482216980",
+        "project": "linux",
+        "fatal_warning_options": [
+          "-Werror=date-time",
+          "-Werror=implicit-function-declaration",
+          "-Werror=implicit-int",
+          "-Werror=incompatible-pointer-types",
+          "-Werror=return-type",
+          "-Werror=strict-prototypes",
+          "-Werror=unknown-warning-option"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "restored_historical_kbuild_features",
+        "redundant_format_child_suppressions": [],
+        "toolchain_configuration_differences": {
+          "CONFIG_CC_HAS_ZERO_CALL_USED_REGS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CLANG_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_AS_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_VERSION_TEXT": {
+            "before": "\"Ubuntu clang version 14.0.0-1ubuntu1.1\"",
+            "after": "\"Ubuntu clang version 20.1.2 (0ubuntu1~24.04.3)\""
+          },
+          "CONFIG_LD_VERSION": {
+            "before": "23800",
+            "after": "24200"
+          }
+        }
+      },
+      {
+        "sample_id": "5934d9a0383619c14df91af8fd76261dc3de2f5f_131319443934908040237061712028017051028",
+        "project": "linux",
+        "fatal_warning_options": [
+          "-Werror",
+          "-Werror=date-time",
+          "-Werror=ignored-optimization-argument",
+          "-Werror=implicit-function-declaration",
+          "-Werror=implicit-int",
+          "-Werror=incompatible-pointer-types",
+          "-Werror=return-type",
+          "-Werror=strict-prototypes",
+          "-Werror=unknown-warning-option"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "restored_historical_kbuild_features",
+        "redundant_format_child_suppressions": [
+          "-Wno-format-overflow",
+          "-Wno-format-truncation"
+        ],
+        "toolchain_configuration_differences": {
+          "CONFIG_CC_HAS_ZERO_CALL_USED_REGS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CLANG_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_HAS_RANDSTRUCT": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CC_HAS_RETURN_THUNK": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CC_HAS_SLS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_AS_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_VERSION_TEXT": {
+            "before": "\"Ubuntu clang version 14.0.0-1ubuntu1.1\"",
+            "after": "\"Ubuntu clang version 20.1.2 (0ubuntu1~24.04.3)\""
+          },
+          "CONFIG_PAHOLE_VERSION": {
+            "before": "125",
+            "after": "0"
+          },
+          "CONFIG_LD_VERSION": {
+            "before": "23800",
+            "after": "24200"
+          }
+        }
+      },
+      {
+        "sample_id": "47abea041f897d64dbd5777f0cf7745148f85d75_178631003172617197260225259743936148137",
+        "project": "linux",
+        "fatal_warning_options": [
+          "-Werror",
+          "-Werror=date-time",
+          "-Werror=ignored-optimization-argument",
+          "-Werror=implicit-function-declaration",
+          "-Werror=implicit-int",
+          "-Werror=incompatible-pointer-types",
+          "-Werror=return-type",
+          "-Werror=strict-prototypes",
+          "-Werror=unknown-warning-option"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "restored_historical_kbuild_features",
+        "redundant_format_child_suppressions": [
+          "-Wno-format-overflow",
+          "-Wno-format-truncation"
+        ],
+        "toolchain_configuration_differences": {
+          "CONFIG_CC_HAS_ZERO_CALL_USED_REGS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CLANG_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_HAS_RANDSTRUCT": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CC_HAS_RETURN_THUNK": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CC_HAS_SLS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_AS_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_VERSION_TEXT": {
+            "before": "\"Ubuntu clang version 14.0.0-1ubuntu1.1\"",
+            "after": "\"Ubuntu clang version 20.1.2 (0ubuntu1~24.04.3)\""
+          },
+          "CONFIG_PAHOLE_VERSION": {
+            "before": "125",
+            "after": "0"
+          },
+          "CONFIG_LD_VERSION": {
+            "before": "23800",
+            "after": "24200"
+          }
+        }
+      },
+      {
+        "sample_id": "1680939e9ecf7764fba8689cfb3429c2fe2bb23c_150406368149549050043918111917098327944",
+        "project": "linux",
+        "fatal_warning_options": [
+          "-Werror",
+          "-Werror=date-time",
+          "-Werror=ignored-optimization-argument",
+          "-Werror=implicit-function-declaration",
+          "-Werror=implicit-int",
+          "-Werror=incompatible-pointer-types",
+          "-Werror=return-type",
+          "-Werror=strict-prototypes",
+          "-Werror=unknown-warning-option"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "restored_historical_kbuild_features",
+        "redundant_format_child_suppressions": [
+          "-Wno-format-overflow",
+          "-Wno-format-truncation"
+        ],
+        "toolchain_configuration_differences": {
+          "CONFIG_CC_HAS_ZERO_CALL_USED_REGS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CLANG_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_HAS_SLS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_AS_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_VERSION_TEXT": {
+            "before": "\"Ubuntu clang version 14.0.0-1ubuntu1.1\"",
+            "after": "\"Ubuntu clang version 20.1.2 (0ubuntu1~24.04.3)\""
+          },
+          "CONFIG_PAHOLE_VERSION": {
+            "before": "125",
+            "after": "0"
+          },
+          "CONFIG_LD_VERSION": {
+            "before": "23800",
+            "after": "24200"
+          }
+        }
+      },
+      {
+        "sample_id": "cefa91b2332d7009bc0be5d951d6cbbf349f90f8_66009891447134933026284929915758254537",
+        "project": "linux",
+        "fatal_warning_options": [
+          "-Werror",
+          "-Werror=date-time",
+          "-Werror=ignored-optimization-argument",
+          "-Werror=implicit-function-declaration",
+          "-Werror=implicit-int",
+          "-Werror=incompatible-pointer-types",
+          "-Werror=return-type",
+          "-Werror=strict-prototypes",
+          "-Werror=unknown-warning-option"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "restored_historical_kbuild_features",
+        "redundant_format_child_suppressions": [
+          "-Wno-format-overflow",
+          "-Wno-format-truncation"
+        ],
+        "toolchain_configuration_differences": {
+          "CONFIG_CC_HAS_ZERO_CALL_USED_REGS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CLANG_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_HAS_SLS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_AS_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_VERSION_TEXT": {
+            "before": "\"Ubuntu clang version 14.0.0-1ubuntu1.1\"",
+            "after": "\"Ubuntu clang version 20.1.2 (0ubuntu1~24.04.3)\""
+          },
+          "CONFIG_PAHOLE_VERSION": {
+            "before": "125",
+            "after": "0"
+          },
+          "CONFIG_LD_VERSION": {
+            "before": "23800",
+            "after": "24200"
+          }
+        }
+      },
+      {
+        "sample_id": "328fc47ea0bcc27d9afa69c3ad6e52431cadd76c_46314924383394303871242635983086014836",
+        "project": "linux-2.6",
+        "fatal_warning_options": [
+          "-Werror-implicit-function-declaration"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "restored_historical_kbuild_features",
+        "redundant_format_child_suppressions": [],
+        "toolchain_configuration_differences": {}
+      },
+      {
+        "sample_id": "a2d859e3fc97e79d907761550dbc03ff1b36479c_215335113411495657240056321729109595636",
+        "project": "linux",
+        "fatal_warning_options": [
+          "-Werror=date-time",
+          "-Werror=ignored-optimization-argument",
+          "-Werror=implicit-function-declaration",
+          "-Werror=implicit-int",
+          "-Werror=incompatible-pointer-types",
+          "-Werror=return-type",
+          "-Werror=strict-prototypes",
+          "-Werror=unknown-warning-option"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "restored_historical_kbuild_features",
+        "redundant_format_child_suppressions": [],
+        "toolchain_configuration_differences": {
+          "CONFIG_CC_HAS_ZERO_CALL_USED_REGS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CLANG_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_AS_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_VERSION_TEXT": {
+            "before": "\"Ubuntu clang version 14.0.0-1ubuntu1.1\"",
+            "after": "\"Ubuntu clang version 20.1.2 (0ubuntu1~24.04.3)\""
+          },
+          "CONFIG_LD_VERSION": {
+            "before": "23800",
+            "after": "24200"
+          }
+        }
+      },
+      {
+        "sample_id": "e4cd225557486c420f6a34411f98c575effd43dd_275249025528691740507199336736969659771",
+        "project": "v4l2loopback",
+        "fatal_warning_options": [
+          "-Werror=date-time",
+          "-Werror=ignored-optimization-argument",
+          "-Werror=implicit-function-declaration",
+          "-Werror=implicit-int",
+          "-Werror=return-type",
+          "-Werror=strict-prototypes",
+          "-Werror=unknown-warning-option"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "genuine_regenerated_project_configuration",
+        "redundant_format_child_suppressions": []
+      },
+      {
+        "sample_id": "35bf0b7b048d715f671eb68974fb6b4af6528c67_170997267947585139967201027163993257008",
+        "project": "booth",
+        "fatal_warning_options": [
+          "-Werror"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "genuine_autotools_make_gnu23",
+        "redundant_format_child_suppressions": []
+      },
+      {
+        "sample_id": "c79ba87153ee343401dbe9d1954d7f79e521eb14_264434210200699405161022303469799474263",
+        "project": "tensorflow",
+        "fatal_warning_options": [],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "genuine_regenerated_project_configuration",
+        "redundant_format_child_suppressions": []
+      },
+      {
+        "sample_id": "a09d2d00af53b43c6f11e6ab3cb58443c2cac8a7_295091935056220827099180820590433673308",
+        "project": "linux",
+        "fatal_warning_options": [
+          "-Werror=date-time",
+          "-Werror=ignored-optimization-argument",
+          "-Werror=implicit-function-declaration",
+          "-Werror=implicit-int",
+          "-Werror=incompatible-pointer-types",
+          "-Werror=return-type",
+          "-Werror=strict-prototypes",
+          "-Werror=unknown-warning-option"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "restored_historical_kbuild_features",
+        "redundant_format_child_suppressions": [],
+        "toolchain_configuration_differences": {
+          "CONFIG_LD_IS_BFD": {
+            "before": "y",
+            "after": null
+          },
+          "CONFIG_CC_HAS_RANDSTRUCT": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_LLD_VERSION": {
+            "before": "0",
+            "after": "200102"
+          },
+          "CONFIG_LD_IS_LLD": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_AS_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_TOOLS_SUPPORT_RELR": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CC_VERSION_TEXT": {
+            "before": "\"Ubuntu clang version 14.0.0-1ubuntu1.1\"",
+            "after": "\"Ubuntu clang version 20.1.2 (0ubuntu1~24.04.3)\""
+          },
+          "CONFIG_PAHOLE_VERSION": {
+            "before": "125",
+            "after": "0"
+          },
+          "CONFIG_CLANG_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_LD_VERSION": {
+            "before": "23800",
+            "after": "0"
+          }
+        }
+      },
+      {
+        "sample_id": "144849ea27230962227e62a943b399e2ab304787_49390769000512777763270194535836546170",
+        "project": "xserver",
+        "fatal_warning_options": [
+          "-Werror=address",
+          "-Werror=array-bounds",
+          "-Werror=implicit",
+          "-Werror=init-self",
+          "-Werror=int-to-pointer-cast",
+          "-Werror=main",
+          "-Werror=missing-braces",
+          "-Werror=nonnull",
+          "-Werror=pointer-to-int-cast",
+          "-Werror=return-type",
+          "-Werror=sequence-point",
+          "-Werror=trigraphs",
+          "-Werror=write-strings"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "genuine_regenerated_project_configuration",
+        "redundant_format_child_suppressions": []
+      },
+      {
+        "sample_id": "ab0fc21bc7105b54bafd85bd8b82742f9e68898a_67846125552854891508125900978071958871",
+        "project": "linux",
+        "fatal_warning_options": [
+          "-Werror=date-time",
+          "-Werror=ignored-optimization-argument",
+          "-Werror=implicit-function-declaration",
+          "-Werror=implicit-int",
+          "-Werror=incompatible-pointer-types",
+          "-Werror=return-type",
+          "-Werror=strict-prototypes",
+          "-Werror=unknown-warning-option"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "restored_historical_kbuild_features",
+        "redundant_format_child_suppressions": [],
+        "toolchain_configuration_differences": {
+          "CONFIG_CC_HAS_ZERO_CALL_USED_REGS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_CLANG_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_HAS_SLS": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_AS_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_CC_VERSION_TEXT": {
+            "before": "\"Ubuntu clang version 14.0.0-1ubuntu1.1\"",
+            "after": "\"Ubuntu clang version 20.1.2 (0ubuntu1~24.04.3)\""
+          },
+          "CONFIG_LD_VERSION": {
+            "before": "23800",
+            "after": "24200"
+          }
+        }
+      },
+      {
+        "sample_id": "08d7b00c0a5a20926363849f611729f53f3ec022_115004012549325804010611397133680502113",
+        "project": "tensorflow",
+        "fatal_warning_options": [],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "genuine_regenerated_project_configuration",
+        "redundant_format_child_suppressions": []
+      },
+      {
+        "sample_id": "15691e456c7dc9bd6be203b09765b063bf4a380c_189506316609912057332068378278926028013",
+        "project": "tensorflow",
+        "fatal_warning_options": [],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "genuine_regenerated_project_configuration",
+        "redundant_format_child_suppressions": []
+      },
+      {
+        "sample_id": "68867bf01239d9e1048f98cbad185bf4761bedd3_251567762309539032923316029186493191559",
+        "project": "tensorflow",
+        "fatal_warning_options": [],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "genuine_regenerated_project_configuration",
+        "redundant_format_child_suppressions": []
+      },
+      {
+        "sample_id": "e4571b8c5e9ffa1e85c0c671995bd4dcc5c75091_109862119097507194285189243526662049352",
+        "project": "linux",
+        "fatal_warning_options": [
+          "-Werror=date-time",
+          "-Werror=implicit-function-declaration",
+          "-Werror=implicit-int",
+          "-Werror=incompatible-pointer-types",
+          "-Werror=return-type",
+          "-Werror=strict-prototypes",
+          "-Werror=unknown-warning-option"
+        ],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "restored_historical_kbuild_features",
+        "redundant_format_child_suppressions": [],
+        "toolchain_configuration_differences": {
+          "CONFIG_CLANG_VERSION": {
+            "before": "140000",
+            "after": "200102"
+          },
+          "CONFIG_AS_IS_LLVM": {
+            "before": null,
+            "after": "y"
+          },
+          "CONFIG_AS_VERSION": {
+            "before": "23800",
+            "after": "200102"
+          },
+          "CONFIG_AS_IS_GNU": {
+            "before": "y",
+            "after": null
+          },
+          "CONFIG_CC_VERSION_TEXT": {
+            "before": "\"Ubuntu clang version 14.0.0-1ubuntu1.1\"",
+            "after": "\"Ubuntu clang version 20.1.2 (0ubuntu1~24.04.3)\""
+          },
+          "CONFIG_LD_VERSION": {
+            "before": "23800",
+            "after": "24200"
+          }
+        }
+      },
+      {
+        "sample_id": "6b400e3147dcfd8cc3a393ace1bd118c93762e0c_209191742971544690982165605152005956873",
+        "project": "qtbase",
+        "fatal_warning_options": [],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "genuine_regenerated_project_configuration",
+        "redundant_format_child_suppressions": []
+      },
+      {
+        "sample_id": "b3c3291f0b7c1623cb20663f7cf31b7f749768bc_336982129080685152460431545851496461461",
+        "project": "server",
+        "fatal_warning_options": [],
+        "paired_source_hashes_verified": true,
+        "configuration_kind": "genuine_regenerated_project_configuration",
+        "redundant_format_child_suppressions": []
+      }
+    ]
+  },
+  "dependency_changes": [
+    {
+      "transaction": "dependencies",
+      "requested": [
+        "python3-numpy",
+        "xutils-dev",
+        "xfonts-utils",
+        "xtrans-dev",
+        "x11proto-dev",
+        "libxfont-dev",
+        "libxkbfile-dev",
+        "libxshmfence-dev",
+        "libx11-dev",
+        "libxau-dev",
+        "libxdmcp-dev",
+        "libaio-dev",
+        "libnuma-dev"
+      ],
+      "upgraded": [
+        "libx11-data",
+        "libx11-6"
+      ]
+    },
+    {
+      "transaction": "dependencies_libelf",
+      "requested": [
+        "libelf-dev"
+      ],
+      "upgraded": []
+    },
+    {
+      "transaction": "dependencies_systemd",
+      "requested": [
+        "libsystemd-dev"
+      ],
+      "upgraded": [
+        "libsystemd0",
+        "libudev1"
+      ]
+    }
+  ],
+  "identical_package_state_as141": false,
+  "external_backup_audit": {
+    "v4l2": {
+      "v4l2_external_archives": 1,
+      "v4l2_archive_members": 28270,
+      "v4l2_header_files": 24396,
+      "v4l2_original_official_packages": 2,
+      "other_desktop_external_contexts_checked": 4,
+      "exact_historical_kernel_release": "5.15.0-199.209",
+      "scope": "All archive members and original package hashes verified read-only; system headers remain in the main system backup."
+    },
+    "tensorflow": {
+      "status": "passed",
+      "contexts": 4,
+      "archive_sha256_verified": 4,
+      "archive_bytes": 333710263,
+      "members_verified": 26004,
+      "frozen_targets_verified": 4,
+      "configuration_provenance_verified": 28,
+      "generated_files_verified": 266,
+      "existing_include_paths_covered": 93,
+      "originally_absent_include_paths": 50,
+      "existing_outside_source_include_paths_covered": 83,
+      "earlier_isolated_restores_verified": 2,
+      "earlier_isolated_restores_unconfirmed": 2,
+      "audit_limit": "Read-only archive and provenance verification; no new restore, configuration, compilation or API calls.",
+      "rows": [
+        {
+          "sample_id": "08d7b00c0a5a20926363849f611729f53f3ec022_115004012549325804010611397133680502113",
+          "case": "tensorflow_08d7b00c0a5a",
+          "archive": "G:\\gpt_backups\\primevul57_clang20_20261022_v2\\recovery_tensorflow\\tensorflow_08d7b00c0a5a_context.tar.gz",
+          "archive_sha256": "8148d9c95ce1406fdf5c198a2154fb65f8279821fcd5d031a8ed36db17725d4e",
+          "archive_bytes": 91680869,
+          "verified_members": 7544,
+          "target_sha256": "b19b5aeaec6781c60752860793d525f92651186711388cb5124fe751e784ba6c",
+          "configuration_provenance_verified": 9,
+          "generated_files_verified": 81,
+          "include_paths": 44,
+          "existing_include_paths_covered": 31,
+          "originally_absent_include_paths": 13,
+          "existing_outside_source_include_paths_covered": 31,
+          "in_source_dependency_include_paths_covered": 0,
+          "generated_file_aliases_verified": 0,
+          "earlier_isolated_restore_verified": true
+        },
+        {
+          "sample_id": "15691e456c7dc9bd6be203b09765b063bf4a380c_189506316609912057332068378278926028013",
+          "case": "tensorflow_15691e456c7d",
+          "archive": "G:\\gpt_backups\\primevul57_clang20_20261022_v2\\recovery_tensorflow\\tensorflow_15691e456c7d_context.tar.gz",
+          "archive_sha256": "da0d58ad97680c4867b5ae4a153f38e4f48b174bf7aa154ec7d200a325aa4355",
+          "archive_bytes": 64840474,
+          "verified_members": 4181,
+          "target_sha256": "11648a810883406abc064bde14e2dfb7e9f5e1c2216a80276fb4f80de9b671f3",
+          "configuration_provenance_verified": 2,
+          "generated_files_verified": 6,
+          "include_paths": 10,
+          "existing_include_paths_covered": 10,
+          "originally_absent_include_paths": 0,
+          "existing_outside_source_include_paths_covered": 0,
+          "in_source_dependency_include_paths_covered": 8,
+          "generated_file_aliases_verified": 0,
+          "earlier_isolated_restore_verified": true
+        },
+        {
+          "sample_id": "68867bf01239d9e1048f98cbad185bf4761bedd3_251567762309539032923316029186493191559",
+          "case": "tensorflow_68867bf01239",
+          "archive": "G:\\gpt_backups\\primevul57_clang20_20261022_v2\\recovery_tensorflow\\tensorflow_68867bf01239_context.tar.gz",
+          "archive_sha256": "55af9e1461fd10db409a19174cfd5c598d39f506740f0df443d067aa9228b084",
+          "archive_bytes": 91375882,
+          "verified_members": 7464,
+          "target_sha256": "c084693d7f32ed33d34a3f461ed4ebe07d4177bfc4cf7706a3f531108d7213b0",
+          "configuration_provenance_verified": 9,
+          "generated_files_verified": 80,
+          "include_paths": 44,
+          "existing_include_paths_covered": 28,
+          "originally_absent_include_paths": 16,
+          "existing_outside_source_include_paths_covered": 28,
+          "in_source_dependency_include_paths_covered": 0,
+          "generated_file_aliases_verified": 0,
+          "earlier_isolated_restore_verified": false
+        },
+        {
+          "sample_id": "c79ba87153ee343401dbe9d1954d7f79e521eb14_264434210200699405161022303469799474263",
+          "case": "tensorflow_c79ba87153ee",
+          "archive": "G:\\gpt_backups\\primevul57_clang20_20261022_v2\\recovery_tensorflow\\tensorflow_c79ba87153ee_context.tar.gz",
+          "archive_sha256": "e0f50bc251348048fe5fea7646f037d4f47c5c5ae6c254a34f059ced1c056003",
+          "archive_bytes": 85813038,
+          "verified_members": 6815,
+          "target_sha256": "c5f0eb7aad161b523a2424a5a7a72c1abee99b64074973d8f0d02e732b7b7d80",
+          "configuration_provenance_verified": 8,
+          "generated_files_verified": 99,
+          "include_paths": 45,
+          "existing_include_paths_covered": 24,
+          "originally_absent_include_paths": 21,
+          "existing_outside_source_include_paths_covered": 24,
+          "in_source_dependency_include_paths_covered": 0,
+          "generated_file_aliases_verified": 2,
+          "earlier_isolated_restore_verified": false
+        }
+      ]
+    }
+  },
+  "interrupted_run_excluded": true,
+  "patch_format_audit": {
+    "definition": "Exactly one differing physical-line opcode: replace one old line with one new line, using splitlines and SequenceMatcher(autojunk=False). This format subset does not require the edit to occur at the reference edit location.",
+    "n": 57,
+    "reference_strict_single_line_pairs": 57,
+    "historical_recommendations_unchanged": true,
+    "engineering_acceptance_definition_unchanged": true,
+    "groups": {
+      "codet5_local": {
+        "engineering_accepted": 15,
+        "strict_single_line_accepted": 15,
+        "non_single_line_rows": []
+      },
+      "seed": {
+        "engineering_accepted": 19,
+        "strict_single_line_accepted": 18,
+        "non_single_line_rows": [
+          {
+            "sample_id": "ab0fc21bc7105b54bafd85bd8b82742f9e68898a_67846125552854891508125900978071958871",
+            "project": "linux",
+            "function_name": "nfs4_file_open",
+            "patch_sha256": "6966279093374b4651835b6230e97a82541d6396f14a05139b84de7ef5e7a0ca",
+            "changes": [
+              {
+                "operation": "replace",
+                "old_start_line": 27,
+                "old_lines": 1,
+                "new_start_line": 27,
+                "new_lines": 3
+              }
+            ]
+          }
+        ]
+      },
+      "original_fulltext": {
+        "engineering_accepted": 15,
+        "strict_single_line_accepted": 13,
+        "non_single_line_rows": [
+          {
+            "sample_id": "ad18ece95fa064efc0995c4ab2c985f77fb166ec_91218268849686441388880855658517990203",
+            "project": "gpac",
+            "function_name": "GetHintFormat",
+            "patch_sha256": "e83639f5815789d4c7b1058c71f71b8b4d54d3ec4da5e27d9c2a1bcdf0a17e4a",
+            "changes": [
+              {
+                "operation": "delete",
+                "old_start_line": 4,
+                "old_lines": 3,
+                "new_start_line": 4,
+                "new_lines": 0
+              }
+            ]
+          },
+          {
+            "sample_id": "ab0fc21bc7105b54bafd85bd8b82742f9e68898a_67846125552854891508125900978071958871",
+            "project": "linux",
+            "function_name": "nfs4_file_open",
+            "patch_sha256": "b5dde3fdf62558ad3b1ae42e556ed3283411b72328fd2a2d4a5de8b2682806d8",
+            "changes": [
+              {
+                "operation": "delete",
+                "old_start_line": 51,
+                "old_lines": 2,
+                "new_start_line": 51,
+                "new_lines": 0
+              }
+            ]
+          }
+        ]
+      },
+      "action_full": {
+        "engineering_accepted": 12,
+        "strict_single_line_accepted": 12,
+        "non_single_line_rows": []
+      },
+      "action_local_matched": {
+        "engineering_accepted": 19,
+        "strict_single_line_accepted": 19,
+        "non_single_line_rows": []
+      },
+      "combined": {
+        "engineering_accepted": 28,
+        "strict_single_line_accepted": 27,
+        "non_single_line_rows": [
+          {
+            "sample_id": "0fb2c031ce0ace07cc19cd2cb2143c4b5a63c9dd_5389607465091397932741652441661168107",
+            "project": "uftpd",
+            "function_name": "handle_PORT",
+            "patch_sha256": "8b4bcb6ae4d0bdc6698d7d6810c13396c9cc203d03b3ea0658bfa5534ac4eeda",
+            "changes": [
+              {
+                "operation": "replace",
+                "old_start_line": 15,
+                "old_lines": 1,
+                "new_start_line": 15,
+                "new_lines": 7
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "restored_source_contexts": 57,
+  "source_backups_verified": true,
+  "static_recommendations_unchanged": true,
+  "historical_files_unchanged": true,
+  "behavior_tests_run": false,
+  "original_splits": {
+    "train": 451,
+    "valid": 69,
+    "test": 57
+  }
+}

@@ -1,5 +1,7 @@
 # 复现范围与脚本
 
+2026-11-01 增补：后续实验见 [EXPERIMENTS.md](EXPERIMENTS.md)，依赖及三类容器见 [CONTAINERS.md](CONTAINERS.md)。`verify_artifact.py` 现在同时复核原始发布与追加结果；下文保留原发布范围说明。已核实当前远程 Tree-sitter 为 0.25.2、C grammar 为 0.24.1、C++ grammar 为 0.23.4；当前观测不等于所有历史运行的完整环境锁定。
+
 ## 本次发布已验证
 
 1. `scripts/verify_artifact.py`：校验文件 SHA-256，复算 6 组单行推荐数与语法覆盖、候选漏斗、McNemar 精确双侧检验、多区间完整分母和编译器汇总。Python 标准库，无 GPU/API。

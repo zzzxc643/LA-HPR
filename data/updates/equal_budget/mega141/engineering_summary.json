@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "total_cases": 141,
+  "controls_pass": 141,
+  "groups": {
+    "seed6": {
+      "total_cases": 141,
+      "status_counts": {
+        "candidate_compile_pass": 90,
+        "no_recommendation": 43,
+        "compiler_rejected": 8
+      },
+      "engineering_accepted": 90,
+      "results": "reports\\equal_budget_mega141_engineering_20261023_v1\\seed6_results.json",
+      "results_sha256": "545e938ecd3c6f3a42d74175979c31ea310af7bb8ebcb32d0c9c87c1a25e9e57"
+    },
+    "mixed33": {
+      "total_cases": 141,
+      "status_counts": {
+        "candidate_compile_pass": 94,
+        "no_recommendation": 40,
+        "compiler_rejected": 7
+      },
+      "engineering_accepted": 94,
+      "results": "reports\\equal_budget_mega141_engineering_20261023_v1\\mixed33_results.json",
+      "results_sha256": "9a8dca048473aa7cf87d89ea4d7e2c4b1cafc37cfe1292afc384cb5a9336b2e7"
+    }
+  },
+  "interpretation": "Selected generated-patch compilation and target activation in genuine projects; not proof of vulnerability removal."
+}

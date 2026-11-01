@@ -1,0 +1,13 @@
+{
+  "original_project": "https://github.com/Icyrockton/MegaVul",
+  "official_distribution": "https://1drv.ms/f/s!AtzrzuojQf5sgeISZ9zN_4owVnUn9g",
+  "retrieval_channel": "third-party Kaggle mirror; raw JSON, not the rejected synthetic-metadata conversion",
+  "source_url": "https://www.kaggle.com/api/v1/datasets/download/marcdamie/megavul-a-cc-java-vulnerability-dataset/megavul%2Fc_cpp%2Fmegavul.json?datasetVersionNumber=1",
+  "mirror_version": 1,
+  "mirror_file": "megavul/c_cpp/megavul.json",
+  "bytes": 2668796982,
+  "sha256": "eabe8d3325be358d7a93327e3ae4f001725517a0067c4d80198f89904177419f",
+  "upstream_cryptographic_identity_verified": false,
+  "status": "quarantined_pending_upstream_source_verification",
+  "finished_utc": "2026-10-21T10:36:15.076077+00:00"
+}

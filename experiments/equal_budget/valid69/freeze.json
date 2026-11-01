@@ -1,0 +1,81 @@
+{
+  "protocol": "equal_candidate_budget_20261022_v1",
+  "n": 69,
+  "seed": 42,
+  "inputs": {
+    "path": "inputs_pool.jsonl",
+    "sha256": "2efc98a56fe71aa0f77a855d4f698ee0f28883337019c184c59c8fdb34e49025"
+  },
+  "scripts": {
+    "path": "reports/equal_budget_validation_20261022_v1/scripts",
+    "sha256": {
+      "full_context_baselines.py": "c9c2aea70f9eff4fb47192f55ae2fdeca146309629e39dcb8c1f3777832334fb",
+      "audit_full_context_budget.py": "489b803b8715f99dfb8bf84885abe56199509727675bfe7cc892b9b61d811420",
+      "train_singleline.py": "409941f65e70fc6d01298c731880ccdf4b8bb9a2803522b3430ad867d4568a53",
+      "singleline_repair.py": "9e2c0f425f5cf9628168dbcfa2b3c9a704808eb930318de5fe340a2e6ebf201d",
+      "normalize_singleline_candidates.py": "9bcfaa953d4a80494192d9d787c0d7f3bd7f9d5a16d8dd44e12493d92f56837b",
+      "prepare_singleline_pools.py": "43cb237636e6be92eb657f43e1932762baeb6025fd567c3b9c5ad3dce7dbc776",
+      "run_formal_singleline.py": "e3812c28c30ce1065fa4147a0fd209f3db979f8aedc30ccc65f65f3efb7ba111",
+      "review_singleline_pools.py": "821921549f9f12cb3547fc6ea030ecdd254d13ea496546060c474bd2ed528b1f",
+      "local_candidate_judge.py": "92c979581879090c981c5eac2e4f1eb0bacfcd51c913a9a5d0445895206d149d",
+      "summarize_singleline_review.py": "7c888577df9c9390c5765dd04f016025c179e8bf1fd044902c64c25ec4d8c867"
+    }
+  },
+  "runtime_sha256": {
+    "generate.py": "c7b0bc09f6c8bd4bd1bcc5c224cca7861f7191d6066889ec4bf8999cd0dccce4"
+  },
+  "arms": {
+    "seed": {
+      "model_path": ".cache/huggingface/hub/models--ByteDance-Seed--Seed-Coder-8B-Instruct/snapshots/1c5af72afa21c22c9272a0b60a3a404195e88fcd",
+      "model_kind": "causal",
+      "input_mode": "local",
+      "max_input_tokens": 4096,
+      "max_new_tokens": 256,
+      "generation": {
+        "num_beams": 6,
+        "num_return_sequences": 6,
+        "do_sample": false
+      },
+      "checkpoint_files_sha256": {
+        "config.json": "9a6c5786fc0b0216200e50b6c09a49fab433391fd96969dac38dc0b81c20dc62",
+        "generation_config.json": "db66fc557ca882bc2b58cfccf298c18862d7f8208eca3e9813cbba7d9424367c",
+        "model-00001-of-00004.safetensors": "af5134c872b72a12b637887937ea68f923bc176611dc18b26c5acf352541dbf6",
+        "model-00002-of-00004.safetensors": "e018869a85191dbf78bb513400ef3b2ebce27106d2e3ca126c340c1822e356f0",
+        "model-00003-of-00004.safetensors": "3fda397eea66078499d63a9b0b9909e04898a35621b65c14061692db1fd1e28f",
+        "model-00004-of-00004.safetensors": "110ec982f64de471c09e08da7ce68fb7afd06b64f252d3ba161d01ebf71687c4",
+        "model.safetensors.index.json": "8b4937aa0edd26233125db5f227ddfb58b4279f93a72129380d96175dba28cb5",
+        "special_tokens_map.json": "5f4cead5fd1f998d32773af36510f881e618622290cb34247d078583f894606f",
+        "tokenizer.json": "db6520146c388c495a98bbea62ff6d00c0a8935bed33622e33bb33ec71aaafed",
+        "tokenizer_config.json": "70619d417f245f73378250ae88e4bf96c9b12140e93e49175da330b5f3e05e44"
+      },
+      "pretrained_model": "ByteDance-Seed/Seed-Coder-8B-Instruct",
+      "revision": "1c5af72afa21c22c9272a0b60a3a404195e88fcd"
+    }
+  },
+  "settings": {
+    "judge": {
+      "model": "qwen3.8-max-0902",
+      "pools_sha256": "9764a1f2d8fdfa21dacf8758272015509865202e342e32bbbc1b2e5ca47c14d2",
+      "tokenizer": null,
+      "context_limit": 1000000,
+      "budget_method": "utf8_byte_upper_bound_plus_4096",
+      "enable_thinking": false,
+      "max_output_tokens": 3072,
+      "script_sha256": "821921549f9f12cb3547fc6ea030ecdd254d13ea496546060c474bd2ed528b1f",
+      "judge_module_sha256": "92c979581879090c981c5eac2e4f1eb0bacfcd51c913a9a5d0445895206d149d"
+    }
+  },
+  "reused": {
+    "codet5": {
+      "original_path": "reports/local_singleline_v1/codet5_valid_normalized_20261017/valid_candidates.jsonl",
+      "path": "valid69/reused/codet5.jsonl",
+      "sha256": "81a3f9072ddc3cb2eea98e2a10b2913d08fcaf4eef303cd3f85e05fc831e9a0f"
+    },
+    "seed": {
+      "original_path": "reports/local_singleline_v1/seed_valid_normalized_20261017/valid_candidates.jsonl",
+      "path": "valid69/reused/seed.jsonl",
+      "sha256": "682da00e7afe76b290651ee1c3a6425518451809aeb45d32cdc0ce3f7b3517e5"
+    }
+  },
+  "references_available": false
+}

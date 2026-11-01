@@ -1,0 +1,25 @@
+{
+  "approved": true,
+  "policy": "retain_terminal_review_errors_as_selection_failure",
+  "max_api_attempts": 3,
+  "allowed_statuses": [
+    "parse_error",
+    "api_error"
+  ],
+  "authorization": "记为评审失败，保留分母并继续（推荐）",
+  "approved_cohorts": [
+    "valid69",
+    "prime57",
+    "mega141"
+  ],
+  "approved_before_test_generation": true,
+  "recorded_utc": "2026-10-28T02:32:22.660343+00:00",
+  "original_protocol_sha256": "9ada85f71e7e09acff5b08beb1f2148a30f48e963f62fbe1ba758813ec4dbc5d",
+  "helper_sha256": {
+    "continue_run.py": "19da55a782157529e32ab225f6324ac9bcad7c4bc2707d3bb4cd760934459474",
+    "resolve_terminal_errors.py": "f7d97bb3c778753012f7b498a622b2682b93ff7ac1bdb1a5f3e8725b072a45c6",
+    "prepare_engineering.py": "dc44dc21fb87ccd227d06f5e281a5b722500c7724ba3a77741cabe21332caa97",
+    "finalize_engineering.py": "16765f6e90007cb4c3e208ca800d83fe82587945e8309c3459d33d971439cf53"
+  },
+  "effect": "Terminal errors are explicit selection failures, not semantic FAIL labels; no additional API attempts or repaired labels; original frozen files and raw responses unchanged"
+}

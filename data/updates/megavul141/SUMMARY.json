@@ -1,0 +1,453 @@
+{
+  "state": "complete",
+  "complete": true,
+  "n": 141,
+  "groups": {
+    "codet5_local": {
+      "n": 141,
+      "generation_render_valid": 132,
+      "generation_syntax_valid": 119,
+      "static_pass": 41,
+      "engineering_accepted": 40,
+      "final_exact_text": 8,
+      "final_exact_tokens": 9,
+      "raw_candidate_any_exact_text": 8,
+      "raw_candidate_any_exact_tokens": 9,
+      "submitted_candidate_any_exact_text": 8,
+      "submitted_candidate_any_exact_tokens": 9,
+      "engineering_status_counts": {
+        "candidate_compile_pass": 40,
+        "no_recommendation": 100,
+        "compiler_rejected": 1
+      },
+      "static_status_counts": {
+        "valid": 119,
+        "no_syntax_valid_candidate": 22
+      }
+    },
+    "seed": {
+      "n": 141,
+      "generation_render_valid": 140,
+      "generation_syntax_valid": 134,
+      "static_pass": 92,
+      "engineering_accepted": 85,
+      "final_exact_text": 6,
+      "final_exact_tokens": 18,
+      "raw_candidate_any_exact_text": 7,
+      "raw_candidate_any_exact_tokens": 20,
+      "submitted_candidate_any_exact_text": 7,
+      "submitted_candidate_any_exact_tokens": 20,
+      "engineering_status_counts": {
+        "no_recommendation": 49,
+        "candidate_compile_pass": 85,
+        "compiler_rejected": 7
+      },
+      "static_status_counts": {
+        "no_syntax_valid_candidate": 7,
+        "valid": 134
+      }
+    },
+    "original_fulltext": {
+      "n": 141,
+      "generation_render_valid": 135,
+      "generation_syntax_valid": 132,
+      "static_pass": 18,
+      "engineering_accepted": 17,
+      "final_exact_text": 2,
+      "final_exact_tokens": 2,
+      "raw_candidate_any_exact_text": 2,
+      "raw_candidate_any_exact_tokens": 2,
+      "submitted_candidate_any_exact_text": 2,
+      "submitted_candidate_any_exact_tokens": 2,
+      "engineering_status_counts": {
+        "candidate_compile_pass": 17,
+        "no_recommendation": 123,
+        "compiler_rejected": 1
+      },
+      "static_status_counts": {
+        "valid": 132,
+        "no_syntax_valid_candidate": 9
+      }
+    },
+    "action_full": {
+      "n": 141,
+      "generation_render_valid": 133,
+      "generation_syntax_valid": 125,
+      "static_pass": 43,
+      "engineering_accepted": 38,
+      "final_exact_text": 4,
+      "final_exact_tokens": 4,
+      "raw_candidate_any_exact_text": 8,
+      "raw_candidate_any_exact_tokens": 8,
+      "submitted_candidate_any_exact_text": 8,
+      "submitted_candidate_any_exact_tokens": 8,
+      "engineering_status_counts": {
+        "candidate_compile_pass": 38,
+        "no_recommendation": 98,
+        "compiler_rejected": 5
+      },
+      "static_status_counts": {
+        "valid": 125,
+        "no_syntax_valid_candidate": 16
+      }
+    },
+    "action_local_matched": {
+      "n": 141,
+      "generation_render_valid": 141,
+      "generation_syntax_valid": 129,
+      "static_pass": 55,
+      "engineering_accepted": 55,
+      "final_exact_text": 8,
+      "final_exact_tokens": 8,
+      "raw_candidate_any_exact_text": 10,
+      "raw_candidate_any_exact_tokens": 10,
+      "submitted_candidate_any_exact_text": 10,
+      "submitted_candidate_any_exact_tokens": 10,
+      "engineering_status_counts": {
+        "candidate_compile_pass": 55,
+        "no_recommendation": 86
+      },
+      "static_status_counts": {
+        "valid": 129,
+        "no_syntax_valid_candidate": 12
+      }
+    },
+    "combined": {
+      "n": 141,
+      "generation_render_valid": 141,
+      "generation_syntax_valid": 139,
+      "static_pass": 100,
+      "engineering_accepted": 92,
+      "final_exact_text": 10,
+      "final_exact_tokens": 21,
+      "raw_candidate_any_exact_text": 13,
+      "raw_candidate_any_exact_tokens": 25,
+      "submitted_candidate_any_exact_text": 13,
+      "submitted_candidate_any_exact_tokens": 24,
+      "engineering_status_counts": {
+        "candidate_compile_pass": 92,
+        "no_recommendation": 41,
+        "compiler_rejected": 8
+      },
+      "static_status_counts": {
+        "valid": 139,
+        "no_syntax_valid_candidate": 2
+      }
+    }
+  },
+  "generation": {
+    "codet5_local": {
+      "arm": "codet5_local",
+      "n": 141,
+      "registered": 141,
+      "complete": true,
+      "counts": {
+        "generated": 141,
+        "generated_candidates": 423,
+        "samples_with_render_valid": 132,
+        "samples_with_syntax_valid": 119,
+        "render_valid_candidates": 321,
+        "syntax_valid_candidates": 269,
+        "output_truncated_candidates": 34,
+        "duplicate_candidates": 22,
+        "empty_raw_outputs": 0,
+        "noop_rejections": 54,
+        "empty_replacement_rejections": 0,
+        "format_or_render_invalid_candidates": 102
+      },
+      "render_errors": {
+        "unchanged_edit": 54,
+        "Expecting ',' delimiter: line 1 column 57 (char 56)": 1,
+        "Expecting ',' delimiter: line 1 column 96 (char 95)": 1,
+        "Invalid control character at: line 1 column 59 (char 58)": 1,
+        "Invalid control character at: line 1 column 70 (char 69)": 2,
+        "Unterminated string starting at: line 1 column 43 (char 42)": 30,
+        "Expecting ',' delimiter: line 1 column 84 (char 83)": 2,
+        "Unterminated string starting at: line 1 column 42 (char 41)": 3,
+        "Expecting ',' delimiter: line 1 column 90 (char 89)": 4,
+        "Expecting ',' delimiter: line 1 column 100 (char 99)": 2,
+        "Expecting ',' delimiter: line 1 column 103 (char 102)": 2
+      },
+      "inference_seconds": 102.2218903079629,
+      "run_freeze_sha256": "caba203091d4f6d5ec21cde557458fb07f815a7349809846cf35e5ce55c46e60",
+      "references_opened": false,
+      "updated_utc": "2026-10-22T10:45:31.152687+00:00",
+      "metric_scope": "generation/format/parse only; no vulnerability-removal claim",
+      "peak_allocated_gib": 0.9873976707458496
+    },
+    "seed": {
+      "arm": "seed",
+      "n": 141,
+      "registered": 141,
+      "complete": true,
+      "counts": {
+        "generated": 141,
+        "generated_candidates": 423,
+        "samples_with_render_valid": 140,
+        "samples_with_syntax_valid": 134,
+        "render_valid_candidates": 412,
+        "syntax_valid_candidates": 376,
+        "output_truncated_candidates": 3,
+        "duplicate_candidates": 87,
+        "empty_raw_outputs": 0,
+        "noop_rejections": 3,
+        "empty_replacement_rejections": 0,
+        "format_or_render_invalid_candidates": 11
+      },
+      "render_errors": {
+        "Invalid control character at: line 3 column 21 (char 52)": 3,
+        "unknown_action": 1,
+        "unchanged_edit": 3,
+        "Invalid \\escape: line 3 column 111 (char 142)": 1,
+        "Expecting value: line 1 column 1 (char 0)": 3
+      },
+      "inference_seconds": 356.8071068506688,
+      "run_freeze_sha256": "caba203091d4f6d5ec21cde557458fb07f815a7349809846cf35e5ce55c46e60",
+      "references_opened": false,
+      "updated_utc": "2026-10-22T10:50:03.021654+00:00",
+      "metric_scope": "generation/format/parse only; no vulnerability-removal claim",
+      "peak_allocated_gib": 15.790136337280273
+    },
+    "original_fulltext": {
+      "arm": "original_fulltext",
+      "n": 141,
+      "registered": 141,
+      "complete": true,
+      "counts": {
+        "generated": 135,
+        "generated_candidates": 405,
+        "samples_with_render_valid": 135,
+        "samples_with_syntax_valid": 132,
+        "render_valid_candidates": 271,
+        "syntax_valid_candidates": 244,
+        "output_truncated_candidates": 0,
+        "duplicate_candidates": 0,
+        "empty_raw_outputs": 0,
+        "noop_rejections": 134,
+        "empty_replacement_rejections": 0,
+        "format_or_render_invalid_candidates": 134,
+        "input_budget_exceeded": 6
+      },
+      "render_errors": {
+        "empty_or_unchanged_function": 134
+      },
+      "inference_seconds": 1066.1251560859382,
+      "run_freeze_sha256": "caba203091d4f6d5ec21cde557458fb07f815a7349809846cf35e5ce55c46e60",
+      "references_opened": false,
+      "updated_utc": "2026-10-22T11:06:20.375616+00:00",
+      "metric_scope": "generation/format/parse only; no vulnerability-removal claim",
+      "peak_allocated_gib": 2.5412473678588867
+    },
+    "action_full": {
+      "arm": "action_full",
+      "n": 141,
+      "registered": 141,
+      "complete": true,
+      "counts": {
+        "generated": 135,
+        "generated_candidates": 405,
+        "samples_with_render_valid": 133,
+        "samples_with_syntax_valid": 125,
+        "render_valid_candidates": 338,
+        "syntax_valid_candidates": 292,
+        "output_truncated_candidates": 0,
+        "duplicate_candidates": 12,
+        "empty_raw_outputs": 0,
+        "noop_rejections": 62,
+        "empty_replacement_rejections": 0,
+        "format_or_render_invalid_candidates": 67,
+        "input_budget_exceeded": 6
+      },
+      "render_errors": {
+        "unchanged_edit": 62,
+        "Expecting ',' delimiter: line 1 column 57 (char 56)": 2,
+        "Invalid control character at: line 1 column 59 (char 58)": 1,
+        "Expecting property name enclosed in double quotes: line 1 column 122 (char 121)": 1,
+        "Expecting property name enclosed in double quotes: line 1 column 131 (char 130)": 1
+      },
+      "inference_seconds": 84.62031103298068,
+      "run_freeze_sha256": "caba203091d4f6d5ec21cde557458fb07f815a7349809846cf35e5ce55c46e60",
+      "references_opened": false,
+      "updated_utc": "2026-10-22T10:48:27.929335+00:00",
+      "metric_scope": "generation/format/parse only; no vulnerability-removal claim",
+      "peak_allocated_gib": 2.6019225120544434
+    },
+    "action_local_matched": {
+      "arm": "action_local_matched",
+      "n": 141,
+      "registered": 141,
+      "complete": true,
+      "counts": {
+        "generated": 141,
+        "generated_candidates": 423,
+        "samples_with_render_valid": 141,
+        "samples_with_syntax_valid": 129,
+        "render_valid_candidates": 331,
+        "syntax_valid_candidates": 281,
+        "output_truncated_candidates": 0,
+        "duplicate_candidates": 5,
+        "empty_raw_outputs": 0,
+        "noop_rejections": 90,
+        "empty_replacement_rejections": 0,
+        "format_or_render_invalid_candidates": 92
+      },
+      "render_errors": {
+        "unchanged_edit": 90,
+        "Expecting ',' delimiter: line 1 column 57 (char 56)": 1,
+        "Invalid control character at: line 1 column 59 (char 58)": 1
+      },
+      "inference_seconds": 79.76614418253303,
+      "run_freeze_sha256": "caba203091d4f6d5ec21cde557458fb07f815a7349809846cf35e5ce55c46e60",
+      "references_opened": false,
+      "updated_utc": "2026-10-22T10:46:57.237550+00:00",
+      "metric_scope": "generation/format/parse only; no vulnerability-removal claim",
+      "peak_allocated_gib": 0.9805178642272949
+    }
+  },
+  "global_api": {
+    "unique_requests": 767,
+    "attempts": 777,
+    "retries": 10,
+    "failed_attempts": 10,
+    "attempt_status_counts": {
+      "valid": 767,
+      "parse_error": 10
+    },
+    "usage": {
+      "prompt_tokens": 1172999,
+      "completion_tokens": 157041,
+      "total_tokens": 1330040
+    },
+    "actual_response_models": {
+      "qwen3.8-max-0902": 777
+    },
+    "unresolved_requests": 0,
+    "accounting": "Global request SHA256 deduplication; do not sum per-group API usage as total cost."
+  },
+  "engineering_audit": {
+    "controls_status_counts": {
+      "controls_pass": 141
+    },
+    "selected_unique_candidate_caches": 222,
+    "selected_cache_activation_scopes": {
+      "Function body and all lines with added substantive tokens; pure deletion hunks check a surviving boundary, not direct activation of removed tokens.": 222
+    },
+    "source_restoration_verified_by_checker_audit": true
+  },
+  "compiler_environment": {
+    "recorded_utc": "2026-10-22T10:52:25.974232+00:00",
+    "commands": {
+      "clang": {
+        "argv": [
+          "clang",
+          "--version"
+        ],
+        "exit_code": 0,
+        "log": "/tmp/megavul_model_repair_20261022_v1/compiler/environment/clang.log",
+        "log_sha256": "fc7eaa7835f292237f1a4c1ba25055189c8219ecb87e27bb3db4d3478ca1949a",
+        "output": "Ubuntu clang version 20.1.2 (0ubuntu1~24.04.3)\nTarget: x86_64-pc-linux-gnu\nThread model: posix\nInstalledDir: /usr/lib/llvm-20/bin\n"
+      },
+      "clang_cpp": {
+        "argv": [
+          "clang++",
+          "--version"
+        ],
+        "exit_code": 0,
+        "log": "/tmp/megavul_model_repair_20261022_v1/compiler/environment/clang_cpp.log",
+        "log_sha256": "fc7eaa7835f292237f1a4c1ba25055189c8219ecb87e27bb3db4d3478ca1949a",
+        "output": "Ubuntu clang version 20.1.2 (0ubuntu1~24.04.3)\nTarget: x86_64-pc-linux-gnu\nThread model: posix\nInstalledDir: /usr/lib/llvm-20/bin\n"
+      },
+      "kernel": {
+        "argv": [
+          "uname",
+          "-a"
+        ],
+        "exit_code": 0,
+        "log": "/tmp/megavul_model_repair_20261022_v1/compiler/environment/kernel.log",
+        "log_sha256": "2026baf6e83c64b22b242c74ed3e7eb7a8f3bc941f4c9e8870d86d33fe186de0",
+        "output": "Linux c478076959af 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux\n"
+      },
+      "distribution": {
+        "argv": [
+          "cat",
+          "/etc/os-release"
+        ],
+        "exit_code": 0,
+        "log": "/tmp/megavul_model_repair_20261022_v1/compiler/environment/distribution.log",
+        "log_sha256": "01af466feb100306498c86aa6bad1815e33036019aa34d4362c20f374ea5c829",
+        "output": "PRETTY_NAME=\"Ubuntu 24.04.4 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.4 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n"
+      },
+      "python": {
+        "argv": [
+          "python3",
+          "--version"
+        ],
+        "exit_code": 0,
+        "log": "/tmp/megavul_model_repair_20261022_v1/compiler/environment/python.log",
+        "log_sha256": "5b3e43dc38ca01e3f5a7854ba50d4330864b0c1e0f646650b2c78cf072acc366",
+        "output": "Python 3.12.3\n"
+      },
+      "cmake": {
+        "argv": [
+          "cmake",
+          "--version"
+        ],
+        "exit_code": 0,
+        "log": "/tmp/megavul_model_repair_20261022_v1/compiler/environment/cmake.log",
+        "log_sha256": "d3d5b682f3f5ef5b24a79ed8cf4b8c5868fc950dad48cab1be0e3c060a77f8ee",
+        "output": "cmake version 3.28.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).\n"
+      },
+      "ninja": {
+        "argv": [
+          "ninja",
+          "--version"
+        ],
+        "exit_code": 0,
+        "log": "/tmp/megavul_model_repair_20261022_v1/compiler/environment/ninja.log",
+        "log_sha256": "4f9416d650bd28343244b868dfebdb11e70d7b32423536cb87b8c31fde62f993",
+        "output": "1.11.1\n"
+      }
+    },
+    "python_packages": {
+      "tree-sitter": "0.25.2",
+      "tree-sitter-c": "0.24.2",
+      "tree-sitter-cpp": "0.23.4"
+    },
+    "scope": "Local Docker engineering checks for the new 141-pair experiment; independent of inference host and original 57-case checker."
+  },
+  "compiler_version": "20.1.2",
+  "historical_57_compiler_version": "14",
+  "project_association": {
+    "train": {
+      "project": 54
+    },
+    "valid": {
+      "project": 37
+    },
+    "test": {
+      "project": 33
+    }
+  },
+  "snapshot_counts": {
+    "verified_first_parent": 115,
+    "verified_upstream_fixed_with_original_function_backfilled": 26
+  },
+  "companion_context_count": 26,
+  "association_groups": 84,
+  "project_disjoint": false,
+  "independent_cross_project_generalization_asserted": false,
+  "history": {
+    "snapshot_files": 60,
+    "original_source_files": 52,
+    "original_splits": {
+      "train": 451,
+      "valid": 69,
+      "test": 57
+    },
+    "unchanged": true
+  },
+  "behavior_tests_run": false,
+  "reference_exact_match": "byte-exact function text and comment-insensitive lexical token equality; neither means semantic equivalence",
+  "denominator_policy": "All six groups retain the same141 cases, including malformed/no-op/budget/rejection outcomes.",
+  "updated_utc": "2026-10-22T11:11:18.133877+00:00"
+}
