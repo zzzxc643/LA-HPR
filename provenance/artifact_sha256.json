@@ -1,5 +1,7 @@
 {
+  ".dockerignore": "af2e34950d0ffaf5728abccd87b818b6134fc3bfce3720484e72a85fe869988d",
   ".gitattributes": "4165c58af050b5e14b9574bb722ea9121caebefd816147c077d4c41f70635305",
+  ".github/workflows/containers.yml": "05165784497bf569b14fdcad244f126169258f76ea41b12d9c8f0f92a836c6ed",
   ".gitignore": "f3f7724945d7af41f05fcdf40209828d1d1c42d1f566c84da42d0b2a9a7692b9",
   "data/candidates/action_full_train416.jsonl": "22b8c16c7afe60d94369361e5c1c720896e1fd9fc4ddc761291cbdf36dc9102a",
   "data/candidates/action_local_train416.jsonl": "d9fa689e29f95070b77c208699239fbeb7ee9c4250d1418669afc8ac2bdf9c3e",
@@ -33,6 +35,7 @@
   "data/tables/singleline_pass_membership.csv": "2dac14f6972baee273b0e6f4bbcf646ddf059cca6d7c719828e1e59569272c5d",
   "data/tables/singleline_raw_input_tokens.csv": "d906600586c225b63c1a8462768ed4ada97d1018843a76a9810696c78c2b6fc7",
   "DATA_CARD.md": "8372ed39b578daec8434fdd75af18b74643b43cd9f30ad08d7cea5ec1a109a8b",
+  "docker/Dockerfile": "6ac77fef2dae119f61e415532050c21023b20af1a1d6665948728306034d861b",
   "figures/fig_architecture.png": "81a7cc917a9ff9afc38748df945b58e4f34637c4aef7520e19cdbfef000fcdae",
   "figures/fig_architecture.svg": "5d34df092a6d69885e19246d9a633bce185482d7f822b99a52495ff5f635eef9",
   "figures/fig_candidate_funnel.png": "a47e4a3fd9982b69502b443ed75537035f8d1bf6c66455a3c64abc5648d96c0a",
@@ -69,6 +72,7 @@
   "provenance/upstream_projects.json": "83b17dc2f2835bcff83158c8f76e20a44cbbf8de6fb6e3858ac98ee1e303720d",
   "README.md": "6b2744de6cac41d5b5f78b96fb888eff57b52ae64c0be07960c082684b0483bc",
   "REPRODUCIBILITY.md": "62d3c73be5b749c3943b2cd7d24dae75cd2e42a658a7ed37222978498adf4038",
+  "requirements/runtime.txt": "a19863bf0843d7f6cd0307775fbf2f76f3095298acf49322e8a90a7158d29d2d",
   "scripts/block_repair.py": "60230ad564b7cfc86677d835b29cdfdd0e8fb983f1ecb582d962d59dd329b555",
   "scripts/block_review.py": "319947f01964bd8240e0cfc13bf6654cf7162027e3acb4e8576bf00ae90ca5c3",
   "scripts/local_candidate_judge.py": "92c979581879090c981c5eac2e4f1eb0bacfcd51c913a9a5d0445895206d149d",

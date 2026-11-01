@@ -1,0 +1,14 @@
+.git
+__pycache__
+**/__pycache__
+*.pyc
+.venv
+.env
+.env.*
+reconstructed
+models
+outputs
+*.tar
+*.tar.gz
+*.safetensors
+*.bin
