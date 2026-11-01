@@ -1,7 +1,31 @@
 {
-  "project": "LA-HPR",
-  "registry": "ghcr.io/zzzxc643/la-hpr",
-  "status": "publication_pending",
+  "source_commit": "a392316ffd01879b9b55597ae343a71c7268238b",
   "platform": "linux/amd64",
-  "historical_manifest": "archive/container_images_20261101_pre_rename.json"
+  "images": [
+    {
+      "target": "verify",
+      "image": "ghcr.io/zzzxc643/la-hpr:verify-20261101",
+      "digest": "sha256:f462a753775f351f372fd10e156634d914e2844665f1f23bf55433b76202577e",
+      "immutable_image": "ghcr.io/zzzxc643/la-hpr@sha256:f462a753775f351f372fd10e156634d914e2844665f1f23bf55433b76202577e",
+      "source_tag": "ghcr.io/zzzxc643/la-hpr:verify-sha-a392316ffd01879b9b55597ae343a71c7268238b",
+      "anonymous_access": true
+    },
+    {
+      "target": "compiler",
+      "image": "ghcr.io/zzzxc643/la-hpr:compiler-20261101",
+      "digest": "sha256:94e7e12e1e4fa3f5b09991896639923b73a3ae10dc77ff2bcfd703a6f71ad7b9",
+      "immutable_image": "ghcr.io/zzzxc643/la-hpr@sha256:94e7e12e1e4fa3f5b09991896639923b73a3ae10dc77ff2bcfd703a6f71ad7b9",
+      "source_tag": "ghcr.io/zzzxc643/la-hpr:compiler-sha-a392316ffd01879b9b55597ae343a71c7268238b",
+      "anonymous_access": true
+    },
+    {
+      "target": "gpu",
+      "image": "ghcr.io/zzzxc643/la-hpr:gpu-20261101",
+      "digest": "sha256:2c44a1d588eca1a243780c1fe6dc863798c6a83e4c0775bcf4c4ed64c2af941e",
+      "immutable_image": "ghcr.io/zzzxc643/la-hpr@sha256:2c44a1d588eca1a243780c1fe6dc863798c6a83e4c0775bcf4c4ed64c2af941e",
+      "source_tag": "ghcr.io/zzzxc643/la-hpr:gpu-sha-a392316ffd01879b9b55597ae343a71c7268238b",
+      "anonymous_access": true
+    }
+  ],
+  "validation": "GitHub Actions build-time artifact verification, compiler smoke check, CUDA package import; no GPU execution test"
 }

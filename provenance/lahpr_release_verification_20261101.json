@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/zzzxc643/LA-HPR",
+  "verified_source_commit": "a392316ffd01879b9b55597ae343a71c7268238b",
+  "checksummed_files_at_source_commit": 206,
+  "independent_checks": [
+    "Windows local checkout",
+    "Fresh public clone from the renamed repository",
+    "Published LA-HPR verification container pulled from GHCR and executed",
+    "GitHub Actions on Ubuntu"
+  ],
+  "local_clone_and_container_reports_identical": true,
+  "artifact_verification_run": {
+    "url": "https://github.com/zzzxc643/LA-HPR/actions/runs/41296638750",
+    "conclusion": "success"
+  },
+  "container_build_run": {
+    "url": "https://github.com/zzzxc643/LA-HPR/actions/runs/41296638627",
+    "targets": ["verify", "compiler", "gpu"],
+    "conclusion": "success"
+  },
+  "image_manifest": "protocols/container_images.json",
+  "anonymous_image_access_verified": true,
+  "date_tags_match_source_commit_tags": true,
+  "additional_training_inference_or_api_evaluation": false,
+  "trained_weights_published": false,
+  "cuda_validation": "Package imports and version checks on CPU build runners; no CUDA execution test",
+  "compiler_scope": "Base toolchain and smoke check; historical project trees and generated configurations are external"
+}
