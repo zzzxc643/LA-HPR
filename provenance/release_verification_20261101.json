@@ -1,0 +1,161 @@
+{
+  "verified_source_commit": "26da06514a8541c1aa05edee68040f950f2e7886",
+  "independent_checks": [
+    "Windows local checkout",
+    "Fresh public clone on AutoDL without GPU",
+    "Published verification container pulled from GHCR",
+    "GitHub Actions on Ubuntu"
+  ],
+  "checksummed_files_at_source_commit": 200,
+  "primevul_reconstruction": {
+    "verified_files": 11,
+    "singleline_splits": [
+      451,
+      69,
+      57
+    ],
+    "multiregion_splits": [
+      3287,
+      439
+    ],
+    "location": "Fresh public clone on AutoDL"
+  },
+  "megavul_reconstruction": {
+    "verified_samples": 141,
+    "verified_files": 2,
+    "input_bytes": "Historical CRLF restored",
+    "reference_bytes": "Public form excludes private compiler evidence paths",
+    "location": "Windows local checkout"
+  },
+  "additional_training_or_api_calls": false,
+  "trained_weights_published": false,
+  "cuda_validation": "Package imports and version checks on CPU build runners; no CUDA execution test",
+  "results": {
+    "megavul141": {
+      "codet5_local": {
+        "n": 141,
+        "static": 41,
+        "engineering": 40
+      },
+      "seed": {
+        "n": 141,
+        "static": 92,
+        "engineering": 85
+      },
+      "original_fulltext": {
+        "n": 141,
+        "static": 18,
+        "engineering": 17
+      },
+      "action_full": {
+        "n": 141,
+        "static": 43,
+        "engineering": 38
+      },
+      "action_local_matched": {
+        "n": 141,
+        "static": 55,
+        "engineering": 55
+      },
+      "combined": {
+        "n": 141,
+        "static": 100,
+        "engineering": 92
+      }
+    },
+    "prime57_clang20": {
+      "codet5_local": {
+        "n": 57,
+        "static": 16,
+        "engineering": 15
+      },
+      "seed": {
+        "n": 57,
+        "static": 22,
+        "engineering": 19
+      },
+      "original_fulltext": {
+        "n": 57,
+        "static": 15,
+        "engineering": 15
+      },
+      "action_full": {
+        "n": 57,
+        "static": 14,
+        "engineering": 12
+      },
+      "action_local_matched": {
+        "n": 57,
+        "static": 19,
+        "engineering": 19
+      },
+      "combined": {
+        "n": 57,
+        "static": 30,
+        "engineering": 28
+      }
+    },
+    "equal_budget": {
+      "valid69": {
+        "seed6": {
+          "n": 69,
+          "static": 33
+        },
+        "mixed33": {
+          "n": 69,
+          "static": 32
+        }
+      },
+      "prime57": {
+        "seed6": {
+          "n": 57,
+          "static": 28,
+          "engineering": 24
+        },
+        "mixed33": {
+          "n": 57,
+          "static": 32,
+          "engineering": 29
+        }
+      },
+      "mega141": {
+        "seed6": {
+          "n": 141,
+          "static": 98,
+          "engineering": 90
+        },
+        "mixed33": {
+          "n": 141,
+          "static": 101,
+          "engineering": 94
+        }
+      }
+    },
+    "fulltext6": {
+      "valid69": {
+        "n": 69,
+        "static": 18
+      },
+      "prime57": {
+        "n": 57,
+        "static": 20,
+        "engineering": 19
+      },
+      "mega141": {
+        "n": 141,
+        "static": 52,
+        "engineering": 48
+      }
+    },
+    "behavior_four_cases": {
+      "seed6": {
+        "passes_targeted_cases": 1,
+        "fails_targeted_cases": 3
+      },
+      "mixed33": {
+        "passes_targeted_cases": 2,
+        "fails_targeted_cases": 2
+      }
+    }
+  }
+}
