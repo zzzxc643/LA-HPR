@@ -2,6 +2,8 @@
 
 当前公开版本涵盖 Prime57、Mega141、六候选对照、全函数 beam6 补充基线及开发阶段多区间结果。最新指标见 [EXPERIMENTS.md](EXPERIMENTS.md)。
 
+审稿核验建议从 [审稿人使用指南](REVIEWER_GUIDE.md) 开始，按预期结果与证据索引逐项检查。
+
 ## 1. 核验公开结果
 
 ```bash
