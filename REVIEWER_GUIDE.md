@@ -98,14 +98,14 @@ Gitee 代码副本不改变镜像托管位置；若无法访问 GHCR，先按第
 按 [PrimeVul 官方说明](https://github.com/DLVulDet/PrimeVul) 获取 v0.1 的三个 `primevul_{train,valid,test}_paired.jsonl` 文件：
 
 ```bash
-python scripts/reconstruct_data.py --primevul-dir /path/to/PrimeVul_v0.1 --out rebuilt-primevul
+python scripts/reconstruct_data.py --primevul-dir /path/to/PrimeVul_v0.1 --out ../rebuilt-primevul
 ```
 
 按 [MegaVul 来源记录](provenance/megavul_source.json) 获取实验使用的原始 JSON 镜像：
 
 ```bash
 python -m pip install -r requirements/data.txt
-python scripts/reconstruct_megavul.py --megavul-json /path/to/megavul.json --out rebuilt-megavul141
+python scripts/reconstruct_megavul.py --megavul-json /path/to/megavul.json --out ../rebuilt-megavul141
 ```
 
 输出目录须尚不存在；请放在仓库外，避免新生成文件影响仓库完整性检查。PrimeVul 重建 11 个冻结文件；MegaVul 从约 2.67 GB JSON 重建 141 条输入和参考两个文件，需为源数据预留磁盘空间。来源记录中的 SHA-256 核验用于匹配实验采用的镜像，不能替代与官方发行版本的独立来源验证：该记录仍标记 `upstream_cryptographic_identity_verified: false`。

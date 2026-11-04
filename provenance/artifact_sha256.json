@@ -187,7 +187,7 @@
   "REPRODUCIBILITY.md": "65fc27707651507b06cf795f2809fd993a1b93ff69214b9357f1d15baf86c3fb",
   "requirements/data.txt": "4df9833287d8139a93dd6d82c78ebd36f33c89c896163ad8d214e7c1d94fa4d2",
   "requirements/runtime.txt": "a19863bf0843d7f6cd0307775fbf2f76f3095298acf49322e8a90a7158d29d2d",
-  "REVIEWER_GUIDE.md": "62a7a19d3794c719450472987f6f7c2ea175de8cae59159e0e047356f8aaa984",
+  "REVIEWER_GUIDE.md": "74ee4c922a73f3646bd49ec91ac24ce363910e391af5dadd0bda74730f8a6e6f",
   "scripts/audit_full_context_budget.py": "489b803b8715f99dfb8bf84885abe56199509727675bfe7cc892b9b61d811420",
   "scripts/block_repair.py": "60230ad564b7cfc86677d835b29cdfdd0e8fb983f1ecb582d962d59dd329b555",
   "scripts/block_review.py": "319947f01964bd8240e0cfc13bf6654cf7162027e3acb4e8576bf00ae90ca5c3",
