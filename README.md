@@ -9,8 +9,6 @@ LA-HPR 面向已知漏洞位置的 C/C++ 函数：CodeT5+ 根据局部上下文�
 
 LA-HPR is a C/C++ vulnerability repair research artifact combining local edit actions, multiple candidate sources, and semantic patch selection under supplied fault locations.
 
-**审稿入口：** [审稿人使用指南](REVIEWER_GUIDE.md) 提供无卡核验命令、预期结果、逐样本证据索引和 Docker 使用步骤。
-
 **代码托管：** [GitHub](https://github.com/zzzxc643/LA-HPR) · [Gitee](https://gitee.com/zzzxcaa/LA-HPR)。请用完整 Git 提交号确认版本一致；Docker 镜像继续托管在 GHCR。
 
 **当前版本：** 2026-11-01 整理发布，结果覆盖截至 2026-10-28 已完成实验。下表采用最新六候选协议，原六组实验与早期编译子集另行保留，详见 [实验结果](EXPERIMENTS.md)。
